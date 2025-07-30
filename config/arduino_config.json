@@ -1,0 +1,48 @@
+{
+  "devices": {
+    "account_1": {
+      "port": "COM3",
+      "baud_rate": 9600,
+      "devices": [
+        {
+          "id": "SOL1",
+          "type": "selenoid",
+          "name": "Main Selenoid",
+          "pin": 2,
+          "default_duration": 2000
+        },
+        {
+          "id": "LED1",
+          "type": "led_strip",
+          "name": "RGB LED Strip",
+          "pin": 3,
+          "default_duration": 1000
+        },
+        {
+          "id": "MOT1",
+          "type": "servo_motor",
+          "name": "Servo Motor",
+          "pin": 9,
+          "default_duration": 3000
+        },
+        {
+          "id": "FAN1",
+          "type": "fan",
+          "name": "Cooling Fan",
+          "pin": 4,
+          "default_duration": 5000
+        }
+      ]
+    }
+  },
+  "communication": {
+    "command_format": "CMD:DEVICE_ID:ACTION:DURATION:PARAMS",
+    "response_timeout": 1000,
+    "retry_attempts": 3
+  },
+  "safety": {
+    "max_device_duration": 30000,
+    "emergency_stop_pin": 13,
+    "watchdog_timeout": 60000
+  }
+}

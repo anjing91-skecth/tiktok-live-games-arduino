@@ -1,0 +1,117 @@
+{
+  "gifts": {
+    "rose": {
+      "value": 1,
+      "action": "led_blink",
+      "duration": 1000,
+      "device": "LED1",
+      "enabled": true
+    },
+    "love": {
+      "value": 5,
+      "action": "selenoid_push",
+      "duration": 2000,
+      "device": "SOL1",
+      "enabled": true
+    },
+    "heart": {
+      "value": 10,
+      "action": "combo_action",
+      "devices": ["LED1", "SOL1"],
+      "duration": 3000,
+      "sequence": "parallel",
+      "enabled": true
+    },
+    "lion": {
+      "value": 500,
+      "action": "celebration_big",
+      "devices": ["SOL1", "LED1", "MOT1", "FAN1"],
+      "duration": 10000,
+      "sequence": "sequential",
+      "enabled": true
+    }
+  },
+  "keywords": {
+    "666": {
+      "match_type": "exact",
+      "action": "special_trigger",
+      "device": "SOL1",
+      "duration": 3000,
+      "cooldown": 60,
+      "priority": 3,
+      "enabled": true
+    },
+    "777": {
+      "match_type": "exact",
+      "action": "lucky_trigger",
+      "devices": ["LED1", "MOT1"],
+      "duration": 5000,
+      "cooldown": 90,
+      "priority": 3,
+      "enabled": true
+    },
+    "tembak": {
+      "match_type": "contains",
+      "action": "selenoid_push",
+      "device": "SOL1",
+      "duration": 1500,
+      "cooldown": 30,
+      "priority": 1,
+      "enabled": true
+    },
+    "ledak": {
+      "match_type": "contains",
+      "action": "combo_explosion",
+      "devices": ["SOL1", "LED1"],
+      "duration": 3000,
+      "cooldown": 60,
+      "priority": 2,
+      "enabled": true
+    },
+    "putar": {
+      "match_type": "contains",
+      "action": "motor_rotate",
+      "device": "MOT1",
+      "duration": 5000,
+      "params": "360",
+      "cooldown": 45,
+      "priority": 1,
+      "enabled": true
+    },
+    "kipas": {
+      "match_type": "contains",
+      "action": "fan_on",
+      "device": "FAN1",
+      "duration": 10000,
+      "cooldown": 120,
+      "priority": 1,
+      "enabled": true
+    }
+  },
+  "like_thresholds": {
+    "milestone_100": {
+      "threshold": 100,
+      "action": "celebration_small",
+      "devices": ["LED1"],
+      "duration": 3000,
+      "auto_increment": 100,
+      "enabled": true
+    },
+    "milestone_500": {
+      "threshold": 500,
+      "action": "celebration_medium",
+      "devices": ["SOL1", "LED1"],
+      "duration": 5000,
+      "auto_increment": 500,
+      "enabled": true
+    },
+    "milestone_1000": {
+      "threshold": 1000,
+      "action": "celebration_big",
+      "devices": ["SOL1", "LED1", "MOT1"],
+      "duration": 10000,
+      "auto_increment": 1000,
+      "enabled": true
+    }
+  }
+}

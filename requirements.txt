@@ -1,0 +1,25 @@
+# TikTok Live Games Desktop Application Requirements
+# Minimal dependencies for desktop version
+
+# Core Python packages (built-in)
+# - tkinter (built-in with Python)
+# - sqlite3 (built-in with Python)  
+# - threading (built-in with Python)
+# - json (built-in with Python)
+# - datetime (built-in with Python)
+# - logging (built-in with Python)
+
+# Required external packages
+requests==2.31.0
+websocket-client==1.7.0
+pyserial==3.5
+TikTokLive==1.0.0
+
+# Web dependencies (REMOVED for desktop version)
+# flask==2.3.3
+# flask-cors==4.0.0  
+# flask-socketio==5.8.0
+# eventlet==0.33.3
+
+# Optional for development
+python-dotenv==1.0.0

@@ -1,0 +1,109 @@
+# 🧹 TikTok Live Games - Git Ignore Configuration
+
+# =============================================
+# 🐍 PYTHON SPECIFIC
+# =============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# =============================================
+# 🗃️ DATABASE FILES
+# =============================================
+database/*.db
+database/backup_*.db
+database/temp_*.db
+*.sqlite
+*.sqlite3
+
+# =============================================
+# 📋 LOG FILES
+# =============================================
+logs/*.log
+logs/backup_*.log
+logs/temp_*.log
+*.log
+
+# =============================================
+# ⚙️ CONFIGURATION & SECRETS
+# =============================================
+.env
+config/secrets.json
+config/private_*.json
+arduino/secrets/
+
+# =============================================
+# 📊 TEMPORARY & CACHE FILES
+# =============================================
+.cache/
+temp/
+tmp/
+.tmp/
+*.tmp
+*.temp
+
+# =============================================
+# 🔧 IDE & EDITOR FILES
+# =============================================
+.vscode/settings.json
+.vscode/launch.json
+.vscode/.ropeproject
+.idea/
+*.swp
+*.swo
+*~
+
+# =============================================
+# 💾 BACKUP & ARCHIVE FILES
+# =============================================
+archives/backup_*
+exports/backup_*
+*.backup
+*.bak
+
+# =============================================
+# 🖥️ SYSTEM FILES
+# =============================================
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# =============================================
+# 📦 DEPENDENCIES & PACKAGES
+# =============================================
+node_modules/
+*.lock
+
+# =============================================
+# 🎯 PROJECT SPECIFIC
+# =============================================
+# Keep structure but ignore sensitive content
+config/accounts.json
+database/sessions.db
+database/analytics.db
+database/live_games.db
+logs/tiktok_*.log
+
+# Test files (already organized in test/ folder)
+test_*.py
+*_test.py
+debug_*.py
