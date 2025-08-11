@@ -3193,3 +3193,60 @@ task: <Task pending name='Task-34' coro=<<async_generator_athrow without __name_
 2025-08-11 18:50:19,197 - INFO - 🎯 Application initialization completed successfully
 2025-08-11 18:50:19,197 - INFO - 🚀 [START] TikTok Live Lite Application
 2025-08-11 18:51:39,206 - INFO - Application closed
+2025-08-11 19:15:15,369 - INFO - 🚀 Application initialization completed
+2025-08-11 19:15:15,427 - INFO - ✅ Core database components loaded
+2025-08-11 19:15:15,439 - INFO - ✅ Core TikTok components loaded
+2025-08-11 19:15:15,439 - INFO - ✅ Manager components loaded
+2025-08-11 19:15:15,504 - INFO - ✅ Arduino Phase 4 components loaded
+2025-08-11 19:15:15,504 - INFO - 🎯 All components loaded successfully
+2025-08-11 19:15:15,504 - INFO - ✅ Main window configured
+2025-08-11 19:15:15,510 - INFO - ✅ Menu bar created
+2025-08-11 19:15:15,913 - INFO - ✅ Toolbar created
+2025-08-11 19:15:15,914 - INFO - ✅ Notebook created
+2025-08-11 19:15:15,956 - INFO - ✅ Arduino status bar created
+2025-08-11 19:15:15,956 - INFO - 🎨 Complete UI structure built successfully
+2025-08-11 19:15:15,957 - INFO - Initializing database...
+2025-08-11 19:15:15,957 - INFO - Database tables created successfully
+2025-08-11 19:15:15,959 - INFO - ✅ Unified database initialized
+2025-08-11 19:15:15,959 - INFO - TabManagerLite initialized
+2025-08-11 19:15:16,063 - INFO - [OK] Live Feed tab created
+2025-08-11 19:15:16,064 - INFO - [OK] Live Feed tab initialized
+2025-08-11 19:15:16,064 - INFO - ✅ Live Feed tab created successfully
+2025-08-11 19:15:16,325 - INFO - ✅ Arduino Control tab added with unified database
+2025-08-11 19:15:16,344 - INFO - ✅ Arduino tab updated for account: @brockym_
+2025-08-11 19:15:16,345 - INFO - ✅ Arduino connection callback registered
+2025-08-11 19:15:16,345 - INFO - ✅ Arduino-tracker connection setup complete
+2025-08-11 19:15:16,345 - INFO - Account selected: @brockym_
+2025-08-11 19:15:16,345 - INFO - ✅ Loaded 3 accounts from unified database
+2025-08-11 19:15:16,346 - INFO - 🎯 Application initialization completed successfully
+2025-08-11 19:15:16,346 - INFO - 🚀 [START] TikTok Live Lite Application
+2025-08-11 19:15:34,607 - INFO - ✅ Event handlers registered for @brockym_
+2025-08-11 19:15:34,607 - INFO - ✅ Client setup complete for @brockym_
+2025-08-11 19:15:34,607 - INFO - 🔧 Phase 3 Modular Tracker initialized for @brockym_
+2025-08-11 19:15:34,620 - INFO - Arduino Event Bridge connected to tracker
+2025-08-11 19:15:34,621 - INFO - ✅ Arduino Event Bridge connected to new tracker
+2025-08-11 19:15:34,622 - INFO - 🚀 Started tracking @brockym_
+2025-08-11 19:15:34,997 - INFO - HTTP Request: GET https://www.tiktok.com/@brockym_/live? "HTTP/1.1 200 OK"
+2025-08-11 19:15:35,711 - INFO - HTTP Request: GET https://www.tiktok.com/api-live/user/room/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-NZ&browser_name=Mozilla&browser_online=true&browser_platform=MacIntel&browser_version=5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2014.7%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=13&is_fullscreen=false&is_page_visible=true&screen_height=2160&screen_width=4096&tz_name=Pacific/Auckland&channel=tiktok_web&data_collection_enabled=true&os=mac&priority_region=NZ&region=NZ&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@brockym_/live&root_referer=https://www.tiktok.com/@brockym_/live&device_id=26264742399338409822&uniqueId=brockym_&sourceType=54 "HTTP/1.1 200 OK"
+2025-08-11 19:15:36,120 - INFO - HTTP Request: GET https://webcast.tiktok.com/webcast/room/check_alive/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-NZ&browser_name=Mozilla&browser_online=true&browser_platform=MacIntel&browser_version=5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2014.7%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=13&is_fullscreen=false&is_page_visible=true&screen_height=2160&screen_width=4096&tz_name=Pacific/Auckland&channel=tiktok_web&data_collection_enabled=true&os=mac&priority_region=NZ&region=NZ&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@brockym_/live&root_referer=https://www.tiktok.com/@brockym_/live&device_id=60054723027534110311&room_id=7537283056777579270&room_ids=7537283056777579270 "HTTP/1.1 200 OK"
+2025-08-11 19:15:39,780 - INFO - HTTP Request: GET https://tiktok.eulerstream.com/webcast/fetch/?client=ttlive-python&room_id=7537283056777579270&user_agent=Mozilla%2F5.0+%28Macintosh%3B+Intel+Mac+OS+X+14.7%3B+rv%3A130.0%29+Gecko%2F20100101+Firefox%2F130.0 "HTTP/1.1 200 OK"
+2025-08-11 19:15:41,049 - INFO - 🔗 Connected to @brockym_ (Room: 7537283056777579270)
+2025-08-11 19:15:41,067 - INFO - 💬 fabioyouknow7: @️ let him have some faith and then when he close af teleport him 🤣🤣
+2025-08-11 19:15:41,179 - INFO - 💬 deneth_20: 🤣🤣
+2025-08-11 19:15:41,190 - INFO - 💬 divviebird: how have you been
+2025-08-11 19:15:41,194 - INFO - 💬 deneth_20: 😆🤣🤣🤣🤣
+2025-08-11 19:15:41,208 - INFO - 💬 divviebird: see your baby girl how is she
+2025-08-11 19:15:41,211 - INFO - 💬 divviebird: so glad to here
+2025-08-11 19:15:41,974 - INFO - 👍 barcalonafanlamineyamal liked (15)
+2025-08-11 19:15:42,784 - INFO - 👍 barcalonafanlamineyamal liked (15)
+2025-08-11 19:15:44,428 - INFO - 👍 barcalonafanlamineyamal liked (15)
+2025-08-11 19:15:45,957 - INFO - 👍 barcalonafanlamineyamal liked (15)
+2025-08-11 19:15:47,546 - INFO - 👍 barcalonafanlamineyamal liked (15)
+2025-08-11 19:15:49,944 - INFO - 👍 barcalonafanlamineyamal liked (15)
+2025-08-11 19:15:51,633 - INFO - 👍 barcalonafanlamineyamal liked (15)
+2025-08-11 19:15:54,054 - INFO - 👍 barcalonafanlamineyamal liked (15)
+2025-08-11 19:15:54,866 - INFO - 👍 barcalonafanlamineyamal liked (15)
+2025-08-11 19:15:57,300 - INFO - 👍 barcalonafanlamineyamal liked (15)
+2025-08-11 19:15:58,961 - INFO - 👍 barcalonafanlamineyamal liked (15)
+2025-08-11 19:15:58,962 - INFO - Application interrupted by user
+2025-08-11 19:15:58,963 - INFO - Application closed

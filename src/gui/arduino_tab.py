@@ -525,7 +525,7 @@ class ArduinoControlTab:
         
         # Check if stage is enabled/available
         if not self.stage_manager.stages_config[stage_num]['active']:
-            self.log_message(f"❌ Stage {stage_num} is disabled and cannot be selected", "warning")
+            self.log_message(f"❌ Stage {stage_num} is disabled and cannot be selected")
             # Reset dropdown to current stage
             if self.stage_manager.manual_stage_override:
                 self.current_stage_var.set(f'Stage {self.stage_manager.manual_locked_stage}')
@@ -541,7 +541,7 @@ class ArduinoControlTab:
         # Switch to manual mode with selected stage
         success = self.stage_manager.set_manual_stage_override(stage_num)
         if success:
-            self.log_message(f"🔒 Manual mode: Locked to Stage {stage_num}", "info")
+            self.log_message(f"🔒 Manual mode: Locked to Stage {stage_num}")
             # Update override button state
             self.update_override_button_state()
             # Update any visual indicators
@@ -1492,7 +1492,7 @@ class ArduinoControlTab:
             
             # Log mode change
             mode_text = "MANUAL" if new_mode else "AUTO"
-            self.log_message(f"Stage mode changed to: {mode_text}", "info")
+            self.log_message(f"Stage mode changed to: {mode_text}")
             
             # If switching to auto, resume automatic stage progression
             if not new_mode:
@@ -1501,7 +1501,7 @@ class ArduinoControlTab:
                 self.stage_manager.pause_auto_progression()
                 
         except Exception as e:
-            self.log_message(f"Error toggling override mode: {e}", "error")
+            self.log_message(f"Error toggling override mode: {e}")
     
     def update_override_button_state(self):
         """Update override button text and appearance based on current mode"""
@@ -1526,7 +1526,7 @@ class ArduinoControlTab:
                         foreground='#4CAF50'
                     )
         except Exception as e:
-            self.log_message(f"Error updating override button: {e}", "error")
+            self.log_message(f"Error updating override button: {e}")
     
     def toggle_manual_controls(self, show):
         """Show/hide manual stage controls based on override mode"""
@@ -1541,7 +1541,7 @@ class ArduinoControlTab:
                     self.apply_stage_button.config(state='disabled')
                     self.next_stage_label.pack(side='right')  # Show auto progress info
         except Exception as e:
-            self.log_message(f"Error toggling manual controls: {e}", "error")
+            self.log_message(f"Error toggling manual controls: {e}")
     
     def on_manual_stage_change(self):
         """Handle manual stage spinbox change"""
@@ -1556,7 +1556,7 @@ class ArduinoControlTab:
                 self.apply_stage_button.config(state='disabled', style="TButton")
                 
         except Exception as e:
-            self.log_message(f"Error in manual stage change: {e}", "error")
+            self.log_message(f"Error in manual stage change: {e}")
     
     def apply_manual_stage(self):
         """Apply manually selected stage"""
@@ -1564,7 +1564,7 @@ class ArduinoControlTab:
             target_stage = int(self.manual_stage_var.get())
             
             if not self.is_stage_available(target_stage):
-                self.log_message(f"Stage {target_stage} is not available or disabled", "warning")
+                self.log_message(f"Stage {target_stage} is not available or disabled")
                 return
             
             # Apply stage through stage manager
@@ -1573,15 +1573,15 @@ class ArduinoControlTab:
             if success:
                 self.current_stage = target_stage
                 self.update_current_stage_display()
-                self.log_message(f"Manual stage applied: Stage {target_stage}", "info")
+                self.log_message(f"Manual stage applied: Stage {target_stage}")
                 
                 # Reset apply button
                 self.apply_stage_button.config(state='disabled', style="TButton")
             else:
-                self.log_message(f"Failed to apply Stage {target_stage}", "error")
+                self.log_message(f"Failed to apply Stage {target_stage}")
                 
         except Exception as e:
-            self.log_message(f"Error applying manual stage: {e}", "error")
+            self.log_message(f"Error applying manual stage: {e}")
     
     def is_stage_available(self, stage_number):
         """Check if stage is available for manual override"""
@@ -1604,7 +1604,7 @@ class ArduinoControlTab:
             return True
             
         except Exception as e:
-            self.log_message(f"Error checking stage availability: {e}", "error")
+            self.log_message(f"Error checking stage availability: {e}")
             return False
     
     def is_stage_completed(self, stage_number):
