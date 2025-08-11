@@ -101,6 +101,14 @@ class ArduinoStageManager:
         if self.manual_stage_override:
             return None
             
+        # Check if current stage is disabled - auto fallback
+        current_config = self.stages_config[self.current_stage]
+        if not current_config['active']:
+            fallback_stage = self.get_highest_enabled_stage()
+            if fallback_stage != self.current_stage:
+                self.log_message(f"🔄 Auto fallback: Stage {self.current_stage} disabled, moving to Stage {fallback_stage}")
+                return fallback_stage
+            
         # Check for stage progression UP
         for stage_num in [3, 2]:  # Check highest to lowest
             config = self.stages_config[stage_num]
@@ -119,12 +127,19 @@ class ArduinoStageManager:
             # Find appropriate lower stage
             for stage_num in [1, 2]:
                 config = self.stages_config[stage_num]
-                if current_viewers >= config['viewer_min']:
+                if config['active'] and current_viewers >= config['viewer_min']:
                     return stage_num
             
             return 1  # Default to stage 1
         
         return None  # No change needed
+    
+    def get_highest_enabled_stage(self) -> int:
+        """Get the highest enabled stage number"""
+        for stage_num in [3, 2, 1]:  # Check from highest to lowest
+            if self.stages_config[stage_num]['active']:
+                return stage_num
+        return 1  # Stage 1 is always fallback
     
     def check_retention_triggers(self, current_viewers: int, current_stage: int) -> Dict[str, Any]:
         """Check retention boundary triggers"""
@@ -294,6 +309,21 @@ class ArduinoStageManager:
                     self.reset_to_auto_mode()
                     result['changes'].append("Reset to auto mode (Stage 3 disabled)")
             
+            # Auto fallback if current stage becomes disabled
+            if not enable and self.current_stage == stage_num:
+                if not self.manual_stage_override:
+                    fallback_stage = self.get_highest_enabled_stage()
+                    if fallback_stage != stage_num:
+                        self.current_stage = fallback_stage
+                        result['changes'].append(f"Auto fallback to Stage {fallback_stage}")
+                else:
+                    # In manual mode, fallback to highest enabled stage
+                    fallback_stage = self.get_highest_enabled_stage()
+                    if fallback_stage != stage_num:
+                        self.current_stage = fallback_stage
+                        self.manual_locked_stage = fallback_stage
+                        result['changes'].append(f"Manual mode fallback to Stage {fallback_stage}")
+            
             result['success'] = True
             self.log_message(f"✅ Stage dependencies updated: {', '.join(result['changes'])}")
             
@@ -389,43 +419,3 @@ class ArduinoStageManager:
                 'tooltip': f'Click to manually lock to Stage {selected_stage}',
                 'style': 'primary'
             }
-    
-    def pause_auto_progression(self):
-        """Pause automatic stage progression"""
-        try:
-            self.auto_progression_paused = True
-            self.log_callback("Stage auto-progression paused", "info")
-        except Exception as e:
-            self.log_callback(f"Error pausing auto progression: {e}", "error")
-    
-    def resume_auto_progression(self):
-        """Resume automatic stage progression"""
-        try:
-            self.auto_progression_paused = False
-            self.manual_stage_override = False
-            self.manual_locked_stage = None
-            self.log_callback("Stage auto-progression resumed", "info")
-        except Exception as e:
-            self.log_callback(f"Error resuming auto progression: {e}", "error")
-    
-    def set_manual_stage_override(self, stage_number: int) -> bool:
-        """Set manual stage override to specific stage"""
-        try:
-            if stage_number not in self.stages_config:
-                self.log_callback(f"Stage {stage_number} not found in configuration", "error")
-                return False
-            
-            # Enable manual override
-            self.manual_stage_override = True
-            self.manual_locked_stage = stage_number
-            self.pause_auto_progression()
-            
-            # Apply the stage
-            self.apply_stage(stage_number)
-            
-            self.log_callback(f"Manual override applied: Stage {stage_number}", "info")
-            return True
-            
-        except Exception as e:
-            self.log_callback(f"Error setting manual stage override: {e}", "error")
-            return False

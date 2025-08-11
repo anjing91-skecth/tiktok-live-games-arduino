@@ -455,7 +455,7 @@ class ArduinoControlTab:
         self.check_arduino_ports()
     
     def on_stage_selected(self, event=None):
-        """Handle stage selection change dengan Retention System"""
+        """Handle stage selection change dengan Stage 1 Lock dan enhanced UI management"""
         stage_num = int(self.stage_var.get().split()[-1])
         config = self.stage_manager.stages_config.get(stage_num, {})
         
@@ -465,41 +465,54 @@ class ArduinoControlTab:
         self.delay_var.set(str(config.get('delay', 0)))
         self.retention_var.set(str(config.get('retention', 0)))
         
-        # Stage 1 restrictions (read-only semua setting)
+        # Stage 1 restrictions - SEMUA SETTINGS LOCKED/DISABLED
         if stage_num == 1:
-            self.stage_enable_check.config(state='disabled')
+            # Disable stage enable checkbox (Stage 1 always enabled)
+            if hasattr(self, 'stage_enable_check'):
+                self.stage_enable_check.config(state='disabled')
+            
             # Disable all input fields untuk Stage 1
-            for widget in self.stage_settings_frame.winfo_children():
-                if isinstance(widget, ttk.Frame):
-                    for child in widget.winfo_children():
-                        if isinstance(child, ttk.Entry):
-                            child.config(state='disabled')
+            if hasattr(self, 'stage_settings_frame'):
+                for widget in self.stage_settings_frame.winfo_children():
+                    if isinstance(widget, ttk.Frame):
+                        for child in widget.winfo_children():
+                            if isinstance(child, ttk.Entry):
+                                child.config(state='disabled')
+                            elif isinstance(child, ttk.Button) and "Save" in str(child.cget('text')):
+                                child.config(state='disabled')
             
-            # Disable save button untuk Stage 1
-            for widget in self.stage_settings_frame.winfo_children():
-                if isinstance(widget, ttk.Frame):
-                    for child in widget.winfo_children():
-                        if isinstance(child, ttk.Button) and "Save" in child.cget('text'):
-                            child.config(state='disabled')
+            # Disable individual input widgets if they exist
+            for attr_name in ['viewer_min_entry', 'delay_entry', 'retention_entry', 'bonus_entry']:
+                if hasattr(self, attr_name):
+                    getattr(self, attr_name).config(state='disabled')
+                    
+            # Show info message about Stage 1 being locked
+            self.show_validation_warning("ℹ️ Stage 1 settings are locked (default base stage)")
+            
         else:
-            self.stage_enable_check.config(state='normal')
-            # Enable all input fields untuk Stage 2&3
-            for widget in self.stage_settings_frame.winfo_children():
-                if isinstance(widget, ttk.Frame):
-                    for child in widget.winfo_children():
-                        if isinstance(child, ttk.Entry):
-                            child.config(state='normal')
+            # Stage 2 & 3 - Enable all settings
+            if hasattr(self, 'stage_enable_check'):
+                self.stage_enable_check.config(state='normal')
             
-            # Enable save button untuk Stage 2&3
-            for widget in self.stage_settings_frame.winfo_children():
-                if isinstance(widget, ttk.Frame):
-                    for child in widget.winfo_children():
-                        if isinstance(child, ttk.Button) and "Save" in child.cget('text'):
-                            child.config(state='normal')
+            # Enable all input fields untuk Stage 2&3
+            if hasattr(self, 'stage_settings_frame'):
+                for widget in self.stage_settings_frame.winfo_children():
+                    if isinstance(widget, ttk.Frame):
+                        for child in widget.winfo_children():
+                            if isinstance(child, ttk.Entry):
+                                child.config(state='normal')
+                            elif isinstance(child, ttk.Button) and "Save" in str(child.cget('text')):
+                                child.config(state='normal')
+            
+            # Enable individual input widgets if they exist
+            for attr_name in ['viewer_min_entry', 'delay_entry', 'retention_entry', 'bonus_entry']:
+                if hasattr(self, attr_name):
+                    getattr(self, attr_name).config(state='normal')
+                    
+            # Clear info message
+            self.clear_validation_warning()
         
-        # Clear any validation warnings when switching stages
-        self.clear_validation_warning()
-        
+        # Update override button state based on new selection
         self.update_override_button_state()
     
     def on_current_stage_selected(self, event=None):
@@ -510,21 +523,35 @@ class ArduinoControlTab:
         selected_stage = self.current_stage_var.get()
         stage_num = int(selected_stage.split()[-1])
         
-        # Get current manual locked stage if any
-        current_locked = self.stage_manager.manual_locked_stage
+        # Check if stage is enabled/available
+        if not self.stage_manager.stages_config[stage_num]['active']:
+            self.log_message(f"❌ Stage {stage_num} is disabled and cannot be selected", "warning")
+            # Reset dropdown to current stage
+            if self.stage_manager.manual_stage_override:
+                self.current_stage_var.set(f'Stage {self.stage_manager.manual_locked_stage}')
+            else:
+                self.current_stage_var.set(f'Stage {self.stage_manager.current_stage}')
+            return
         
-        if current_locked is not None and stage_num == current_locked:
-            # Same stage selected - toggle back to auto mode
-            self.stage_manager.toggle_override_mode(stage_num)
+        # If in manual mode and same stage selected, no change needed
+        if (self.stage_manager.manual_stage_override and 
+            self.stage_manager.manual_locked_stage == stage_num):
+            return
+            
+        # Switch to manual mode with selected stage
+        success = self.stage_manager.set_manual_stage_override(stage_num)
+        if success:
+            self.log_message(f"🔒 Manual mode: Locked to Stage {stage_num}", "info")
+            # Update override button state
+            self.update_override_button_state()
+            # Update any visual indicators
+            self.update_stage_display()
         else:
-            # Different stage selected - switch to manual mode with this stage
-            self.stage_manager.set_manual_stage_override(stage_num)
-        
-        # Update override button state
-        self.update_override_button_state()
-        
-        # Update any visual indicators
-        self.update_stage_display()
+            # Reset dropdown if failed
+            if self.stage_manager.manual_stage_override:
+                self.current_stage_var.set(f'Stage {self.stage_manager.manual_locked_stage}')
+            else:
+                self.current_stage_var.set(f'Stage {self.stage_manager.current_stage}')
     
     def on_override_clicked(self):
         """Handle override button click untuk toggle manual/auto mode"""
@@ -534,14 +561,17 @@ class ArduinoControlTab:
         selected_stage = self.current_stage_var.get()
         stage_num = int(selected_stage.split()[-1])
         
-        # Toggle override mode
-        self.stage_manager.toggle_override_mode(stage_num)
+        # Toggle override mode menggunakan stage manager
+        result = self.stage_manager.toggle_override_mode(stage_num)
         
-        # Update button state
-        self.update_override_button_state()
-        
-        # Update any visual indicators
-        self.update_stage_display()
+        if result['success']:
+            self.log_message(result['message'])
+            # Update button state
+            self.update_override_button_state()
+            # Update any visual indicators
+            self.update_stage_display()
+        else:
+            self.log_message(f"❌ Failed to toggle override: {result.get('message', 'Unknown error')}")
     
     def update_override_button_state(self):
         """Update override button text based on current state"""
@@ -555,42 +585,58 @@ class ArduinoControlTab:
         self.override_var.set(button_state.get('text', 'Manual Mode'))
     
     def update_stage_display(self):
-        """Update current stage display berdasarkan stage manager state"""
+        """Update current stage display dan sync dropdown dengan stage manager state"""
         if not hasattr(self, 'current_stage_var'):
             return
             
-        # Get current stage from manual lock or auto mode
-        if self.stage_manager.manual_locked_stage is not None:
-            current_stage = self.stage_manager.manual_locked_stage
-        else:
-            # In auto mode, get stage based on current viewer count
-            current_stage = 1  # Default to stage 1, should be calculated from viewer thresholds
-            
+        # Get current stage from stage manager
+        current_stage = self.stage_manager.current_stage
+        
+        # Update dropdown to reflect current stage
         self.current_stage_var.set(f'Stage {current_stage}')
+        
+        # Update button text
+        self.update_override_button_state()
+        
+        # Update any other visual indicators if they exist
+        if hasattr(self, 'stage_mode_indicator'):
+            if self.stage_manager.manual_stage_override:
+                self.stage_mode_indicator.config(
+                    text="[MANUAL]",
+                    foreground='#F44336'
+                )
+            else:
+                self.stage_mode_indicator.config(
+                    text="[AUTO]",
+                    foreground='#4CAF50'
+                )
     
     def on_stage_enable_changed(self):
-        """Handle stage enable checkbox changes dengan dependency validation"""
+        """Handle stage enable checkbox changes dengan dependency validation dan auto fallback"""
         stage_num = int(self.stage_var.get().split()[-1])
         is_enabled = self.stage_enable_var.get()
         
-        # Use stage manager untuk handle dependencies
-        success = self.stage_manager.update_stage_enable_with_dependencies(stage_num, is_enabled)
+        # Use stage manager untuk handle dependencies dan fallback
+        result = self.stage_manager.update_stage_enable_with_dependencies(stage_num, is_enabled)
         
-        if not success:
+        if not result['success']:
             # Reset checkbox jika dependencies tidak terpenuhi
             old_value = self.stage_manager.stages_config[stage_num].get('active', False)
             self.stage_enable_var.set(old_value)
             
-            # Show warning message
-            if not is_enabled and stage_num == 2:
-                messagebox.showwarning("Dependency Error", 
-                                     "Cannot disable Stage 2 while Stage 3 is enabled!\nDisable Stage 3 first.")
-            elif is_enabled and stage_num == 3:
-                messagebox.showwarning("Dependency Error", 
-                                     "Cannot enable Stage 3 while Stage 2 is disabled!\nEnable Stage 2 first.")
+            # Show warning messages
+            for warning in result['warnings']:
+                self.log_message(warning)
+        else:
+            # Log all successful changes
+            for change in result['changes']:
+                self.log_message(f"✅ {change}")
         
-        # Update any visual indicators
+        # Update current stage display to reflect any fallback
         self.update_stage_display()
+        
+        # Update override button state
+        self.update_override_button_state()
     
     def on_stage_checkbox_change(self):
         """Handle stage checkbox changes dengan Stage Dependencies"""
@@ -1586,6 +1632,63 @@ class ArduinoControlTab:
                 
                 details_text = f"Min: {min_viewers} | Delay: {delay}ms | Retention: {retention}ms"
                 self.stage_details_label.config(text=details_text)
+            
+        except Exception as e:
+            self.log_message(f"Error updating current stage display: {e}")
+    
+    # ========== ENHANCED STAGE PROGRESSION METHODS ==========
+    
+    def update_stage_progression_with_fallback(self, viewer_count):
+        """Update stage progression dengan auto fallback support"""
+        try:
+            # Check if stage should progress using stage manager
+            new_stage = self.stage_manager.check_stage_progression(viewer_count)
+            
+            if new_stage is not None and new_stage != self.stage_manager.current_stage:
+                old_stage = self.stage_manager.current_stage
+                self.stage_manager.set_current_stage(new_stage)
+                
+                # Log the progression or fallback
+                if new_stage > old_stage:
+                    self.log_message(f"🔼 Stage progression: Stage {old_stage} → Stage {new_stage} ({viewer_count} viewers)")
+                elif new_stage < old_stage:
+                    self.log_message(f"🔽 Stage fallback: Stage {old_stage} → Stage {new_stage} ({viewer_count} viewers)")
+                
+                # Update display
+                self.update_stage_display()
+                
+        except Exception as e:
+            self.log_message(f"❌ Error in stage progression: {e}")
+            
+    def update_automatic_stage_check_enhanced(self, viewer_count):
+        """Enhanced automatic stage checking dengan fallback"""
+        try:
+            if not self.stage_manager.manual_stage_override:
+                # Check for normal progression and fallback
+                self.update_stage_progression_with_fallback(viewer_count)
+            
+            # Check retention triggers regardless of mode (for logging)
+            current_stage = self.stage_manager.current_stage
+            retention_result = self.stage_manager.check_retention_triggers(viewer_count, current_stage)
+            
+            if retention_result['trigger']:
+                self.log_message(f"🎯 Retention trigger: {retention_result['action']} at {viewer_count} viewers")
+                
+        except Exception as e:
+            self.log_message(f"❌ Error in automatic stage check: {e}")
+    
+    def force_stage_update_from_manager(self):
+        """Force update display dari stage manager state - untuk debugging"""
+        try:
+            current_stage = self.stage_manager.current_stage
+            mode = "MANUAL" if self.stage_manager.manual_stage_override else "AUTO"
+            locked_stage = self.stage_manager.manual_locked_stage
+            
+            self.log_message(f"🔍 Stage Status: Current={current_stage}, Mode={mode}, Locked={locked_stage}")
+            self.update_stage_display()
+            
+        except Exception as e:
+            self.log_message(f"❌ Error forcing stage update: {e}")
             
         except Exception as e:
             self.log_message(f"Error updating stage display: {e}", "error")
