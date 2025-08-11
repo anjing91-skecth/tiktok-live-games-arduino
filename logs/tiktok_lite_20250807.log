@@ -1,0 +1,1729 @@
+2025-08-07 16:56:23,964 - INFO - 🚀 Application initialization completed
+2025-08-07 16:56:24,020 - INFO - ✅ Core database components loaded
+2025-08-07 16:56:24,042 - ERROR - Startup error: invalid syntax (live_feed_tab.py, line 11)
+2025-08-07 16:56:49,477 - INFO - 🚀 Application initialization completed
+2025-08-07 16:56:49,520 - INFO - ✅ Core database components loaded
+2025-08-07 16:56:49,542 - INFO - ✅ Core TikTok components loaded
+2025-08-07 16:56:49,542 - INFO - ✅ Manager components loaded
+2025-08-07 16:56:49,563 - INFO - ✅ Arduino Phase 4 components loaded
+2025-08-07 16:56:49,563 - INFO - 🎯 All components loaded successfully
+2025-08-07 16:56:49,563 - INFO - ✅ Main window configured
+2025-08-07 16:56:49,571 - ERROR - Startup error: 'TikTokLiteApp' object has no attribute 'open_account_manager'
+2025-08-07 16:57:03,175 - INFO - 🚀 Application initialization completed
+2025-08-07 16:57:03,180 - INFO - ✅ Core database components loaded
+2025-08-07 16:57:03,186 - INFO - ✅ Core TikTok components loaded
+2025-08-07 16:57:03,186 - INFO - ✅ Main window configured
+2025-08-07 16:57:58,611 - INFO - 🚀 Application initialization completed
+2025-08-07 16:58:48,331 - INFO - 🚀 Application initialization completed
+2025-08-07 16:58:48,379 - INFO - ✅ Core database components loaded
+2025-08-07 16:58:48,385 - INFO - ✅ Core TikTok components loaded
+2025-08-07 16:58:48,386 - INFO - ✅ Manager components loaded
+2025-08-07 16:58:48,397 - INFO - ✅ Arduino Phase 4 components loaded
+2025-08-07 16:58:48,397 - INFO - 🎯 All components loaded successfully
+2025-08-07 16:58:48,397 - INFO - ✅ Main window configured
+2025-08-07 16:58:48,402 - ERROR - Startup error: 'TikTokLiteApp' object has no attribute 'open_account_manager'
+2025-08-07 16:59:12,989 - INFO - 🚀 Application initialization completed
+2025-08-07 16:59:13,036 - INFO - ✅ Core database components loaded
+2025-08-07 16:59:13,042 - INFO - ✅ Core TikTok components loaded
+2025-08-07 16:59:13,043 - INFO - ✅ Manager components loaded
+2025-08-07 16:59:13,053 - INFO - ✅ Arduino Phase 4 components loaded
+2025-08-07 16:59:13,053 - INFO - 🎯 All components loaded successfully
+2025-08-07 16:59:13,053 - INFO - ✅ Main window configured
+2025-08-07 17:00:16,349 - INFO - 🚀 Application initialization completed
+2025-08-07 17:00:16,396 - INFO - ✅ Core database components loaded
+2025-08-07 17:00:16,400 - INFO - ✅ Core TikTok components loaded
+2025-08-07 17:00:16,400 - INFO - ✅ Manager components loaded
+2025-08-07 17:00:16,409 - INFO - ✅ Arduino Phase 4 components loaded
+2025-08-07 17:00:16,409 - INFO - 🎯 All components loaded successfully
+2025-08-07 17:00:16,409 - INFO - ✅ Main window configured
+2025-08-07 17:00:16,416 - ERROR - Startup error: 'TikTokLiteApp' object has no attribute 'open_account_manager'
+2025-08-07 17:01:56,638 - INFO - 🚀 Application initialization completed
+2025-08-07 17:01:56,684 - INFO - ✅ Core database components loaded
+2025-08-07 17:01:56,688 - INFO - ✅ Core TikTok components loaded
+2025-08-07 17:01:56,688 - INFO - ✅ Manager components loaded
+2025-08-07 17:01:56,698 - INFO - ✅ Arduino Phase 4 components loaded
+2025-08-07 17:01:56,698 - INFO - 🎯 All components loaded successfully
+2025-08-07 17:01:56,698 - INFO - ✅ Main window configured
+2025-08-07 17:01:56,703 - INFO - ✅ Menu bar created
+2025-08-07 17:01:57,215 - INFO - ✅ Toolbar created
+2025-08-07 17:01:57,216 - INFO - ✅ Notebook created
+2025-08-07 17:01:57,264 - INFO - ✅ Arduino status bar created
+2025-08-07 17:01:57,264 - INFO - 🎨 Complete UI structure built successfully
+2025-08-07 17:01:57,265 - INFO - Initializing database...
+2025-08-07 17:01:57,266 - INFO - Database tables created successfully
+2025-08-07 17:01:57,266 - INFO - ✅ Unified database initialized
+2025-08-07 17:01:57,266 - INFO - TabManagerLite initialized
+2025-08-07 17:01:57,375 - INFO - [OK] Live Feed tab created
+2025-08-07 17:01:57,375 - INFO - [OK] Live Feed tab initialized
+2025-08-07 17:01:57,376 - INFO - ✅ Live Feed tab created successfully
+2025-08-07 17:01:57,529 - INFO - ✅ Arduino Control tab added with unified database
+2025-08-07 17:01:57,538 - INFO - ✅ Arduino tab updated for account: @brockym_
+2025-08-07 17:01:57,538 - INFO - ✅ Arduino-tracker connection setup complete
+2025-08-07 17:01:57,538 - INFO - Account selected: @brockym_
+2025-08-07 17:01:57,538 - INFO - ✅ Loaded 3 accounts from unified database
+2025-08-07 17:01:57,538 - INFO - 🎯 Application initialization completed successfully
+2025-08-07 17:01:57,539 - INFO - 🚀 [START] TikTok Live Lite Application
+2025-08-07 17:01:59,617 - INFO - ✅ Client initialized for @brockym_
+2025-08-07 17:01:59,617 - INFO - 🔧 Phase 3 Modular Tracker initialized for @brockym_
+2025-08-07 17:01:59,618 - INFO - 🚀 Started tracking @brockym_
+2025-08-07 17:02:00,862 - INFO - HTTP Request: GET https://www.tiktok.com/@brockym_/live? "HTTP/1.1 200 OK"
+2025-08-07 17:02:02,132 - INFO - HTTP Request: GET https://www.tiktok.com/api-live/user/room/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-CA&browser_name=Mozilla&browser_online=true&browser_platform=MacIntel&browser_version=5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2014.7%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=14&is_fullscreen=false&is_page_visible=true&screen_height=2880&screen_width=5120&tz_name=America/Toronto&channel=tiktok_web&data_collection_enabled=true&os=mac&priority_region=CA&region=CA&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@brockym_/live&root_referer=https://www.tiktok.com/@brockym_/live&device_id=85431152970936919614&uniqueId=brockym_&sourceType=54 "HTTP/1.1 200 OK"
+2025-08-07 17:02:02,924 - INFO - HTTP Request: GET https://webcast.tiktok.com/webcast/room/check_alive/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-CA&browser_name=Mozilla&browser_online=true&browser_platform=MacIntel&browser_version=5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2014.7%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=14&is_fullscreen=false&is_page_visible=true&screen_height=2880&screen_width=5120&tz_name=America/Toronto&channel=tiktok_web&data_collection_enabled=true&os=mac&priority_region=CA&region=CA&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@brockym_/live&root_referer=https://www.tiktok.com/@brockym_/live&device_id=17025350536171463817&room_id=7535705357079956229&room_ids=7535705357079956229 "HTTP/1.1 200 OK"
+2025-08-07 17:02:04,826 - INFO - HTTP Request: GET https://tiktok.eulerstream.com/webcast/fetch/?client=ttlive-python&room_id=7535705357079956229&user_agent=Mozilla%2F5.0+%28Macintosh%3B+Intel+Mac+OS+X+14.7%3B+rv%3A130.0%29+Gecko%2F20100101+Firefox%2F130.0 "HTTP/1.1 200 OK"
+2025-08-07 17:02:06,261 - INFO - 🔗 Connected to @brockym_ (Room: 7535705357079956229)
+2025-08-07 17:02:06,288 - INFO - 💬 extraseonghwa: good song
+2025-08-07 17:02:06,301 - INFO - 💬 extraseonghwa: yuh uh
+2025-08-07 17:02:06,310 - INFO - 💬 papajay1997: Adele - Neng o neng o neng o neng
+2025-08-07 17:02:06,322 - INFO - 💬 extraseonghwa: you tried to talk to the npc woman
+2025-08-07 17:02:06,333 - INFO - 💬 extraseonghwa: 😂😂
+2025-08-07 17:02:06,357 - INFO - 💬 extraseonghwa: yes
+2025-08-07 17:02:06,363 - INFO - 🔢 [DEBUG] Viewer update: 74 viewers
+2025-08-07 17:02:06,417 - INFO - 👍 dion.rudi8 liked (15)
+2025-08-07 17:02:06,432 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:02:07,931 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:02:08,377 - INFO - 🛑 Stopping tracker for @brockym_
+2025-08-07 17:02:08,747 - INFO - 👍 dion.rudi8 liked (15)
+2025-08-07 17:02:13,588 - INFO - ✅ Client initialized for @brockym_
+2025-08-07 17:02:13,589 - INFO - 🔧 Phase 3 Modular Tracker initialized for @brockym_
+2025-08-07 17:02:13,590 - INFO - 🚀 Started tracking @brockym_
+2025-08-07 17:02:13,592 - INFO - ❌ Disconnected from @brockym_ (Duration: 7s)
+2025-08-07 17:02:14,479 - INFO - HTTP Request: GET https://www.tiktok.com/@brockym_/live? "HTTP/1.1 200 OK"
+2025-08-07 17:02:15,230 - INFO - HTTP Request: GET https://www.tiktok.com/api-live/user/room/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-CA&browser_name=Mozilla&browser_online=true&browser_platform=MacIntel&browser_version=5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2014.7%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=14&is_fullscreen=false&is_page_visible=true&screen_height=2880&screen_width=5120&tz_name=America/Toronto&channel=tiktok_web&data_collection_enabled=true&os=mac&priority_region=CA&region=CA&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@brockym_/live&root_referer=https://www.tiktok.com/@brockym_/live&device_id=95878585597520437946&uniqueId=brockym_&sourceType=54 "HTTP/1.1 200 OK"
+2025-08-07 17:02:15,579 - INFO - HTTP Request: GET https://webcast.tiktok.com/webcast/room/check_alive/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-CA&browser_name=Mozilla&browser_online=true&browser_platform=MacIntel&browser_version=5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2014.7%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=14&is_fullscreen=false&is_page_visible=true&screen_height=2880&screen_width=5120&tz_name=America/Toronto&channel=tiktok_web&data_collection_enabled=true&os=mac&priority_region=CA&region=CA&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@brockym_/live&root_referer=https://www.tiktok.com/@brockym_/live&device_id=62880454315018596884&room_id=7535705357079956229&room_ids=7535705357079956229 "HTTP/1.1 200 OK"
+2025-08-07 17:02:17,977 - INFO - HTTP Request: GET https://tiktok.eulerstream.com/webcast/fetch/?client=ttlive-python&room_id=7535705357079956229&user_agent=Mozilla%2F5.0+%28Macintosh%3B+Intel+Mac+OS+X+14.7%3B+rv%3A130.0%29+Gecko%2F20100101+Firefox%2F130.0 "HTTP/1.1 200 OK"
+2025-08-07 17:02:19,763 - INFO - 🔗 Connected to @brockym_ (Room: 7535705357079956229)
+2025-08-07 17:02:19,768 - INFO - 💬 extraseonghwa: good song
+2025-08-07 17:02:19,775 - INFO - 💬 extraseonghwa: yuh uh
+2025-08-07 17:02:19,783 - INFO - 💬 papajay1997: Adele - Neng o neng o neng o neng
+2025-08-07 17:02:19,791 - INFO - 💬 extraseonghwa: you tried to talk to the npc woman
+2025-08-07 17:02:19,799 - INFO - 💬 extraseonghwa: 😂😂
+2025-08-07 17:02:19,807 - INFO - 💬 extraseonghwa: yes
+2025-08-07 17:02:19,811 - INFO - 👍 dion.rudi8 liked (2)
+2025-08-07 17:02:19,812 - INFO - 🔢 [DEBUG] Viewer update: 75 viewers
+2025-08-07 17:02:19,813 - INFO - 🎁 extraseonghwa → Rosa x1 (10💎 = $0.050)
+2025-08-07 17:02:19,826 - INFO - 🎁 extraseonghwa → Hand Heart x1 (100💎 = $0.500)
+2025-08-07 17:02:19,936 - INFO - 🔢 [DEBUG] Viewer update: 75 viewers
+2025-08-07 17:02:21,714 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:02:21,714 - INFO - 👍 dion.rudi8 liked (15)
+2025-08-07 17:02:22,465 - INFO - 🎁 extraseonghwa → I love you x1 (10💎 = $0.050)
+2025-08-07 17:02:23,146 - INFO - 👍 dion.rudi8 liked (1)
+2025-08-07 17:02:23,149 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:02:27,165 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:02:27,982 - INFO - 🔢 [DEBUG] Viewer update: 75 viewers
+2025-08-07 17:02:29,360 - INFO - 🛑 Stopping tracker for @brockym_
+2025-08-07 17:02:29,623 - INFO - 👍 crlenec.451 liked (15)
+2025-08-07 17:02:34,398 - INFO - ❌ Disconnected from @brockym_ (Duration: 15s)
+2025-08-07 17:03:24,584 - INFO - ✅ Client initialized for @brockym_
+2025-08-07 17:03:24,585 - INFO - 🔧 Phase 3 Modular Tracker initialized for @brockym_
+2025-08-07 17:03:24,586 - INFO - 🚀 Started tracking @brockym_
+2025-08-07 17:03:25,725 - INFO - HTTP Request: GET https://www.tiktok.com/@brockym_/live? "HTTP/1.1 200 OK"
+2025-08-07 17:03:26,417 - INFO - HTTP Request: GET https://www.tiktok.com/api-live/user/room/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-CA&browser_name=Mozilla&browser_online=true&browser_platform=MacIntel&browser_version=5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2014.7%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=14&is_fullscreen=false&is_page_visible=true&screen_height=2880&screen_width=5120&tz_name=America/Toronto&channel=tiktok_web&data_collection_enabled=true&os=mac&priority_region=CA&region=CA&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@brockym_/live&root_referer=https://www.tiktok.com/@brockym_/live&device_id=63940728271248805194&uniqueId=brockym_&sourceType=54 "HTTP/1.1 200 OK"
+2025-08-07 17:03:26,851 - INFO - HTTP Request: GET https://webcast.tiktok.com/webcast/room/check_alive/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-CA&browser_name=Mozilla&browser_online=true&browser_platform=MacIntel&browser_version=5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2014.7%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=14&is_fullscreen=false&is_page_visible=true&screen_height=2880&screen_width=5120&tz_name=America/Toronto&channel=tiktok_web&data_collection_enabled=true&os=mac&priority_region=CA&region=CA&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@brockym_/live&root_referer=https://www.tiktok.com/@brockym_/live&device_id=86870444546704305386&room_id=7535705357079956229&room_ids=7535705357079956229 "HTTP/1.1 200 OK"
+2025-08-07 17:03:28,006 - INFO - HTTP Request: GET https://tiktok.eulerstream.com/webcast/fetch/?client=ttlive-python&room_id=7535705357079956229&user_agent=Mozilla%2F5.0+%28Macintosh%3B+Intel+Mac+OS+X+14.7%3B+rv%3A130.0%29+Gecko%2F20100101+Firefox%2F130.0 "HTTP/1.1 200 OK"
+2025-08-07 17:03:29,997 - INFO - 🔗 Connected to @brockym_ (Room: 7535705357079956229)
+2025-08-07 17:03:30,005 - INFO - 💬 extraseonghwa: good song
+2025-08-07 17:03:30,014 - INFO - 💬 extraseonghwa: yuh uh
+2025-08-07 17:03:30,022 - INFO - 💬 papajay1997: Adele - Neng o neng o neng o neng
+2025-08-07 17:03:30,033 - INFO - 💬 extraseonghwa: you tried to talk to the npc woman
+2025-08-07 17:03:30,042 - INFO - 💬 extraseonghwa: 😂😂
+2025-08-07 17:03:30,050 - INFO - 💬 extraseonghwa: yes
+2025-08-07 17:03:30,054 - INFO - 👍 dion.rudi8 liked (15)
+2025-08-07 17:03:30,057 - INFO - 🔢 [DEBUG] Viewer update: 90 viewers
+2025-08-07 17:03:30,089 - INFO - 🔢 [DEBUG] Viewer update: 90 viewers
+2025-08-07 17:03:30,395 - INFO - 👍 dion.rudi8 liked (14)
+2025-08-07 17:03:32,090 - INFO - 🎁 extraseonghwa → I love you x1 (10💎 = $0.050)
+2025-08-07 17:03:32,841 - INFO - 🔢 [DEBUG] Viewer update: 90 viewers
+2025-08-07 17:03:34,473 - INFO - 🔢 [DEBUG] Viewer update: 91 viewers
+2025-08-07 17:03:35,363 - INFO - 🔢 [DEBUG] Viewer update: 91 viewers
+2025-08-07 17:03:37,720 - INFO - 🔢 [DEBUG] Viewer update: 91 viewers
+2025-08-07 17:03:39,252 - INFO - 🔢 [DEBUG] Viewer update: 90 viewers
+2025-08-07 17:03:41,714 - INFO - 🔢 [DEBUG] Viewer update: 91 viewers
+2025-08-07 17:03:44,889 - INFO - 🔢 [DEBUG] Viewer update: 89 viewers
+2025-08-07 17:03:46,524 - INFO - 🔢 [DEBUG] Viewer update: 89 viewers
+2025-08-07 17:03:47,359 - INFO - 🔢 [DEBUG] Viewer update: 89 viewers
+2025-08-07 17:03:49,705 - INFO - 💬 papajay1997: fly this guy to the moon nella
+2025-08-07 17:03:49,847 - INFO - Application closed
+2025-08-07 17:03:49,913 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-8' coro=<WebSocketCommonProtocol.close_connection() running at C:\Users\adity\AppData\Local\Programs\Python\Python311\Lib\site-packages\websockets\legacy\protocol.py:1289> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\adity\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py:908, Task.task_wakeup()]> cb=[shield.<locals>._inner_done_callback() at C:\Users\adity\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py:891, shield.<locals>._inner_done_callback() at C:\Users\adity\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py:891]>
+2025-08-07 17:03:49,917 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-37' coro=<WebSocketCommonProtocol.close_connection() running at C:\Users\adity\AppData\Local\Programs\Python\Python311\Lib\site-packages\websockets\legacy\protocol.py:1289> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\adity\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py:908, Task.task_wakeup()]> cb=[shield.<locals>._inner_done_callback() at C:\Users\adity\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py:891, shield.<locals>._inner_done_callback() at C:\Users\adity\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py:891]>
+2025-08-07 17:03:49,921 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-25' coro=<TikTokLiveClient.disconnect() running at C:\Users\adity\AppData\Local\Programs\Python\Python311\Lib\site-packages\TikTokLive\client\client.py:239> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\adity\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py:908, Task.task_wakeup()]>>
+2025-08-07 17:03:49,921 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-28' coro=<<async_generator_athrow without __name__>()> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\adity\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py:908, Task.task_wakeup()]>>
+2025-08-07 17:03:49,921 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-61' coro=<TikTokLiveClient.disconnect() running at C:\Users\adity\AppData\Local\Programs\Python\Python311\Lib\site-packages\TikTokLive\client\client.py:239> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\adity\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py:908, Task.task_wakeup()]>>
+2025-08-07 17:03:49,922 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-64' coro=<<async_generator_athrow without __name__>()> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\adity\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py:908, Task.task_wakeup()]>>
+2025-08-07 17:11:04,732 - INFO - 🚀 Application initialization completed
+2025-08-07 17:11:04,796 - INFO - ✅ Core database components loaded
+2025-08-07 17:11:04,817 - INFO - ✅ Core TikTok components loaded
+2025-08-07 17:11:04,819 - INFO - ✅ Manager components loaded
+2025-08-07 17:11:04,829 - INFO - ✅ Arduino Phase 4 components loaded
+2025-08-07 17:11:04,829 - INFO - 🎯 All components loaded successfully
+2025-08-07 17:11:04,829 - INFO - ✅ Main window configured
+2025-08-07 17:11:04,835 - INFO - ✅ Menu bar created
+2025-08-07 17:11:05,347 - INFO - ✅ Toolbar created
+2025-08-07 17:11:05,347 - INFO - ✅ Notebook created
+2025-08-07 17:11:05,393 - INFO - ✅ Arduino status bar created
+2025-08-07 17:11:05,393 - INFO - 🎨 Complete UI structure built successfully
+2025-08-07 17:11:05,394 - INFO - Initializing database...
+2025-08-07 17:11:05,394 - INFO - Database tables created successfully
+2025-08-07 17:11:05,394 - INFO - ✅ Unified database initialized
+2025-08-07 17:11:05,395 - INFO - TabManagerLite initialized
+2025-08-07 17:11:05,506 - INFO - [OK] Live Feed tab created
+2025-08-07 17:11:05,506 - INFO - [OK] Live Feed tab initialized
+2025-08-07 17:11:05,506 - INFO - ✅ Live Feed tab created successfully
+2025-08-07 17:11:05,673 - INFO - ✅ Arduino Control tab added with unified database
+2025-08-07 17:11:05,681 - INFO - ✅ Arduino tab updated for account: @brockym_
+2025-08-07 17:11:05,681 - INFO - ✅ Arduino-tracker connection setup complete
+2025-08-07 17:11:05,681 - INFO - Account selected: @brockym_
+2025-08-07 17:11:05,681 - INFO - ✅ Loaded 3 accounts from unified database
+2025-08-07 17:11:05,682 - INFO - 🎯 Application initialization completed successfully
+2025-08-07 17:11:05,682 - INFO - 🚀 [START] TikTok Live Lite Application
+2025-08-07 17:11:07,689 - INFO - ✅ Client initialized for @brockym_
+2025-08-07 17:11:07,689 - INFO - 🔧 Phase 3 Modular Tracker initialized for @brockym_
+2025-08-07 17:11:07,689 - INFO - 🚀 Started tracking @brockym_
+2025-08-07 17:11:08,034 - INFO - HTTP Request: GET https://www.tiktok.com/@brockym_/live? "HTTP/1.1 200 OK"
+2025-08-07 17:11:08,697 - INFO - HTTP Request: GET https://www.tiktok.com/api-live/user/room/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-JM&browser_name=Mozilla&browser_online=true&browser_platform=Win32&browser_version=5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36%20Edg%2F128.0.2739.79&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=10&is_fullscreen=false&is_page_visible=true&screen_height=2160&screen_width=3840&tz_name=America/Jamaica&channel=tiktok_web&data_collection_enabled=true&os=windows&priority_region=JM&region=JM&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@brockym_/live&root_referer=https://www.tiktok.com/@brockym_/live&device_id=98020825909294242157&uniqueId=brockym_&sourceType=54 "HTTP/1.1 200 OK"
+2025-08-07 17:11:09,673 - INFO - HTTP Request: GET https://webcast.tiktok.com/webcast/room/check_alive/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-JM&browser_name=Mozilla&browser_online=true&browser_platform=Win32&browser_version=5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36%20Edg%2F128.0.2739.79&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=10&is_fullscreen=false&is_page_visible=true&screen_height=2160&screen_width=3840&tz_name=America/Jamaica&channel=tiktok_web&data_collection_enabled=true&os=windows&priority_region=JM&region=JM&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@brockym_/live&root_referer=https://www.tiktok.com/@brockym_/live&device_id=31047288792204534636&room_id=7535705357079956229&room_ids=7535705357079956229 "HTTP/1.1 200 OK"
+2025-08-07 17:11:10,667 - INFO - HTTP Request: GET https://tiktok.eulerstream.com/webcast/fetch/?client=ttlive-python&room_id=7535705357079956229&user_agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F129.0.0.0+Safari%2F537.36+Edg%2F128.0.2739.79 "HTTP/1.1 200 OK"
+2025-08-07 17:11:14,605 - INFO - 🔗 Connected to @brockym_ (Room: 7535705357079956229)
+2025-08-07 17:11:14,625 - INFO - 💬 ataaa_2306: @Papa Jay papa jay eat momo
+2025-08-07 17:11:14,637 - INFO - 💬 pikapikachuuuuuuu1: LETS GO W JOURNEY PASS
+2025-08-07 17:11:14,644 - INFO - 💬 extraseonghwa: good
+2025-08-07 17:11:14,652 - INFO - 💬 ataaa_2306: @nella where ninni
+2025-08-07 17:11:14,660 - INFO - 💬 extraseonghwa: @SuperAta🦸 somewhere with grandma
+2025-08-07 17:11:14,686 - INFO - 💬 ataaa_2306: why u number 1
+2025-08-07 17:11:14,691 - INFO - 🎁 extraseonghwa → Rosa x1 (10💎 = $0.050)
+2025-08-07 17:11:14,699 - INFO - 🔢 [DEBUG] Viewer update: 88 viewers
+2025-08-07 17:11:14,731 - INFO - 🔢 [DEBUG] Viewer update: 88 viewers
+2025-08-07 17:11:14,732 - INFO - 🔢 [DEBUG] Viewer update: 89 viewers
+2025-08-07 17:11:15,861 - INFO - 🔢 [DEBUG] Viewer update: 89 viewers
+2025-08-07 17:11:18,152 - INFO - 🔢 [DEBUG] Viewer update: 90 viewers
+2025-08-07 17:11:19,758 - INFO - 🔢 [DEBUG] Viewer update: 90 viewers
+2025-08-07 17:11:21,392 - INFO - 🔢 [DEBUG] Viewer update: 90 viewers
+2025-08-07 17:11:23,849 - INFO - 🔢 [DEBUG] Viewer update: 90 viewers
+2025-08-07 17:11:25,418 - INFO - 🔢 [DEBUG] Viewer update: 89 viewers
+2025-08-07 17:11:27,037 - INFO - 🔢 [DEBUG] Viewer update: 90 viewers
+2025-08-07 17:11:28,605 - INFO - 🎁 extraseonghwa → Rosa x1 (10💎 = $0.050)
+2025-08-07 17:11:32,673 - INFO - 🔢 [DEBUG] Viewer update: 91 viewers
+2025-08-07 17:11:36,565 - INFO - 🔢 [DEBUG] Viewer update: 91 viewers
+2025-08-07 17:11:38,213 - INFO - 🔢 [DEBUG] Viewer update: 92 viewers
+2025-08-07 17:11:40,659 - INFO - 🔢 [DEBUG] Viewer update: 92 viewers
+2025-08-07 17:11:40,663 - INFO - 💬 ataaa_2306: you must have a lot of minuses
+2025-08-07 17:11:41,500 - INFO - 🎁 extraseonghwa → Rose x1 (1💎 = $0.005)
+2025-08-07 17:11:41,501 - INFO - 🔢 [DEBUG] Viewer update: 93 viewers
+2025-08-07 17:11:44,353 - INFO - 🔢 [DEBUG] Viewer update: 93 viewers
+2025-08-07 17:11:46,998 - INFO - 🔢 [DEBUG] Viewer update: 93 viewers
+2025-08-07 17:11:46,999 - INFO - 🔢 [DEBUG] Viewer update: 93 viewers
+2025-08-07 17:11:51,814 - INFO - 🔢 [DEBUG] Viewer update: 91 viewers
+2025-08-07 17:11:54,187 - INFO - 💬 papajay1997: 211 wins is crazy
+2025-08-07 17:11:54,997 - INFO - 🔢 [DEBUG] Viewer update: 92 viewers
+2025-08-07 17:11:56,584 - INFO - 🔢 [DEBUG] Viewer update: 92 viewers
+2025-08-07 17:11:58,295 - INFO - 🔢 [DEBUG] Viewer update: 93 viewers
+2025-08-07 17:11:59,895 - INFO - 🔢 [DEBUG] Viewer update: 93 viewers
+2025-08-07 17:12:01,444 - INFO - 🔢 [DEBUG] Viewer update: 92 viewers
+2025-08-07 17:12:02,583 - INFO - 🎁 dunce__man → Rose x1 (1💎 = $0.005)
+2025-08-07 17:12:02,590 - INFO - 💬 extraseonghwa: oops
+2025-08-07 17:12:03,890 - INFO - 🔢 [DEBUG] Viewer update: 90 viewers
+2025-08-07 17:12:06,555 - INFO - 🔢 [DEBUG] Viewer update: 90 viewers
+2025-08-07 17:12:07,074 - INFO - 🔢 [DEBUG] Viewer update: 89 viewers
+2025-08-07 17:12:10,248 - INFO - 🔢 [DEBUG] Viewer update: 88 viewers
+2025-08-07 17:12:11,844 - INFO - 🔢 [DEBUG] Viewer update: 86 viewers
+2025-08-07 17:12:11,845 - INFO - 🎁 dunce__man → Rose x1 (1💎 = $0.005)
+2025-08-07 17:12:14,255 - INFO - 🔢 [DEBUG] Viewer update: 88 viewers
+2025-08-07 17:12:15,869 - INFO - 🔢 [DEBUG] Viewer update: 89 viewers
+2025-08-07 17:12:17,436 - INFO - 🔢 [DEBUG] Viewer update: 89 viewers
+2025-08-07 17:12:19,009 - INFO - 🔢 [DEBUG] Viewer update: 89 viewers
+2025-08-07 17:12:21,459 - INFO - 🔢 [DEBUG] Viewer update: 88 viewers
+2025-08-07 17:12:23,861 - INFO - 🔢 [DEBUG] Viewer update: 88 viewers
+2025-08-07 17:12:24,691 - INFO - 🎁 dunce__man → Rose x1 (1💎 = $0.005)
+2025-08-07 17:12:25,802 - INFO - 💬 extraseonghwa: i won’t minus because i gave him those wins
+2025-08-07 17:12:27,857 - INFO - 🔢 [DEBUG] Viewer update: 88 viewers
+2025-08-07 17:12:31,012 - INFO - 🔢 [DEBUG] Viewer update: 88 viewers
+2025-08-07 17:12:32,621 - INFO - 🔢 [DEBUG] Viewer update: 88 viewers
+2025-08-07 17:12:34,308 - INFO - 🔢 [DEBUG] Viewer update: 87 viewers
+2025-08-07 17:12:35,014 - INFO - 🔢 [DEBUG] Viewer update: 88 viewers
+2025-08-07 17:12:35,866 - INFO - 🎁 dunce__man → Rose x1 (1💎 = $0.005)
+2025-08-07 17:12:38,302 - INFO - 🔢 [DEBUG] Viewer update: 88 viewers
+2025-08-07 17:12:41,426 - INFO - 🔢 [DEBUG] Viewer update: 88 viewers
+2025-08-07 17:12:44,669 - INFO - 🔢 [DEBUG] Viewer update: 89 viewers
+2025-08-07 17:12:45,644 - INFO - 🔢 [DEBUG] Viewer update: 89 viewers
+2025-08-07 17:12:47,922 - INFO - 🎁 dunce__man → Rose x1 (1💎 = $0.005)
+2025-08-07 17:12:48,628 - INFO - 🔢 [DEBUG] Viewer update: 90 viewers
+2025-08-07 17:12:49,461 - INFO - 🔢 [DEBUG] Viewer update: 89 viewers
+2025-08-07 17:12:52,641 - INFO - 🔢 [DEBUG] Viewer update: 90 viewers
+2025-08-07 17:12:53,489 - INFO - 🔢 [DEBUG] Viewer update: 90 viewers
+2025-08-07 17:12:58,296 - INFO - 🔢 [DEBUG] Viewer update: 92 viewers
+2025-08-07 17:13:00,649 - INFO - 🔢 [DEBUG] Viewer update: 93 viewers
+2025-08-07 17:13:02,263 - INFO - 🔢 [DEBUG] Viewer update: 93 viewers
+2025-08-07 17:13:03,802 - INFO - 🔢 [DEBUG] Viewer update: 93 viewers
+2025-08-07 17:13:06,192 - INFO - 🔢 [DEBUG] Viewer update: 94 viewers
+2025-08-07 17:13:10,239 - INFO - 🔢 [DEBUG] Viewer update: 93 viewers
+2025-08-07 17:13:11,893 - INFO - 🔢 [DEBUG] Viewer update: 93 viewers
+2025-08-07 17:13:12,709 - INFO - 🎁 extraseonghwa → Rose x1 (1💎 = $0.005)
+2025-08-07 17:13:13,423 - INFO - 🔢 [DEBUG] Viewer update: 93 viewers
+2025-08-07 17:13:15,009 - INFO - 🔢 [DEBUG] Viewer update: 94 viewers
+2025-08-07 17:13:16,713 - INFO - 💬 papajay1997: 41 wins? ppl think in lazy bruh 🤣🤣🤣
+2025-08-07 17:13:17,617 - INFO - 🔢 [DEBUG] Viewer update: 94 viewers
+2025-08-07 17:13:19,874 - INFO - 🎁 extraseonghwa → Rose x1 (1💎 = $0.005)
+2025-08-07 17:13:22,253 - INFO - 🔢 [DEBUG] Viewer update: 93 viewers
+2025-08-07 17:13:23,871 - INFO - 🔢 [DEBUG] Viewer update: 94 viewers
+2025-08-07 17:13:25,524 - INFO - 🔢 [DEBUG] Viewer update: 95 viewers
+2025-08-07 17:13:26,246 - INFO - 💬 ataaa_2306: @nella lucas need minus mom
+2025-08-07 17:13:28,679 - INFO - 🎁 extraseonghwa → Rose x1 (1💎 = $0.005)
+2025-08-07 17:13:32,691 - INFO - 🔢 [DEBUG] Viewer update: 95 viewers
+2025-08-07 17:13:34,306 - INFO - 🔢 [DEBUG] Viewer update: 96 viewers
+2025-08-07 17:13:35,972 - INFO - 🎁 extraseonghwa → Rose x1 (1💎 = $0.005)
+2025-08-07 17:13:35,973 - INFO - 🔢 [DEBUG] Viewer update: 96 viewers
+2025-08-07 17:13:37,504 - INFO - 🔢 [DEBUG] Viewer update: 97 viewers
+2025-08-07 17:13:37,509 - INFO - 💬 extraseonghwa: @Papa Jay you aren’t??
+2025-08-07 17:13:40,693 - INFO - 🔢 [DEBUG] Viewer update: 96 viewers
+2025-08-07 17:13:41,477 - INFO - 🔢 [DEBUG] Viewer update: 96 viewers
+2025-08-07 17:13:43,057 - INFO - 🎁 extraseonghwa → Rose x1 (1💎 = $0.005)
+2025-08-07 17:13:44,031 - INFO - 🎁 k.tonix_ → Rose x1 (1💎 = $0.005)
+2025-08-07 17:13:45,476 - INFO - 🔢 [DEBUG] Viewer update: 96 viewers
+2025-08-07 17:13:47,928 - INFO - 🔢 [DEBUG] Viewer update: 96 viewers
+2025-08-07 17:13:49,444 - INFO - 🔢 [DEBUG] Viewer update: 95 viewers
+2025-08-07 17:13:50,258 - INFO - 💬 extraseonghwa: CLOWN VAN
+2025-08-07 17:13:51,919 - INFO - 🔢 [DEBUG] Viewer update: 95 viewers
+2025-08-07 17:13:53,454 - INFO - 🔢 [DEBUG] Viewer update: 96 viewers
+2025-08-07 17:14:00,276 - INFO - 🚀 Application initialization completed
+2025-08-07 17:14:00,365 - INFO - ✅ Core database components loaded
+2025-08-07 17:14:00,376 - INFO - ✅ Core TikTok components loaded
+2025-08-07 17:14:00,376 - INFO - ✅ Manager components loaded
+2025-08-07 17:14:00,391 - INFO - ✅ Arduino Phase 4 components loaded
+2025-08-07 17:14:00,391 - INFO - 🎯 All components loaded successfully
+2025-08-07 17:14:00,391 - INFO - ✅ Main window configured
+2025-08-07 17:14:00,397 - INFO - ✅ Menu bar created
+2025-08-07 17:14:00,966 - INFO - ✅ Toolbar created
+2025-08-07 17:14:00,967 - INFO - ✅ Notebook created
+2025-08-07 17:14:01,014 - INFO - ✅ Arduino status bar created
+2025-08-07 17:14:01,015 - INFO - 🎨 Complete UI structure built successfully
+2025-08-07 17:14:01,015 - INFO - Initializing database...
+2025-08-07 17:14:01,016 - INFO - Database tables created successfully
+2025-08-07 17:14:01,017 - INFO - ✅ Unified database initialized
+2025-08-07 17:14:01,017 - INFO - TabManagerLite initialized
+2025-08-07 17:14:01,135 - INFO - [OK] Live Feed tab created
+2025-08-07 17:14:01,136 - INFO - [OK] Live Feed tab initialized
+2025-08-07 17:14:01,136 - INFO - ✅ Live Feed tab created successfully
+2025-08-07 17:14:01,309 - INFO - ✅ Arduino Control tab added with unified database
+2025-08-07 17:14:01,320 - INFO - ✅ Arduino tab updated for account: @brockym_
+2025-08-07 17:14:01,320 - INFO - ✅ Arduino-tracker connection setup complete
+2025-08-07 17:14:01,320 - INFO - Account selected: @brockym_
+2025-08-07 17:14:01,321 - INFO - ✅ Loaded 3 accounts from unified database
+2025-08-07 17:14:01,321 - INFO - 🎯 Application initialization completed successfully
+2025-08-07 17:14:01,321 - INFO - 🚀 [START] TikTok Live Lite Application
+2025-08-07 17:14:03,803 - INFO - ✅ Client initialized for @brockym_
+2025-08-07 17:14:03,803 - INFO - 🔧 Phase 3 Modular Tracker initialized for @brockym_
+2025-08-07 17:14:03,803 - INFO - 🚀 Started tracking @brockym_
+2025-08-07 17:14:04,135 - INFO - HTTP Request: GET https://www.tiktok.com/@brockym_/live? "HTTP/1.1 200 OK"
+2025-08-07 17:14:04,644 - INFO - HTTP Request: GET https://www.tiktok.com/api-live/user/room/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-CA&browser_name=Mozilla&browser_online=true&browser_platform=Win32&browser_version=5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=5&is_fullscreen=false&is_page_visible=true&screen_height=2560&screen_width=1440&tz_name=America/Toronto&channel=tiktok_web&data_collection_enabled=true&os=windows&priority_region=CA&region=CA&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@brockym_/live&root_referer=https://www.tiktok.com/@brockym_/live&device_id=37661346112624674998&uniqueId=brockym_&sourceType=54 "HTTP/1.1 200 OK"
+2025-08-07 17:14:09,608 - INFO - HTTP Request: GET https://webcast.tiktok.com/webcast/room/check_alive/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-CA&browser_name=Mozilla&browser_online=true&browser_platform=Win32&browser_version=5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=5&is_fullscreen=false&is_page_visible=true&screen_height=2560&screen_width=1440&tz_name=America/Toronto&channel=tiktok_web&data_collection_enabled=true&os=windows&priority_region=CA&region=CA&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@brockym_/live&root_referer=https://www.tiktok.com/@brockym_/live&device_id=27672699658831990085&room_id=7535705357079956229&room_ids=7535705357079956229 "HTTP/1.1 200 OK"
+2025-08-07 17:14:10,648 - INFO - HTTP Request: GET https://tiktok.eulerstream.com/webcast/fetch/?client=ttlive-python&room_id=7535705357079956229&user_agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%3B+rv%3A130.0%29+Gecko%2F20100101+Firefox%2F130.0 "HTTP/1.1 200 OK"
+2025-08-07 17:14:11,838 - INFO - 🔗 Connected to @brockym_ (Room: 7535705357079956229)
+2025-08-07 17:14:11,866 - INFO - 💬 papajay1997: 41 wins? ppl think in lazy bruh 🤣🤣🤣
+2025-08-07 17:14:11,907 - INFO - 💬 ataaa_2306: @nella lucas need minus mom
+2025-08-07 17:14:11,917 - INFO - 💬 extraseonghwa: @Papa Jay you aren’t??
+2025-08-07 17:14:11,929 - INFO - 💬 extraseonghwa: CLOWN VAN
+2025-08-07 17:14:11,941 - INFO - 💬 extraseonghwa: this is my car fr
+2025-08-07 17:14:11,952 - INFO - 💬 pikapikachuuuuuuu1: @nella papa jay was trying very hard to win last night
+2025-08-07 17:14:12,002 - INFO - 🔢 [DEBUG] Viewer update: 92 viewers
+2025-08-07 17:14:13,529 - INFO - 🔢 [DEBUG] Viewer update: 92 viewers
+2025-08-07 17:14:15,983 - INFO - 🔢 [DEBUG] Viewer update: 92 viewers
+2025-08-07 17:14:19,164 - INFO - 🔢 [DEBUG] Viewer update: 91 viewers
+2025-08-07 17:14:19,169 - INFO - 💬 extraseonghwa: @Allergic Man 🫘🫘🫘 i knoww
+2025-08-07 17:14:23,152 - INFO - 👍 extraseonghwa liked (4)
+2025-08-07 17:14:24,177 - INFO - 🔢 [DEBUG] Viewer update: 91 viewers
+2025-08-07 17:14:24,797 - INFO - 💬 papajay1997: @SuperAta🦸 look bro, 41 wins?
+2025-08-07 17:14:25,504 - INFO - 🔢 [DEBUG] Viewer update: 92 viewers
+2025-08-07 17:14:26,304 - INFO - 👍 extraseonghwa liked (7)
+2025-08-07 17:14:27,990 - INFO - 🔢 [DEBUG] Viewer update: 91 viewers
+2025-08-07 17:14:30,331 - INFO - 💬 pikapikachuuuuuuu1: hence we should not let lucas win
+2025-08-07 17:14:31,173 - INFO - 🔢 [DEBUG] Viewer update: 90 viewers
+2025-08-07 17:14:32,686 - INFO - 🔢 [DEBUG] Viewer update: 90 viewers
+2025-08-07 17:14:35,136 - INFO - 🔢 [DEBUG] Viewer update: 90 viewers
+2025-08-07 17:14:37,516 - INFO - 🔢 [DEBUG] Viewer update: 91 viewers
+2025-08-07 17:14:39,895 - INFO - 💬 extraseonghwa: my van
+2025-08-07 17:14:40,874 - INFO - 🔢 [DEBUG] Viewer update: 92 viewers
+2025-08-07 17:14:42,344 - INFO - 🔢 [DEBUG] Viewer update: 92 viewers
+2025-08-07 17:14:44,017 - INFO - 🔢 [DEBUG] Viewer update: 92 viewers
+2025-08-07 17:14:46,000 - INFO - 💬 papajay1997: lucas got nella on his back
+2025-08-07 17:14:46,004 - INFO - 🔢 [DEBUG] Viewer update: 91 viewers
+2025-08-07 17:14:48,054 - INFO - 🔢 [DEBUG] Viewer update: 92 viewers
+2025-08-07 17:14:50,393 - INFO - 🔢 [DEBUG] Viewer update: 91 viewers
+2025-08-07 17:14:55,954 - INFO - 🔢 [DEBUG] Viewer update: 90 viewers
+2025-08-07 17:14:57,869 - INFO - 🔢 [DEBUG] Viewer update: 88 viewers
+2025-08-07 17:15:00,223 - INFO - 🔢 [DEBUG] Viewer update: 90 viewers
+2025-08-07 17:15:02,803 - INFO - 💬 ataaa_2306: @Papa Jay no bro, I think you will be minus a lot today 🤭
+2025-08-07 17:15:02,816 - INFO - 🔢 [DEBUG] Viewer update: 89 viewers
+2025-08-07 17:15:03,191 - INFO - 🔢 [DEBUG] Viewer update: 89 viewers
+2025-08-07 17:15:05,648 - INFO - 🔢 [DEBUG] Viewer update: 88 viewers
+2025-08-07 17:15:07,297 - INFO - 🔢 [DEBUG] Viewer update: 88 viewers
+2025-08-07 17:15:11,301 - INFO - 🔢 [DEBUG] Viewer update: 90 viewers
+2025-08-07 17:15:11,302 - INFO - 🔢 [DEBUG] Viewer update: 90 viewers
+2025-08-07 17:15:15,377 - INFO - 🔢 [DEBUG] Viewer update: 91 viewers
+2025-08-07 17:15:19,278 - INFO - 🔢 [DEBUG] Viewer update: 89 viewers
+2025-08-07 17:15:19,279 - INFO - 🔢 [DEBUG] Viewer update: 89 viewers
+2025-08-07 17:15:22,418 - INFO - 🔢 [DEBUG] Viewer update: 88 viewers
+2025-08-07 17:15:23,226 - INFO - 🔢 [DEBUG] Viewer update: 89 viewers
+2025-08-07 17:15:25,716 - INFO - 🔢 [DEBUG] Viewer update: 90 viewers
+2025-08-07 17:15:28,022 - INFO - 🔢 [DEBUG] Viewer update: 89 viewers
+2025-08-07 17:15:28,853 - INFO - 🎁 pikapikachuuuuuuu1 → Journey Pass x2 (20💎 = $0.100)
+2025-08-07 17:15:29,654 - INFO - 🔢 [DEBUG] Viewer update: 90 viewers
+2025-08-07 17:15:29,659 - INFO - 💬 papajay1997: @SuperAta🦸 hahaha i will 😂
+2025-08-07 17:15:29,676 - INFO - 💬 ataaa_2306: because you are suitable to be a grandmother
+2025-08-07 17:15:30,430 - INFO - 💬 extraseonghwa: i’ll leave if you guys want to stop him from winning
+2025-08-07 17:15:32,862 - INFO - 🔢 [DEBUG] Viewer update: 91 viewers
+2025-08-07 17:15:34,536 - INFO - 🔢 [DEBUG] Viewer update: 89 viewers
+2025-08-07 17:15:36,035 - INFO - 🔢 [DEBUG] Viewer update: 90 viewers
+2025-08-07 17:15:37,675 - INFO - 🔢 [DEBUG] Viewer update: 90 viewers
+2025-08-07 17:15:39,234 - INFO - 🔢 [DEBUG] Viewer update: 89 viewers
+2025-08-07 17:15:41,666 - INFO - 🔢 [DEBUG] Viewer update: 89 viewers
+2025-08-07 17:15:43,239 - INFO - 🔢 [DEBUG] Viewer update: 89 viewers
+2025-08-07 17:15:44,879 - INFO - 🎁 pikapikachuuuuuuu1 → Journey Pass x2 (20💎 = $0.100)
+2025-08-07 17:15:45,697 - INFO - 🔢 [DEBUG] Viewer update: 90 viewers
+2025-08-07 17:15:47,318 - INFO - 🔢 [DEBUG] Viewer update: 91 viewers
+2025-08-07 17:15:49,645 - INFO - 🔢 [DEBUG] Viewer update: 92 viewers
+2025-08-07 17:15:52,338 - INFO - 🔢 [DEBUG] Viewer update: 92 viewers
+2025-08-07 17:15:52,339 - INFO - 🎁 extraseonghwa → Rose x1 (1💎 = $0.005)
+2025-08-07 17:15:53,695 - INFO - 🔢 [DEBUG] Viewer update: 91 viewers
+2025-08-07 17:15:55,312 - INFO - 🔢 [DEBUG] Viewer update: 91 viewers
+2025-08-07 17:15:57,702 - INFO - 🎁 pikapikachuuuuuuu1 → Journey Pass x2 (20💎 = $0.100)
+2025-08-07 17:15:57,704 - INFO - 🔢 [DEBUG] Viewer update: 92 viewers
+2025-08-07 17:16:00,037 - INFO - 🔢 [DEBUG] Viewer update: 92 viewers
+2025-08-07 17:16:00,947 - INFO - 💬 ataaa_2306: chilaka baby photato
+2025-08-07 17:16:01,643 - INFO - 🔢 [DEBUG] Viewer update: 94 viewers
+2025-08-07 17:16:04,060 - INFO - 🔢 [DEBUG] Viewer update: 96 viewers
+2025-08-07 17:16:06,594 - INFO - 🔢 [DEBUG] Viewer update: 96 viewers
+2025-08-07 17:16:06,594 - INFO - 🎁 pikapikachuuuuuuu1 → Journey Pass x1 (10💎 = $0.050)
+2025-08-07 17:16:08,112 - INFO - 🔢 [DEBUG] Viewer update: 96 viewers
+2025-08-07 17:16:10,452 - INFO - 🔢 [DEBUG] Viewer update: 96 viewers
+2025-08-07 17:16:11,327 - INFO - 🔢 [DEBUG] Viewer update: 96 viewers
+2025-08-07 17:16:12,846 - INFO - 🔢 [DEBUG] Viewer update: 96 viewers
+2025-08-07 17:16:14,469 - INFO - 🎁 extraseonghwa → Rose x1 (1💎 = $0.005)
+2025-08-07 17:16:16,207 - INFO - 🔢 [DEBUG] Viewer update: 97 viewers
+2025-08-07 17:16:18,496 - INFO - 🔢 [DEBUG] Viewer update: 98 viewers
+2025-08-07 17:16:20,916 - INFO - 🔢 [DEBUG] Viewer update: 98 viewers
+2025-08-07 17:16:21,750 - INFO - 🎁 extraseonghwa → Rose x1 (1💎 = $0.005)
+2025-08-07 17:16:21,753 - INFO - 🔢 [DEBUG] Viewer update: 98 viewers
+2025-08-07 17:16:24,906 - INFO - 🔢 [DEBUG] Viewer update: 73 viewers
+2025-08-07 17:16:26,591 - INFO - 🔢 [DEBUG] Viewer update: 73 viewers
+2025-08-07 17:16:28,205 - INFO - 🔢 [DEBUG] Viewer update: 97 viewers
+2025-08-07 17:16:30,541 - INFO - 🔢 [DEBUG] Viewer update: 96 viewers
+2025-08-07 17:16:32,060 - INFO - 🔢 [DEBUG] Viewer update: 96 viewers
+2025-08-07 17:16:36,120 - INFO - 🔢 [DEBUG] Viewer update: 95 viewers
+2025-08-07 17:16:36,900 - INFO - 🔢 [DEBUG] Viewer update: 97 viewers
+2025-08-07 17:16:39,327 - INFO - 🔢 [DEBUG] Viewer update: 97 viewers
+2025-08-07 17:16:41,736 - INFO - 🔢 [DEBUG] Viewer update: 96 viewers
+2025-08-07 17:16:44,075 - INFO - 🔢 [DEBUG] Viewer update: 97 viewers
+2025-08-07 17:16:45,664 - INFO - 🎁 pikapikachuuuuuuu1 → Rose x10 (10💎 = $0.050)
+2025-08-07 17:16:46,514 - INFO - 🔢 [DEBUG] Viewer update: 95 viewers
+2025-08-07 17:16:48,064 - INFO - 🔢 [DEBUG] Viewer update: 94 viewers
+2025-08-07 17:16:50,476 - INFO - 🔢 [DEBUG] Viewer update: 94 viewers
+2025-08-07 17:16:52,146 - INFO - 🔢 [DEBUG] Viewer update: 94 viewers
+2025-08-07 17:16:55,415 - INFO - 🔢 [DEBUG] Viewer update: 93 viewers
+2025-08-07 17:16:56,088 - INFO - 💬 papajay1997: W allergic man
+2025-08-07 17:16:56,096 - INFO - 💬 pikapikachuuuuuuu1: 😂😂😂
+2025-08-07 17:16:58,653 - INFO - 🔢 [DEBUG] Viewer update: 93 viewers
+2025-08-07 17:16:58,654 - INFO - 👍 _.its._arm._ liked (15)
+2025-08-07 17:17:00,944 - INFO - 👍 _.its._arm._ liked (15)
+2025-08-07 17:17:03,323 - INFO - 👍 extraseonghwa liked (15)
+2025-08-07 17:17:04,244 - INFO - 🔢 [DEBUG] Viewer update: 93 viewers
+2025-08-07 17:17:05,821 - INFO - 👍 extraseonghwa liked (10)
+2025-08-07 17:17:05,825 - INFO - 🔢 [DEBUG] Viewer update: 91 viewers
+2025-08-07 17:17:07,427 - INFO - 🔢 [DEBUG] Viewer update: 92 viewers
+2025-08-07 17:17:09,764 - INFO - 🔢 [DEBUG] Viewer update: 91 viewers
+2025-08-07 17:17:10,577 - INFO - 🎁 pikapikachuuuuuuu1 → Rose x10 (10💎 = $0.050)
+2025-08-07 17:17:13,744 - INFO - 🔢 [DEBUG] Viewer update: 90 viewers
+2025-08-07 17:17:18,534 - INFO - 🔢 [DEBUG] Viewer update: 88 viewers
+2025-08-07 17:17:19,342 - INFO - 🔢 [DEBUG] Viewer update: 88 viewers
+2025-08-07 17:17:20,945 - INFO - 🔢 [DEBUG] Viewer update: 87 viewers
+2025-08-07 17:17:23,525 - INFO - 🔢 [DEBUG] Viewer update: 86 viewers
+2025-08-07 17:17:24,954 - INFO - 🔢 [DEBUG] Viewer update: 84 viewers
+2025-08-07 17:17:27,342 - INFO - 🔢 [DEBUG] Viewer update: 85 viewers
+2025-08-07 17:17:29,006 - INFO - 👍 _.its._arm._ liked (15)
+2025-08-07 17:17:30,650 - INFO - 🔢 [DEBUG] Viewer update: 85 viewers
+2025-08-07 17:17:31,346 - INFO - 👍 _.its._arm._ liked (15)
+2025-08-07 17:17:32,148 - INFO - 🔢 [DEBUG] Viewer update: 85 viewers
+2025-08-07 17:17:32,966 - INFO - 📤 benzlover94 shared the stream
+2025-08-07 17:17:33,830 - INFO - 👍 _.its._arm._ liked (15)
+2025-08-07 17:17:33,834 - INFO - 🔢 [DEBUG] Viewer update: 85 viewers
+2025-08-07 17:17:35,330 - INFO - 👍 _.its._arm._ liked (15)
+2025-08-07 17:17:36,177 - INFO - 🔢 [DEBUG] Viewer update: 85 viewers
+2025-08-07 17:17:36,955 - INFO - 👍 _.its._arm._ liked (15)
+2025-08-07 17:17:38,617 - INFO - 👍 _.its._arm._ liked (9)
+2025-08-07 17:17:38,621 - INFO - 🔢 [DEBUG] Viewer update: 85 viewers
+2025-08-07 17:17:39,463 - INFO - 🔢 [DEBUG] Viewer update: 85 viewers
+2025-08-07 17:17:40,959 - INFO - 🎁 pikapikachuuuuuuu1 → BFF Necklace x1 (10💎 = $0.050)
+2025-08-07 17:17:41,874 - INFO - 👍 daniel_135246 liked (3)
+2025-08-07 17:17:42,632 - INFO - 🔢 [DEBUG] Viewer update: 84 viewers
+2025-08-07 17:17:44,197 - INFO - 👍 daniel_135246 liked (8)
+2025-08-07 17:17:45,000 - INFO - 🔢 [DEBUG] Viewer update: 82 viewers
+2025-08-07 17:17:45,001 - INFO - 🔢 [DEBUG] Viewer update: 82 viewers
+2025-08-07 17:17:49,900 - INFO - 🔢 [DEBUG] Viewer update: 80 viewers
+2025-08-07 17:17:51,460 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:17:51,461 - INFO - 🎁 pikapikachuuuuuuu1 → BFF Necklace x1 (10💎 = $0.050)
+2025-08-07 17:17:52,197 - INFO - 👍 daniel_135246 liked (13)
+2025-08-07 17:17:54,741 - INFO - 👍 daniel_135246 liked (7)
+2025-08-07 17:17:54,747 - INFO - 🎁 pikapikachuuuuuuu1 → Journey Pass x1 (10💎 = $0.050)
+2025-08-07 17:17:55,443 - INFO - 🔢 [DEBUG] Viewer update: 80 viewers
+2025-08-07 17:17:57,063 - INFO - 🔢 [DEBUG] Viewer update: 80 viewers
+2025-08-07 17:17:58,712 - INFO - 👍 daniel_135246 liked (3)
+2025-08-07 17:17:59,549 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:18:01,886 - INFO - 👍 daniel_135246 liked (15)
+2025-08-07 17:18:02,635 - INFO - 🔢 [DEBUG] Viewer update: 80 viewers
+2025-08-07 17:18:03,422 - INFO - 👍 daniel_135246 liked (2)
+2025-08-07 17:18:04,252 - INFO - 🎁 pikapikachuuuuuuu1 → Journey Pass x2 (20💎 = $0.100)
+2025-08-07 17:18:06,907 - INFO - 🔢 [DEBUG] Viewer update: 81 viewers
+2025-08-07 17:18:07,616 - INFO - 🔢 [DEBUG] Viewer update: 81 viewers
+2025-08-07 17:18:10,860 - INFO - 🔢 [DEBUG] Viewer update: 82 viewers
+2025-08-07 17:18:13,819 - INFO - 🔢 [DEBUG] Viewer update: 82 viewers
+2025-08-07 17:18:15,500 - INFO - 🔢 [DEBUG] Viewer update: 83 viewers
+2025-08-07 17:18:17,979 - INFO - 🔢 [DEBUG] Viewer update: 82 viewers
+2025-08-07 17:18:20,312 - INFO - 🔢 [DEBUG] Viewer update: 81 viewers
+2025-08-07 17:18:22,829 - INFO - 💬 pikapikachuuuuuuu1: no flying naughty naughty
+2025-08-07 17:18:22,835 - INFO - 🔢 [DEBUG] Viewer update: 82 viewers
+2025-08-07 17:18:23,492 - INFO - 🔢 [DEBUG] Viewer update: 81 viewers
+2025-08-07 17:18:25,946 - INFO - 🔢 [DEBUG] Viewer update: 82 viewers
+2025-08-07 17:18:30,766 - INFO - 💬 pikapikachuuuuuuu1: @Papa Jay W 😂😂😂
+2025-08-07 17:18:31,552 - INFO - 🔢 [DEBUG] Viewer update: 81 viewers
+2025-08-07 17:18:31,553 - INFO - 🔢 [DEBUG] Viewer update: 81 viewers
+2025-08-07 17:18:33,196 - INFO - 🔢 [DEBUG] Viewer update: 81 viewers
+2025-08-07 17:18:34,804 - INFO - 🎁 extraseonghwa → Rose x1 (1💎 = $0.005)
+2025-08-07 17:18:35,771 - INFO - 🔢 [DEBUG] Viewer update: 80 viewers
+2025-08-07 17:18:37,120 - INFO - 🔢 [DEBUG] Viewer update: 81 viewers
+2025-08-07 17:18:41,178 - INFO - 🔢 [DEBUG] Viewer update: 80 viewers
+2025-08-07 17:18:42,107 - INFO - 💬 papajay1997: ukhti naughty
+2025-08-07 17:18:42,115 - INFO - 🔢 [DEBUG] Viewer update: 81 viewers
+2025-08-07 17:18:46,015 - INFO - 🔢 [DEBUG] Viewer update: 81 viewers
+2025-08-07 17:18:47,551 - INFO - 🔢 [DEBUG] Viewer update: 81 viewers
+2025-08-07 17:18:49,234 - INFO - 🔢 [DEBUG] Viewer update: 82 viewers
+2025-08-07 17:18:51,666 - INFO - 🔢 [DEBUG] Viewer update: 82 viewers
+2025-08-07 17:18:53,931 - INFO - 🔢 [DEBUG] Viewer update: 82 viewers
+2025-08-07 17:18:57,927 - INFO - 🔢 [DEBUG] Viewer update: 84 viewers
+2025-08-07 17:18:59,534 - INFO - 🔢 [DEBUG] Viewer update: 85 viewers
+2025-08-07 17:19:01,990 - INFO - 🔢 [DEBUG] Viewer update: 85 viewers
+2025-08-07 17:19:04,347 - INFO - 🔢 [DEBUG] Viewer update: 84 viewers
+2025-08-07 17:19:05,936 - INFO - 🔢 [DEBUG] Viewer update: 85 viewers
+2025-08-07 17:19:07,628 - INFO - 🔢 [DEBUG] Viewer update: 86 viewers
+2025-08-07 17:19:09,979 - INFO - 🔢 [DEBUG] Viewer update: 87 viewers
+2025-08-07 17:19:11,541 - INFO - 🔢 [DEBUG] Viewer update: 87 viewers
+2025-08-07 17:19:13,126 - INFO - 💬 nika.muza: უუუ რაა აიკაპოტაა😂😂
+2025-08-07 17:19:15,613 - INFO - 🔢 [DEBUG] Viewer update: 87 viewers
+2025-08-07 17:19:15,614 - INFO - 🔢 [DEBUG] Viewer update: 87 viewers
+2025-08-07 17:19:18,745 - INFO - 🔢 [DEBUG] Viewer update: 87 viewers
+2025-08-07 17:19:21,959 - INFO - 🔢 [DEBUG] Viewer update: 86 viewers
+2025-08-07 17:19:34,759 - INFO - 🔢 [DEBUG] Viewer update: 86 viewers
+2025-08-07 17:19:36,347 - INFO - 🔢 [DEBUG] Viewer update: 87 viewers
+2025-08-07 17:19:37,145 - INFO - 🔢 [DEBUG] Viewer update: 87 viewers
+2025-08-07 17:19:39,933 - INFO - 🔢 [DEBUG] Viewer update: 86 viewers
+2025-08-07 17:19:44,387 - INFO - 🔢 [DEBUG] Viewer update: 85 viewers
+2025-08-07 17:19:48,381 - INFO - 🔢 [DEBUG] Viewer update: 85 viewers
+2025-08-07 17:19:50,837 - INFO - 🔢 [DEBUG] Viewer update: 85 viewers
+2025-08-07 17:19:58,481 - INFO - 🚀 Application initialization completed
+2025-08-07 17:19:58,537 - INFO - ✅ Core database components loaded
+2025-08-07 17:19:58,543 - INFO - ✅ Core TikTok components loaded
+2025-08-07 17:19:58,543 - INFO - ✅ Manager components loaded
+2025-08-07 17:19:58,577 - INFO - ✅ Arduino Phase 4 components loaded
+2025-08-07 17:19:58,577 - INFO - 🎯 All components loaded successfully
+2025-08-07 17:19:58,577 - INFO - ✅ Main window configured
+2025-08-07 17:19:58,583 - INFO - ✅ Menu bar created
+2025-08-07 17:19:59,123 - INFO - ✅ Toolbar created
+2025-08-07 17:19:59,124 - INFO - ✅ Notebook created
+2025-08-07 17:19:59,171 - INFO - ✅ Arduino status bar created
+2025-08-07 17:19:59,171 - INFO - 🎨 Complete UI structure built successfully
+2025-08-07 17:19:59,171 - INFO - Initializing database...
+2025-08-07 17:19:59,173 - INFO - Database tables created successfully
+2025-08-07 17:19:59,173 - INFO - ✅ Unified database initialized
+2025-08-07 17:19:59,173 - INFO - TabManagerLite initialized
+2025-08-07 17:19:59,286 - INFO - [OK] Live Feed tab created
+2025-08-07 17:19:59,287 - INFO - [OK] Live Feed tab initialized
+2025-08-07 17:19:59,287 - INFO - ✅ Live Feed tab created successfully
+2025-08-07 17:19:59,452 - INFO - ✅ Arduino Control tab added with unified database
+2025-08-07 17:19:59,459 - INFO - ✅ Arduino tab updated for account: @brockym_
+2025-08-07 17:19:59,460 - INFO - ✅ Arduino-tracker connection setup complete
+2025-08-07 17:19:59,460 - INFO - Account selected: @brockym_
+2025-08-07 17:19:59,460 - INFO - ✅ Loaded 3 accounts from unified database
+2025-08-07 17:19:59,461 - INFO - 🎯 Application initialization completed successfully
+2025-08-07 17:19:59,461 - INFO - 🚀 [START] TikTok Live Lite Application
+2025-08-07 17:20:01,906 - INFO - ✅ Client initialized for @brockym_
+2025-08-07 17:20:01,907 - INFO - 🔧 Phase 3 Modular Tracker initialized for @brockym_
+2025-08-07 17:20:01,907 - INFO - 🚀 Started tracking @brockym_
+2025-08-07 17:20:02,804 - INFO - HTTP Request: GET https://www.tiktok.com/@brockym_/live? "HTTP/1.1 200 OK"
+2025-08-07 17:20:03,525 - INFO - HTTP Request: GET https://www.tiktok.com/api-live/user/room/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-IE&browser_name=Mozilla&browser_online=true&browser_platform=Win32&browser_version=5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36%20Edg%2F128.0.2739.79&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=6&is_fullscreen=false&is_page_visible=true&screen_height=1080&screen_width=1920&tz_name=Europe/Dublin&channel=tiktok_web&data_collection_enabled=true&os=windows&priority_region=IE&region=IE&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@brockym_/live&root_referer=https://www.tiktok.com/@brockym_/live&device_id=51963141008362640734&uniqueId=brockym_&sourceType=54 "HTTP/1.1 200 OK"
+2025-08-07 17:20:03,884 - INFO - HTTP Request: GET https://webcast.tiktok.com/webcast/room/check_alive/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-IE&browser_name=Mozilla&browser_online=true&browser_platform=Win32&browser_version=5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36%20Edg%2F128.0.2739.79&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=6&is_fullscreen=false&is_page_visible=true&screen_height=1080&screen_width=1920&tz_name=Europe/Dublin&channel=tiktok_web&data_collection_enabled=true&os=windows&priority_region=IE&region=IE&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@brockym_/live&root_referer=https://www.tiktok.com/@brockym_/live&device_id=83599064070286699086&room_id=7535705357079956229&room_ids=7535705357079956229 "HTTP/1.1 200 OK"
+2025-08-07 17:20:07,110 - INFO - HTTP Request: GET https://tiktok.eulerstream.com/webcast/fetch/?client=ttlive-python&room_id=7535705357079956229&user_agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F129.0.0.0+Safari%2F537.36+Edg%2F128.0.2739.79 "HTTP/1.1 200 OK"
+2025-08-07 17:20:08,701 - INFO - 🔗 Connected to @brockym_ (Room: 7535705357079956229)
+2025-08-07 17:20:08,722 - INFO - 💬 papajay1997: W allergic man
+2025-08-07 17:20:08,733 - INFO - 💬 pikapikachuuuuuuu1: 😂😂😂
+2025-08-07 17:20:08,756 - INFO - 💬 pikapikachuuuuuuu1: no flying naughty naughty
+2025-08-07 17:20:08,765 - INFO - 💬 pikapikachuuuuuuu1: @Papa Jay W 😂😂😂
+2025-08-07 17:20:08,775 - INFO - 💬 papajay1997: ukhti naughty
+2025-08-07 17:20:08,785 - INFO - 💬 nika.muza: უუუ რაა აიკაპოტაა😂😂
+2025-08-07 17:20:08,792 - INFO - 🔢 [DEBUG] Viewer update: 84 viewers
+2025-08-07 17:20:09,202 - INFO - 🔢 [DEBUG] Viewer update: 82 viewers
+2025-08-07 17:20:12,446 - INFO - 🔢 [DEBUG] Viewer update: 81 viewers
+2025-08-07 17:20:13,274 - INFO - 🔢 [DEBUG] Viewer update: 80 viewers
+2025-08-07 17:20:14,622 - INFO - 🛑 Stopping tracker for @brockym_
+2025-08-07 17:20:18,909 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:20:19,643 - INFO - 👍 extraseonghwa liked (15)
+2025-08-07 17:20:19,655 - INFO - ❌ Disconnected from @brockym_ (Duration: 11s)
+2025-08-07 17:20:20,827 - INFO - ✅ Client initialized for @brockym_
+2025-08-07 17:20:20,827 - INFO - 🔧 Phase 3 Modular Tracker initialized for @brockym_
+2025-08-07 17:20:20,829 - INFO - 🚀 Started tracking @brockym_
+2025-08-07 17:20:21,341 - INFO - HTTP Request: GET https://www.tiktok.com/@brockym_/live? "HTTP/1.1 200 OK"
+2025-08-07 17:20:22,056 - INFO - HTTP Request: GET https://www.tiktok.com/api-live/user/room/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-IE&browser_name=Mozilla&browser_online=true&browser_platform=Win32&browser_version=5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36%20Edg%2F128.0.2739.79&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=6&is_fullscreen=false&is_page_visible=true&screen_height=1080&screen_width=1920&tz_name=Europe/Dublin&channel=tiktok_web&data_collection_enabled=true&os=windows&priority_region=IE&region=IE&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@brockym_/live&root_referer=https://www.tiktok.com/@brockym_/live&device_id=10268451697164304734&uniqueId=brockym_&sourceType=54 "HTTP/1.1 200 OK"
+2025-08-07 17:20:22,877 - INFO - HTTP Request: GET https://webcast.tiktok.com/webcast/room/check_alive/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-IE&browser_name=Mozilla&browser_online=true&browser_platform=Win32&browser_version=5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36%20Edg%2F128.0.2739.79&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=6&is_fullscreen=false&is_page_visible=true&screen_height=1080&screen_width=1920&tz_name=Europe/Dublin&channel=tiktok_web&data_collection_enabled=true&os=windows&priority_region=IE&region=IE&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@brockym_/live&root_referer=https://www.tiktok.com/@brockym_/live&device_id=98593529767691848740&room_id=7535705357079956229&room_ids=7535705357079956229 "HTTP/1.1 200 OK"
+2025-08-07 17:20:26,093 - INFO - HTTP Request: GET https://tiktok.eulerstream.com/webcast/fetch/?client=ttlive-python&room_id=7535705357079956229&user_agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F129.0.0.0+Safari%2F537.36+Edg%2F128.0.2739.79 "HTTP/1.1 200 OK"
+2025-08-07 17:20:27,516 - INFO - 🔗 Connected to @brockym_ (Room: 7535705357079956229)
+2025-08-07 17:20:27,522 - INFO - 💬 papajay1997: W allergic man
+2025-08-07 17:20:27,530 - INFO - 💬 pikapikachuuuuuuu1: 😂😂😂
+2025-08-07 17:20:27,539 - INFO - 💬 pikapikachuuuuuuu1: no flying naughty naughty
+2025-08-07 17:20:27,547 - INFO - 💬 pikapikachuuuuuuu1: @Papa Jay W 😂😂😂
+2025-08-07 17:20:27,555 - INFO - 💬 papajay1997: ukhti naughty
+2025-08-07 17:20:27,563 - INFO - 💬 nika.muza: უუუ რაა აიკაპოტაა😂😂
+2025-08-07 17:20:27,566 - INFO - 👍 extraseonghwa liked (15)
+2025-08-07 17:20:27,569 - INFO - 🔢 [DEBUG] Viewer update: 80 viewers
+2025-08-07 17:20:27,672 - INFO - 🔢 [DEBUG] Viewer update: 81 viewers
+2025-08-07 17:20:28,520 - INFO - 👍 extraseonghwa liked (15)
+2025-08-07 17:20:30,049 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:20:30,877 - INFO - 👍 carmel6276 liked (2)
+2025-08-07 17:20:31,691 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:20:31,692 - INFO - 👍 extraseonghwa liked (15)
+2025-08-07 17:20:34,151 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:20:34,970 - INFO - 👍 extraseonghwa liked (15)
+2025-08-07 17:20:38,144 - INFO - 👍 extraseonghwa liked (15)
+2025-08-07 17:20:40,602 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:20:41,327 - INFO - 👍 extraseonghwa liked (15)
+2025-08-07 17:20:43,012 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:20:43,806 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:20:44,587 - INFO - 👍 extraseonghwa liked (15)
+2025-08-07 17:20:45,441 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:20:46,927 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:20:48,589 - INFO - 👍 extraseonghwa liked (15)
+2025-08-07 17:20:49,429 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:20:49,430 - INFO - 🎁 pikapikachuuuuuuu1 → Rose x10 (10💎 = $0.050)
+2025-08-07 17:20:51,781 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:20:51,781 - INFO - 👍 extraseonghwa liked (15)
+2025-08-07 17:20:53,341 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:20:55,011 - INFO - 👍 extraseonghwa liked (15)
+2025-08-07 17:20:55,764 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:20:58,260 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:20:58,261 - INFO - 👍 extraseonghwa liked (15)
+2025-08-07 17:20:59,756 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:21:01,391 - INFO - 🔢 [DEBUG] Viewer update: 80 viewers
+2025-08-07 17:21:02,130 - INFO - 👍 extraseonghwa liked (15)
+2025-08-07 17:21:03,862 - INFO - 👍 extraseonghwa liked (6)
+2025-08-07 17:21:03,864 - INFO - 🔢 [DEBUG] Viewer update: 80 viewers
+2025-08-07 17:21:07,040 - INFO - 🔢 [DEBUG] Viewer update: 80 viewers
+2025-08-07 17:21:07,040 - INFO - 🔢 [DEBUG] Viewer update: 81 viewers
+2025-08-07 17:21:07,742 - INFO - 🎁 emi73622 → Rose x1 (1💎 = $0.005)
+2025-08-07 17:21:10,128 - INFO - 🔢 [DEBUG] Viewer update: 80 viewers
+2025-08-07 17:21:14,191 - INFO - 🔢 [DEBUG] Viewer update: 80 viewers
+2025-08-07 17:21:15,731 - INFO - 🔢 [DEBUG] Viewer update: 81 viewers
+2025-08-07 17:21:17,482 - INFO - 🔢 [DEBUG] Viewer update: 80 viewers
+2025-08-07 17:21:19,827 - INFO - 🔢 [DEBUG] Viewer update: 81 viewers
+2025-08-07 17:21:21,331 - INFO - 🎁 pikapikachuuuuuuu1 → Rose x5 (5💎 = $0.025)
+2025-08-07 17:21:22,154 - INFO - 🔢 [DEBUG] Viewer update: 82 viewers
+2025-08-07 17:21:23,891 - INFO - 🔢 [DEBUG] Viewer update: 83 viewers
+2025-08-07 17:21:26,150 - INFO - 🔢 [DEBUG] Viewer update: 83 viewers
+2025-08-07 17:21:28,543 - INFO - 🔢 [DEBUG] Viewer update: 84 viewers
+2025-08-07 17:21:30,321 - INFO - 🔢 [DEBUG] Viewer update: 85 viewers
+2025-08-07 17:21:31,007 - INFO - 🔢 [DEBUG] Viewer update: 85 viewers
+2025-08-07 17:21:34,410 - INFO - 🔢 [DEBUG] Viewer update: 86 viewers
+2025-08-07 17:21:35,158 - INFO - 🎁 pikapikachuuuuuuu1 → Rose x5 (5💎 = $0.025)
+2025-08-07 17:21:35,161 - INFO - 🔢 [DEBUG] Viewer update: 86 viewers
+2025-08-07 17:21:37,333 - INFO - 🔢 [DEBUG] Viewer update: 86 viewers
+2025-08-07 17:21:39,800 - INFO - 🔢 [DEBUG] Viewer update: 87 viewers
+2025-08-07 17:21:42,972 - INFO - 🔢 [DEBUG] Viewer update: 87 viewers
+2025-08-07 17:21:44,610 - INFO - 🔢 [DEBUG] Viewer update: 87 viewers
+2025-08-07 17:21:46,979 - INFO - 🔢 [DEBUG] Viewer update: 86 viewers
+2025-08-07 17:21:49,417 - INFO - 🔢 [DEBUG] Viewer update: 87 viewers
+2025-08-07 17:21:50,972 - INFO - 💬 extraseonghwa: meow
+2025-08-07 17:21:54,219 - INFO - 🔢 [DEBUG] Viewer update: 87 viewers
+2025-08-07 17:21:56,597 - INFO - 👍 extraseonghwa liked (7)
+2025-08-07 17:21:56,599 - INFO - 🔢 [DEBUG] Viewer update: 86 viewers
+2025-08-07 17:21:57,409 - INFO - 👍 extraseonghwa liked (2)
+2025-08-07 17:21:59,761 - INFO - 👍 extraseonghwa liked (2)
+2025-08-07 17:22:00,591 - INFO - 🔢 [DEBUG] Viewer update: 86 viewers
+2025-08-07 17:22:01,521 - INFO - 🔢 [DEBUG] Viewer update: 86 viewers
+2025-08-07 17:22:01,522 - INFO - 👍 extraseonghwa liked (4)
+2025-08-07 17:22:02,951 - INFO - 🔢 [DEBUG] Viewer update: 85 viewers
+2025-08-07 17:22:05,406 - INFO - 🔢 [DEBUG] Viewer update: 84 viewers
+2025-08-07 17:22:05,406 - INFO - 👍 extraseonghwa liked (12)
+2025-08-07 17:22:07,859 - INFO - 🔢 [DEBUG] Viewer update: 86 viewers
+2025-08-07 17:22:08,542 - INFO - 👍 extraseonghwa liked (4)
+2025-08-07 17:22:09,386 - INFO - 🔢 [DEBUG] Viewer update: 85 viewers
+2025-08-07 17:22:11,858 - INFO - 🔢 [DEBUG] Viewer update: 85 viewers
+2025-08-07 17:22:11,858 - INFO - 👍 extraseonghwa liked (8)
+2025-08-07 17:22:13,485 - INFO - 🔢 [DEBUG] Viewer update: 85 viewers
+2025-08-07 17:22:15,837 - INFO - 🔢 [DEBUG] Viewer update: 85 viewers
+2025-08-07 17:22:17,476 - INFO - 🔢 [DEBUG] Viewer update: 85 viewers
+2025-08-07 17:22:19,018 - INFO - 🔢 [DEBUG] Viewer update: 84 viewers
+2025-08-07 17:22:21,638 - INFO - 🔢 [DEBUG] Viewer update: 83 viewers
+2025-08-07 17:22:23,053 - INFO - 🔢 [DEBUG] Viewer update: 82 viewers
+2025-08-07 17:22:25,461 - INFO - 🔢 [DEBUG] Viewer update: 85 viewers
+2025-08-07 17:22:26,281 - INFO - 👍 extraseonghwa liked (15)
+2025-08-07 17:22:27,853 - INFO - 🔢 [DEBUG] Viewer update: 82 viewers
+2025-08-07 17:22:29,476 - INFO - 👍 extraseonghwa liked (15)
+2025-08-07 17:22:29,481 - INFO - 🔢 [DEBUG] Viewer update: 81 viewers
+2025-08-07 17:22:30,308 - INFO - 🎁 pikapikachuuuuuuu1 → Journey Pass x1 (10💎 = $0.050)
+2025-08-07 17:22:32,629 - INFO - 👍 extraseonghwa liked (15)
+2025-08-07 17:22:34,268 - INFO - 🔢 [DEBUG] Viewer update: 80 viewers
+2025-08-07 17:22:35,919 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:22:35,919 - INFO - 👍 extraseonghwa liked (15)
+2025-08-07 17:22:36,630 - INFO - 👍 extraseonghwa liked (3)
+2025-08-07 17:22:38,263 - INFO - 🔢 [DEBUG] Viewer update: 80 viewers
+2025-08-07 17:22:40,014 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:22:41,441 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:22:43,836 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:22:45,467 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:22:47,167 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:22:49,425 - INFO - 🔢 [DEBUG] Viewer update: 75 viewers
+2025-08-07 17:22:50,246 - INFO - 🎁 pikapikachuuuuuuu1 → I love you x1 (10💎 = $0.050)
+2025-08-07 17:22:52,711 - INFO - 👍 extraseonghwa liked (15)
+2025-08-07 17:22:52,714 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:22:53,522 - INFO - 👍 extraseonghwa liked (3)
+2025-08-07 17:22:55,876 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:22:58,232 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:22:59,871 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:23:01,511 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:23:05,507 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:23:07,918 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:23:10,326 - INFO - 💬 extraseonghwa: never enough
+2025-08-07 17:23:12,637 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:23:13,497 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:23:15,845 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:23:17,483 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:23:20,658 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:23:21,479 - INFO - 🎁 extraseonghwa → Rose x1 (1💎 = $0.005)
+2025-08-07 17:23:22,296 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:23:23,129 - INFO - 🎁 pikapikachuuuuuuu1 → I love you x1 (10💎 = $0.050)
+2025-08-07 17:23:26,301 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:23:27,880 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:23:29,571 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:23:31,097 - INFO - 🎁 extraseonghwa → Rose x1 (1💎 = $0.005)
+2025-08-07 17:23:31,104 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:23:32,652 - INFO - 🎁 pikapikachuuuuuuu1 → Journey Pass x1 (10💎 = $0.050)
+2025-08-07 17:23:35,103 - INFO - 🔢 [DEBUG] Viewer update: 75 viewers
+2025-08-07 17:23:36,734 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:23:40,729 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:23:41,521 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:23:44,004 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:23:47,399 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:23:49,532 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:23:50,367 - INFO - 🎁 pikapikachuuuuuuu1 → I love you x1 (10💎 = $0.050)
+2025-08-07 17:23:55,189 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:23:55,189 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:23:57,528 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:23:59,274 - INFO - 🎁 pikapikachuuuuuuu1 → Journey Pass x1 (10💎 = $0.050)
+2025-08-07 17:23:59,980 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:24:03,920 - INFO - 💬 papajay1997: nella, he is talking to a woman before, dang when you not here nella he do crazy things
+2025-08-07 17:24:04,791 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:24:06,315 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:24:07,966 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:24:09,606 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:24:14,419 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:24:15,968 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:24:15,969 - INFO - 🎁 pikapikachuuuuuuu1 → I love you x1 (10💎 = $0.050)
+2025-08-07 17:24:17,594 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:24:19,986 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:24:21,567 - INFO - 🎁 pikapikachuuuuuuu1 → BFF Necklace x1 (10💎 = $0.050)
+2025-08-07 17:24:21,572 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:24:23,933 - INFO - 🔢 [DEBUG] Viewer update: 82 viewers
+2025-08-07 17:24:25,595 - INFO - 💬 extraseonghwa: 😂😂
+2025-08-07 17:24:25,601 - INFO - 🔢 [DEBUG] Viewer update: 83 viewers
+2025-08-07 17:24:27,128 - INFO - 🔢 [DEBUG] Viewer update: 82 viewers
+2025-08-07 17:24:29,574 - INFO - 🔢 [DEBUG] Viewer update: 83 viewers
+2025-08-07 17:24:32,044 - INFO - 🔢 [DEBUG] Viewer update: 83 viewers
+2025-08-07 17:24:33,590 - INFO - 🎁 pikapikachuuuuuuu1 → BFF Necklace x1 (10💎 = $0.050)
+2025-08-07 17:24:33,593 - INFO - 🔢 [DEBUG] Viewer update: 86 viewers
+2025-08-07 17:24:35,942 - INFO - 🔢 [DEBUG] Viewer update: 86 viewers
+2025-08-07 17:24:38,350 - INFO - 💬 extraseonghwa: that would work if i wasn’t here the whole time
+2025-08-07 17:24:40,837 - INFO - 🔢 [DEBUG] Viewer update: 87 viewers
+2025-08-07 17:24:43,195 - INFO - 🔢 [DEBUG] Viewer update: 86 viewers
+2025-08-07 17:24:43,947 - INFO - 🔢 [DEBUG] Viewer update: 86 viewers
+2025-08-07 17:24:45,670 - INFO - 🔢 [DEBUG] Viewer update: 87 viewers
+2025-08-07 17:24:47,190 - INFO - 🔢 [DEBUG] Viewer update: 87 viewers
+2025-08-07 17:24:49,973 - INFO - 🔢 [DEBUG] Viewer update: 89 viewers
+2025-08-07 17:24:52,006 - INFO - 👍 extraseonghwa liked (15)
+2025-08-07 17:24:52,819 - INFO - 🔢 [DEBUG] Viewer update: 91 viewers
+2025-08-07 17:24:54,460 - INFO - 🔢 [DEBUG] Viewer update: 92 viewers
+2025-08-07 17:24:55,204 - INFO - 👍 extraseonghwa liked (15)
+2025-08-07 17:24:56,007 - INFO - 👍 extraseonghwa liked (2)
+2025-08-07 17:24:56,843 - INFO - 🔢 [DEBUG] Viewer update: 93 viewers
+2025-08-07 17:24:56,843 - INFO - 👍 extraseonghwa liked (4)
+2025-08-07 17:25:00,119 - INFO - 🔢 [DEBUG] Viewer update: 93 viewers
+2025-08-07 17:25:01,688 - INFO - 🔢 [DEBUG] Viewer update: 93 viewers
+2025-08-07 17:25:04,882 - INFO - 🔢 [DEBUG] Viewer update: 94 viewers
+2025-08-07 17:25:05,652 - INFO - 🔢 [DEBUG] Viewer update: 96 viewers
+2025-08-07 17:25:08,024 - INFO - 🔢 [DEBUG] Viewer update: 96 viewers
+2025-08-07 17:25:10,404 - INFO - 🔢 [DEBUG] Viewer update: 96 viewers
+2025-08-07 17:25:12,804 - INFO - 🔢 [DEBUG] Viewer update: 96 viewers
+2025-08-07 17:25:13,708 - INFO - 🔢 [DEBUG] Viewer update: 97 viewers
+2025-08-07 17:25:15,214 - INFO - 🔢 [DEBUG] Viewer update: 98 viewers
+2025-08-07 17:25:17,710 - INFO - 🔢 [DEBUG] Viewer update: 72 viewers
+2025-08-07 17:25:17,710 - INFO - 👍 qayum.jan.zahiri liked (1)
+2025-08-07 17:25:20,076 - INFO - 🔢 [DEBUG] Viewer update: 73 viewers
+2025-08-07 17:25:21,699 - INFO - 🔢 [DEBUG] Viewer update: 74 viewers
+2025-08-07 17:25:24,023 - INFO - 🔢 [DEBUG] Viewer update: 74 viewers
+2025-08-07 17:25:25,650 - INFO - 🔢 [DEBUG] Viewer update: 74 viewers
+2025-08-07 17:25:27,268 - INFO - 🔢 [DEBUG] Viewer update: 74 viewers
+2025-08-07 17:25:29,624 - INFO - 🔢 [DEBUG] Viewer update: 74 viewers
+2025-08-07 17:25:31,228 - INFO - 🔢 [DEBUG] Viewer update: 98 viewers
+2025-08-07 17:25:34,426 - INFO - 🔢 [DEBUG] Viewer update: 73 viewers
+2025-08-07 17:25:35,243 - INFO - 🔢 [DEBUG] Viewer update: 73 viewers
+2025-08-07 17:25:38,452 - INFO - 🔢 [DEBUG] Viewer update: 96 viewers
+2025-08-07 17:25:40,060 - INFO - 🔢 [DEBUG] Viewer update: 94 viewers
+2025-08-07 17:25:44,835 - INFO - 👍 extraseonghwa liked (15)
+2025-08-07 17:25:47,245 - INFO - 🔢 [DEBUG] Viewer update: 94 viewers
+2025-08-07 17:25:48,061 - INFO - 🔢 [DEBUG] Viewer update: 95 viewers
+2025-08-07 17:25:48,062 - INFO - 👍 extraseonghwa liked (15)
+2025-08-07 17:25:49,672 - INFO - 🔢 [DEBUG] Viewer update: 93 viewers
+2025-08-07 17:25:50,509 - INFO - 👍 extraseonghwa liked (9)
+2025-08-07 17:25:51,235 - INFO - 🔢 [DEBUG] Viewer update: 93 viewers
+2025-08-07 17:25:52,837 - INFO - 🎁 extraseonghwa → Rose x1 (1💎 = $0.005)
+2025-08-07 17:25:53,709 - INFO - 🔢 [DEBUG] Viewer update: 91 viewers
+2025-08-07 17:25:55,242 - INFO - 🔢 [DEBUG] Viewer update: 89 viewers
+2025-08-07 17:25:57,658 - INFO - 🔢 [DEBUG] Viewer update: 88 viewers
+2025-08-07 17:25:59,298 - INFO - 🔢 [DEBUG] Viewer update: 88 viewers
+2025-08-07 17:26:01,661 - INFO - 🔢 [DEBUG] Viewer update: 90 viewers
+2025-08-07 17:26:02,458 - INFO - 🎁 extraseonghwa → Rose x1 (1💎 = $0.005)
+2025-08-07 17:26:04,908 - INFO - 🔢 [DEBUG] Viewer update: 89 viewers
+2025-08-07 17:26:05,724 - INFO - 🔢 [DEBUG] Viewer update: 88 viewers
+2025-08-07 17:26:07,373 - INFO - 👍 akbar.fahlevi3 liked (15)
+2025-08-07 17:26:07,377 - INFO - 🔢 [DEBUG] Viewer update: 88 viewers
+2025-08-07 17:26:08,891 - INFO - 👍 akbar.fahlevi3 liked (15)
+2025-08-07 17:26:09,657 - INFO - 🔢 [DEBUG] Viewer update: 88 viewers
+2025-08-07 17:26:10,541 - INFO - 👍 akbar.fahlevi3 liked (15)
+2025-08-07 17:26:11,271 - INFO - 🔢 [DEBUG] Viewer update: 87 viewers
+2025-08-07 17:26:12,090 - INFO - 🎁 extraseonghwa → Rose x1 (1💎 = $0.005)
+2025-08-07 17:26:12,863 - INFO - 👍 akbar.fahlevi3 liked (15)
+2025-08-07 17:26:14,562 - INFO - 👍 akbar.fahlevi3 liked (15)
+2025-08-07 17:26:15,238 - INFO - 👍 akbar.fahlevi3 liked (15)
+2025-08-07 17:26:16,896 - INFO - 👍 akbar.fahlevi3 liked (15)
+2025-08-07 17:26:16,899 - INFO - 🔢 [DEBUG] Viewer update: 85 viewers
+2025-08-07 17:26:17,649 - INFO - 🔢 [DEBUG] Viewer update: 85 viewers
+2025-08-07 17:26:18,449 - INFO - 👍 akbar.fahlevi3 liked (15)
+2025-08-07 17:26:20,175 - INFO - 🔢 [DEBUG] Viewer update: 81 viewers
+2025-08-07 17:26:20,175 - INFO - 👍 akbar.fahlevi3 liked (15)
+2025-08-07 17:26:21,646 - INFO - 👍 akbar.fahlevi3 liked (15)
+2025-08-07 17:26:22,487 - INFO - 🔢 [DEBUG] Viewer update: 81 viewers
+2025-08-07 17:26:23,248 - INFO - 👍 akbar.fahlevi3 liked (15)
+2025-08-07 17:26:24,160 - INFO - 🔢 [DEBUG] Viewer update: 80 viewers
+2025-08-07 17:26:24,868 - INFO - 👍 akbar.fahlevi3 liked (15)
+2025-08-07 17:26:26,627 - INFO - 👍 akbar.fahlevi3 liked (15)
+2025-08-07 17:26:26,630 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:26:31,259 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:26:36,053 - INFO - 👍 extraseonghwa liked (15)
+2025-08-07 17:26:39,298 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:26:39,299 - INFO - 👍 extraseonghwa liked (15)
+2025-08-07 17:26:42,498 - INFO - 👍 extraseonghwa liked (15)
+2025-08-07 17:26:42,500 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:26:43,323 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:26:44,865 - INFO - 👍 extraseonghwa liked (15)
+2025-08-07 17:26:48,123 - INFO - 👍 extraseonghwa liked (15)
+2025-08-07 17:26:49,671 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:26:51,269 - INFO - 👍 ___peet___ liked (15)
+2025-08-07 17:26:52,070 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:26:53,670 - INFO - 👍 ___peet___ liked (10)
+2025-08-07 17:26:54,583 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:26:54,586 - INFO - 👍 extraseonghwa liked (15)
+2025-08-07 17:26:55,297 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:26:57,686 - INFO - 👍 extraseonghwa liked (15)
+2025-08-07 17:26:59,408 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:26:59,409 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:26:59,409 - INFO - 👍 ___peet___ liked (15)
+2025-08-07 17:27:00,918 - INFO - 👍 extraseonghwa liked (15)
+2025-08-07 17:27:00,922 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:27:02,476 - INFO - 👍 ___peet___ liked (14)
+2025-08-07 17:27:04,219 - INFO - 👍 extraseonghwa liked (15)
+2025-08-07 17:27:04,222 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:27:06,565 - INFO - 👍 extraseonghwa liked (8)
+2025-08-07 17:27:06,569 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:27:08,892 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:27:10,480 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:27:11,283 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:27:14,546 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:27:15,361 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:27:27,431 - INFO - 🚀 Application initialization completed
+2025-08-07 17:27:27,527 - INFO - ✅ Core database components loaded
+2025-08-07 17:27:27,535 - INFO - ✅ Core TikTok components loaded
+2025-08-07 17:27:27,535 - INFO - ✅ Manager components loaded
+2025-08-07 17:27:27,596 - INFO - ✅ Arduino Phase 4 components loaded
+2025-08-07 17:27:27,597 - INFO - 🎯 All components loaded successfully
+2025-08-07 17:27:27,597 - INFO - ✅ Main window configured
+2025-08-07 17:27:27,607 - INFO - ✅ Menu bar created
+2025-08-07 17:27:28,172 - INFO - ✅ Toolbar created
+2025-08-07 17:27:28,173 - INFO - ✅ Notebook created
+2025-08-07 17:27:28,222 - INFO - ✅ Arduino status bar created
+2025-08-07 17:27:28,223 - INFO - 🎨 Complete UI structure built successfully
+2025-08-07 17:27:28,223 - INFO - Initializing database...
+2025-08-07 17:27:28,225 - INFO - Database tables created successfully
+2025-08-07 17:27:28,225 - INFO - ✅ Unified database initialized
+2025-08-07 17:27:28,225 - INFO - TabManagerLite initialized
+2025-08-07 17:27:28,390 - INFO - [OK] Live Feed tab created
+2025-08-07 17:27:28,391 - INFO - [OK] Live Feed tab initialized
+2025-08-07 17:27:28,391 - INFO - ✅ Live Feed tab created successfully
+2025-08-07 17:27:28,620 - INFO - ✅ Arduino Control tab added with unified database
+2025-08-07 17:27:28,629 - INFO - ✅ Arduino tab updated for account: @brockym_
+2025-08-07 17:27:28,629 - INFO - ✅ Arduino-tracker connection setup complete
+2025-08-07 17:27:28,629 - INFO - Account selected: @brockym_
+2025-08-07 17:27:28,630 - INFO - ✅ Loaded 3 accounts from unified database
+2025-08-07 17:27:28,630 - INFO - 🎯 Application initialization completed successfully
+2025-08-07 17:27:28,630 - INFO - 🚀 [START] TikTok Live Lite Application
+2025-08-07 17:27:31,032 - INFO - ✅ Client initialized for @brockym_
+2025-08-07 17:27:31,033 - INFO - 🔧 Phase 3 Modular Tracker initialized for @brockym_
+2025-08-07 17:27:31,033 - INFO - 🚀 Started tracking @brockym_
+2025-08-07 17:27:31,442 - INFO - HTTP Request: GET https://www.tiktok.com/@brockym_/live? "HTTP/1.1 200 OK"
+2025-08-07 17:27:32,142 - INFO - HTTP Request: GET https://www.tiktok.com/api-live/user/room/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-IE&browser_name=Mozilla&browser_online=true&browser_platform=MacIntel&browser_version=5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2010_15_7%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=11&is_fullscreen=false&is_page_visible=true&screen_height=2160&screen_width=4096&tz_name=Europe/Dublin&channel=tiktok_web&data_collection_enabled=true&os=mac&priority_region=IE&region=IE&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@brockym_/live&root_referer=https://www.tiktok.com/@brockym_/live&device_id=83470835595438563745&uniqueId=brockym_&sourceType=54 "HTTP/1.1 200 OK"
+2025-08-07 17:27:32,554 - INFO - HTTP Request: GET https://webcast.tiktok.com/webcast/room/check_alive/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-IE&browser_name=Mozilla&browser_online=true&browser_platform=MacIntel&browser_version=5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2010_15_7%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=11&is_fullscreen=false&is_page_visible=true&screen_height=2160&screen_width=4096&tz_name=Europe/Dublin&channel=tiktok_web&data_collection_enabled=true&os=mac&priority_region=IE&region=IE&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@brockym_/live&root_referer=https://www.tiktok.com/@brockym_/live&device_id=22480806841067842315&room_id=7535705357079956229&room_ids=7535705357079956229 "HTTP/1.1 200 OK"
+2025-08-07 17:27:33,483 - INFO - HTTP Request: GET https://tiktok.eulerstream.com/webcast/fetch/?client=ttlive-python&room_id=7535705357079956229&user_agent=Mozilla%2F5.0+%28Macintosh%3B+Intel+Mac+OS+X+10_15_7%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F129.0.0.0+Safari%2F537.36 "HTTP/1.1 200 OK"
+2025-08-07 17:27:35,939 - INFO - 🔗 Connected to @brockym_ (Room: 7535705357079956229)
+2025-08-07 17:27:35,963 - INFO - 💬 nika.muza: უუუ რაა აიკაპოტაა😂😂
+2025-08-07 17:27:35,985 - INFO - 💬 extraseonghwa: meow
+2025-08-07 17:27:35,992 - INFO - 💬 extraseonghwa: never enough
+2025-08-07 17:27:36,000 - INFO - 💬 papajay1997: nella, he is talking to a woman before, dang when you not here nella he do crazy things
+2025-08-07 17:27:36,007 - INFO - 💬 extraseonghwa: 😂😂
+2025-08-07 17:27:36,017 - INFO - 💬 extraseonghwa: that would work if i wasn’t here the whole time
+2025-08-07 17:27:36,022 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:27:36,055 - INFO - 🔢 [DEBUG] Viewer update: 80 viewers
+2025-08-07 17:27:36,057 - INFO - 🔢 [DEBUG] Viewer update: 80 viewers
+2025-08-07 17:27:38,557 - INFO - 🔢 [DEBUG] Viewer update: 80 viewers
+2025-08-07 17:27:40,962 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:27:41,792 - INFO - 💬 ___peet___: how is brocky
+2025-08-07 17:27:41,796 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:27:43,425 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:27:45,789 - INFO - 👍 ___peet___ liked (15)
+2025-08-07 17:27:45,805 - INFO - ❤️ elkaji.lkjy followed
+2025-08-07 17:27:48,233 - INFO - 👍 ___peet___ liked (15)
+2025-08-07 17:27:49,735 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:27:50,871 - INFO - 👍 ___peet___ liked (15)
+2025-08-07 17:27:52,695 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:27:52,695 - INFO - 🎁 pikapikachuuuuuuu1 → Bouquet Flower x1 (30💎 = $0.150)
+2025-08-07 17:27:53,021 - INFO - 🔢 [DEBUG] Viewer update: 80 viewers
+2025-08-07 17:27:53,795 - INFO - 👍 ___peet___ liked (15)
+2025-08-07 17:27:55,336 - INFO - 🔢 [DEBUG] Viewer update: 80 viewers
+2025-08-07 17:27:56,143 - INFO - 👍 ___peet___ liked (15)
+2025-08-07 17:27:59,344 - INFO - 👍 ___peet___ liked (14)
+2025-08-07 17:28:00,140 - INFO - 🔢 [DEBUG] Viewer update: 80 viewers
+2025-08-07 17:28:04,991 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:28:12,149 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:28:15,396 - INFO - 🔢 [DEBUG] Viewer update: 80 viewers
+2025-08-07 17:28:16,258 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:28:17,751 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:28:22,642 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:28:24,281 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:28:25,809 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:28:27,401 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:28:29,807 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:28:31,410 - INFO - 🎁 pikapikachuuuuuuu1 → I love you x1 (10💎 = $0.050)
+2025-08-07 17:28:34,612 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:28:36,209 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:28:37,811 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:28:40,253 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:28:45,071 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:28:46,627 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:28:48,258 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:28:49,878 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:28:53,181 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:28:53,871 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:28:55,428 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:28:56,230 - INFO - 🎁 pikapikachuuuuuuu1 → I love you x1 (10💎 = $0.050)
+2025-08-07 17:28:57,841 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:29:02,659 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:29:05,043 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:29:05,044 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:29:11,491 - INFO - 🔢 [DEBUG] Viewer update: 75 viewers
+2025-08-07 17:29:13,832 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:29:15,480 - INFO - 🔢 [DEBUG] Viewer update: 74 viewers
+2025-08-07 17:29:17,833 - INFO - 🔢 [DEBUG] Viewer update: 74 viewers
+2025-08-07 17:29:19,479 - INFO - 🔢 [DEBUG] Viewer update: 75 viewers
+2025-08-07 17:29:21,930 - INFO - 🔢 [DEBUG] Viewer update: 74 viewers
+2025-08-07 17:29:24,285 - INFO - 🔢 [DEBUG] Viewer update: 74 viewers
+2025-08-07 17:29:25,115 - INFO - 🔢 [DEBUG] Viewer update: 75 viewers
+2025-08-07 17:29:28,279 - INFO - 🔢 [DEBUG] Viewer update: 74 viewers
+2025-08-07 17:29:33,093 - INFO - 🔢 [DEBUG] Viewer update: 74 viewers
+2025-08-07 17:29:34,643 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:29:36,270 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:29:37,095 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:29:41,049 - INFO - 🔢 [DEBUG] Viewer update: 74 viewers
+2025-08-07 17:29:41,846 - INFO - 🔢 [DEBUG] Viewer update: 75 viewers
+2025-08-07 17:29:44,263 - INFO - 🔢 [DEBUG] Viewer update: 74 viewers
+2025-08-07 17:29:45,077 - INFO - 💬 pikapikachuuuuuuu1: i have specia one for jay
+2025-08-07 17:29:45,993 - INFO - 🔢 [DEBUG] Viewer update: 73 viewers
+2025-08-07 17:29:47,530 - INFO - 🔢 [DEBUG] Viewer update: 72 viewers
+2025-08-07 17:29:54,647 - INFO - 🔢 [DEBUG] Viewer update: 73 viewers
+2025-08-07 17:29:55,519 - INFO - 🔢 [DEBUG] Viewer update: 73 viewers
+2025-08-07 17:29:57,860 - INFO - 🔢 [DEBUG] Viewer update: 75 viewers
+2025-08-07 17:29:58,659 - INFO - 💬 pikapikachuuuuuuu1: u want?
+2025-08-07 17:29:59,456 - INFO - 🔢 [DEBUG] Viewer update: 74 viewers
+2025-08-07 17:30:01,149 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:30:03,759 - INFO - 🎁 pikapikachuuuuuuu1 → Rose x1 (1💎 = $0.005)
+2025-08-07 17:30:03,762 - INFO - 🔢 [DEBUG] Viewer update: 75 viewers
+2025-08-07 17:30:05,144 - INFO - 🔢 [DEBUG] Viewer update: 75 viewers
+2025-08-07 17:30:07,455 - INFO - 🔢 [DEBUG] Viewer update: 74 viewers
+2025-08-07 17:30:09,142 - INFO - 🎁 pikapikachuuuuuuu1 → Rose x1 (1💎 = $0.005)
+2025-08-07 17:30:10,775 - INFO - 🔢 [DEBUG] Viewer update: 74 viewers
+2025-08-07 17:30:11,494 - INFO - 🔢 [DEBUG] Viewer update: 73 viewers
+2025-08-07 17:30:13,955 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:30:17,159 - INFO - 🔢 [DEBUG] Viewer update: 75 viewers
+2025-08-07 17:30:17,160 - INFO - 🔢 [DEBUG] Viewer update: 75 viewers
+2025-08-07 17:30:19,473 - INFO - 🎁 pikapikachuuuuuuu1 → Journey Pass x2 (20💎 = $0.100)
+2025-08-07 17:30:20,412 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:30:21,064 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:30:23,468 - INFO - 🔢 [DEBUG] Viewer update: 74 viewers
+2025-08-07 17:30:26,019 - INFO - 🔢 [DEBUG] Viewer update: 72 viewers
+2025-08-07 17:30:27,466 - INFO - 💬 pikapikachuuuuuuu1: this is the special
+2025-08-07 17:30:28,267 - INFO - 🔢 [DEBUG] Viewer update: 73 viewers
+2025-08-07 17:30:29,928 - INFO - 🔢 [DEBUG] Viewer update: 74 viewers
+2025-08-07 17:30:31,517 - INFO - 🔢 [DEBUG] Viewer update: 74 viewers
+2025-08-07 17:30:33,152 - INFO - 🔢 [DEBUG] Viewer update: 75 viewers
+2025-08-07 17:30:33,153 - INFO - 👍 carmelosofia7 liked (1)
+2025-08-07 17:30:35,525 - INFO - 🔢 [DEBUG] Viewer update: 75 viewers
+2025-08-07 17:30:37,158 - INFO - 🔢 [DEBUG] Viewer update: 75 viewers
+2025-08-07 17:30:39,615 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:30:41,926 - INFO - 🔢 [DEBUG] Viewer update: 75 viewers
+2025-08-07 17:30:49,891 - INFO - 🔢 [DEBUG] Viewer update: 74 viewers
+2025-08-07 17:30:53,127 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:30:53,128 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:30:55,523 - INFO - 🔢 [DEBUG] Viewer update: 75 viewers
+2025-08-07 17:30:57,939 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:30:59,533 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:30:59,534 - INFO - 🎁 pikapikachuuuuuuu1 → Rose x5 (5💎 = $0.025)
+2025-08-07 17:31:01,157 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:31:03,521 - INFO - 🔢 [DEBUG] Viewer update: 75 viewers
+2025-08-07 17:31:05,962 - INFO - 👍 daniel_135246 liked (15)
+2025-08-07 17:31:06,748 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:31:07,727 - INFO - 👍 daniel_135246 liked (15)
+2025-08-07 17:31:07,729 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:31:09,143 - INFO - 🔢 [DEBUG] Viewer update: 75 viewers
+2025-08-07 17:31:11,535 - INFO - 🎁 pikapikachuuuuuuu1 → I love you x1 (10💎 = $0.050)
+2025-08-07 17:31:11,537 - INFO - 👍 daniel_135246 liked (14)
+2025-08-07 17:31:13,130 - INFO - 👍 daniel_135246 liked (3)
+2025-08-07 17:31:17,131 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:31:19,589 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:31:20,401 - INFO - 👍 daniel_135246 liked (15)
+2025-08-07 17:31:21,917 - INFO - 🔢 [DEBUG] Viewer update: 75 viewers
+2025-08-07 17:31:21,918 - INFO - 👍 daniel_135246 liked (4)
+2025-08-07 17:31:25,168 - INFO - 🔢 [DEBUG] Viewer update: 75 viewers
+2025-08-07 17:31:27,636 - INFO - 🎁 pikapikachuuuuuuu1 → I love you x1 (10💎 = $0.050)
+2025-08-07 17:31:29,220 - INFO - 🔢 [DEBUG] Viewer update: 75 viewers
+2025-08-07 17:31:31,581 - INFO - 🔢 [DEBUG] Viewer update: 75 viewers
+2025-08-07 17:31:33,169 - INFO - 🔢 [DEBUG] Viewer update: 74 viewers
+2025-08-07 17:31:35,668 - INFO - 🎁 pikapikachuuuuuuu1 → I love you x1 (10💎 = $0.050)
+2025-08-07 17:31:39,558 - INFO - 🔢 [DEBUG] Viewer update: 75 viewers
+2025-08-07 17:31:42,725 - INFO - 🔢 [DEBUG] Viewer update: 75 viewers
+2025-08-07 17:31:43,540 - INFO - 🔢 [DEBUG] Viewer update: 74 viewers
+2025-08-07 17:31:45,135 - INFO - 🔢 [DEBUG] Viewer update: 74 viewers
+2025-08-07 17:31:48,332 - INFO - 🔢 [DEBUG] Viewer update: 74 viewers
+2025-08-07 17:31:49,182 - INFO - 🔢 [DEBUG] Viewer update: 75 viewers
+2025-08-07 17:31:50,815 - INFO - 🎁 pikapikachuuuuuuu1 → Journey Pass x2 (20💎 = $0.100)
+2025-08-07 17:31:51,559 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:31:53,176 - INFO - 🔢 [DEBUG] Viewer update: 75 viewers
+2025-08-07 17:31:55,635 - INFO - 🔢 [DEBUG] Viewer update: 75 viewers
+2025-08-07 17:31:57,170 - INFO - 🔢 [DEBUG] Viewer update: 74 viewers
+2025-08-07 17:31:59,536 - INFO - 🔢 [DEBUG] Viewer update: 75 viewers
+2025-08-07 17:32:02,801 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:32:03,621 - INFO - 🔢 [DEBUG] Viewer update: 75 viewers
+2025-08-07 17:32:04,441 - INFO - 💬 pikapikachuuuuuuu1: special 2.0
+2025-08-07 17:32:05,161 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:32:07,544 - INFO - 🔢 [DEBUG] Viewer update: 75 viewers
+2025-08-07 17:32:09,972 - INFO - 🔢 [DEBUG] Viewer update: 75 viewers
+2025-08-07 17:32:14,067 - INFO - 🔢 [DEBUG] Viewer update: 75 viewers
+2025-08-07 17:32:15,540 - INFO - 👍 lj04505 liked (2)
+2025-08-07 17:32:16,353 - INFO - 🔢 [DEBUG] Viewer update: 75 viewers
+2025-08-07 17:32:17,158 - INFO - 🔢 [DEBUG] Viewer update: 74 viewers
+2025-08-07 17:32:19,556 - INFO - 🔢 [DEBUG] Viewer update: 74 viewers
+2025-08-07 17:32:21,168 - INFO - 🔢 [DEBUG] Viewer update: 74 viewers
+2025-08-07 17:32:21,169 - INFO - ❤️ blackdrill17 followed
+2025-08-07 17:32:22,048 - INFO - ❤️ lj04505 followed
+2025-08-07 17:32:25,164 - INFO - 👍 blackdrill17 liked (8)
+2025-08-07 17:32:25,167 - INFO - 🔢 [DEBUG] Viewer update: 75 viewers
+2025-08-07 17:32:27,594 - INFO - 🔢 [DEBUG] Viewer update: 75 viewers
+2025-08-07 17:32:27,598 - INFO - 💬 pikapikachuuuuuuu1: 😂😂😂😂
+2025-08-07 17:32:30,053 - INFO - 🔢 [DEBUG] Viewer update: 74 viewers
+2025-08-07 17:32:31,583 - INFO - 🔢 [DEBUG] Viewer update: 74 viewers
+2025-08-07 17:32:35,556 - INFO - 👍 lj04505 liked (15)
+2025-08-07 17:32:38,776 - INFO - 👍 lj04505 liked (15)
+2025-08-07 17:32:40,377 - INFO - 🔢 [DEBUG] Viewer update: 74 viewers
+2025-08-07 17:32:41,959 - INFO - 👍 lj04505 liked (15)
+2025-08-07 17:32:45,196 - INFO - 👍 lj04505 liked (15)
+2025-08-07 17:32:45,205 - INFO - 💬 pikapikachuuuuuuu1: love u bro
+2025-08-07 17:32:46,015 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:32:47,658 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:32:47,659 - INFO - 👍 lj04505 liked (15)
+2025-08-07 17:32:50,000 - INFO - 👍 lj04505 liked (6)
+2025-08-07 17:32:50,833 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:32:51,647 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:32:53,978 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:32:55,605 - INFO - 🎁 pikapikachuuuuuuu1 → Rose x1 (1💎 = $0.005)
+2025-08-07 17:32:55,609 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:32:56,201 - INFO - 🚀 Application initialization completed
+2025-08-07 17:32:56,262 - INFO - ✅ Core database components loaded
+2025-08-07 17:32:56,266 - INFO - ✅ Core TikTok components loaded
+2025-08-07 17:32:56,267 - INFO - ✅ Manager components loaded
+2025-08-07 17:32:56,301 - INFO - ✅ Arduino Phase 4 components loaded
+2025-08-07 17:32:56,302 - INFO - 🎯 All components loaded successfully
+2025-08-07 17:32:56,302 - INFO - ✅ Main window configured
+2025-08-07 17:32:56,310 - INFO - ✅ Menu bar created
+2025-08-07 17:32:56,387 - INFO - 👍 extraseonghwa liked (15)
+2025-08-07 17:32:56,857 - INFO - ✅ Toolbar created
+2025-08-07 17:32:56,857 - INFO - ✅ Notebook created
+2025-08-07 17:32:56,898 - INFO - ✅ Arduino status bar created
+2025-08-07 17:32:56,898 - INFO - 🎨 Complete UI structure built successfully
+2025-08-07 17:32:56,898 - INFO - Initializing database...
+2025-08-07 17:32:56,900 - INFO - Database tables created successfully
+2025-08-07 17:32:56,901 - INFO - ✅ Unified database initialized
+2025-08-07 17:32:56,901 - INFO - TabManagerLite initialized
+2025-08-07 17:32:57,017 - INFO - [OK] Live Feed tab created
+2025-08-07 17:32:57,017 - INFO - [OK] Live Feed tab initialized
+2025-08-07 17:32:57,017 - INFO - ✅ Live Feed tab created successfully
+2025-08-07 17:32:57,185 - INFO - ✅ Arduino Control tab added with unified database
+2025-08-07 17:32:57,191 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:32:57,194 - INFO - ✅ Arduino tab updated for account: @brockym_
+2025-08-07 17:32:57,195 - INFO - ✅ Arduino-tracker connection setup complete
+2025-08-07 17:32:57,195 - INFO - Account selected: @brockym_
+2025-08-07 17:32:57,195 - INFO - ✅ Loaded 3 accounts from unified database
+2025-08-07 17:32:57,195 - INFO - 🎯 Application initialization completed successfully
+2025-08-07 17:32:57,195 - INFO - 🚀 [START] TikTok Live Lite Application
+2025-08-07 17:32:57,978 - INFO - 👍 extraseonghwa liked (5)
+2025-08-07 17:32:59,656 - INFO - 💬 extraseonghwa: 😂😂
+2025-08-07 17:32:59,665 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:33:00,970 - INFO - ✅ Client initialized for @brockym_
+2025-08-07 17:33:00,971 - INFO - 🔧 Phase 3 Modular Tracker initialized for @brockym_
+2025-08-07 17:33:00,971 - INFO - 🚀 Started tracking @brockym_
+2025-08-07 17:33:01,364 - INFO - HTTP Request: GET https://www.tiktok.com/@brockym_/live? "HTTP/1.1 200 OK"
+2025-08-07 17:33:02,080 - INFO - HTTP Request: GET https://www.tiktok.com/api-live/user/room/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-AU&browser_name=Mozilla&browser_online=true&browser_platform=Win32&browser_version=5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36%20Edg%2F128.0.2739.79&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=9&is_fullscreen=false&is_page_visible=true&screen_height=1440&screen_width=2560&tz_name=Australia/Sydney&channel=tiktok_web&data_collection_enabled=true&os=windows&priority_region=AU&region=AU&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@brockym_/live&root_referer=https://www.tiktok.com/@brockym_/live&device_id=40695882140591781020&uniqueId=brockym_&sourceType=54 "HTTP/1.1 200 OK"
+2025-08-07 17:33:02,092 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:33:02,970 - INFO - HTTP Request: GET https://webcast.tiktok.com/webcast/room/check_alive/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-AU&browser_name=Mozilla&browser_online=true&browser_platform=Win32&browser_version=5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36%20Edg%2F128.0.2739.79&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=9&is_fullscreen=false&is_page_visible=true&screen_height=1440&screen_width=2560&tz_name=Australia/Sydney&channel=tiktok_web&data_collection_enabled=true&os=windows&priority_region=AU&region=AU&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@brockym_/live&root_referer=https://www.tiktok.com/@brockym_/live&device_id=32496153851194222135&room_id=7535705357079956229&room_ids=7535705357079956229 "HTTP/1.1 200 OK"
+2025-08-07 17:33:03,697 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:33:03,698 - INFO - 🎁 pikapikachuuuuuuu1 → Rose x1 (1💎 = $0.005)
+2025-08-07 17:33:04,307 - INFO - HTTP Request: GET https://tiktok.eulerstream.com/webcast/fetch/?client=ttlive-python&room_id=7535705357079956229&user_agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F129.0.0.0+Safari%2F537.36+Edg%2F128.0.2739.79 "HTTP/1.1 200 OK"
+2025-08-07 17:33:06,227 - INFO - 🔗 Connected to @brockym_ (Room: 7535705357079956229)
+2025-08-07 17:33:06,250 - INFO - 💬 pikapikachuuuuuuu1: u want?
+2025-08-07 17:33:06,259 - INFO - 💬 pikapikachuuuuuuu1: this is the special
+2025-08-07 17:33:06,267 - INFO - 💬 pikapikachuuuuuuu1: special 2.0
+2025-08-07 17:33:06,275 - INFO - 💬 pikapikachuuuuuuu1: 😂😂😂😂
+2025-08-07 17:33:06,296 - INFO - 💬 pikapikachuuuuuuu1: love u bro
+2025-08-07 17:33:06,303 - INFO - 💬 extraseonghwa: 😂😂
+2025-08-07 17:33:06,307 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:33:06,308 - INFO - 🎁 pikapikachuuuuuuu1 → Rose x1 (1💎 = $0.005)
+2025-08-07 17:33:09,189 - INFO - 🔢 [DEBUG] Viewer update: 75 viewers
+2025-08-07 17:33:09,223 - INFO - 🔢 [DEBUG] Viewer update: 75 viewers
+2025-08-07 17:33:11,589 - INFO - 🔢 [DEBUG] Viewer update: 75 viewers
+2025-08-07 17:33:11,646 - INFO - 🔢 [DEBUG] Viewer update: 75 viewers
+2025-08-07 17:33:15,591 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:33:15,642 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:33:16,692 - INFO - Application closed
+2025-08-07 17:33:17,249 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:33:19,625 - INFO - 🔢 [DEBUG] Viewer update: 75 viewers
+2025-08-07 17:33:20,398 - INFO - 👍 extraseonghwa liked (8)
+2025-08-07 17:33:22,825 - INFO - 💬 pikapikachuuuuuuu1: 😂😂😂
+2025-08-07 17:33:22,832 - INFO - 🔢 [DEBUG] Viewer update: 75 viewers
+2025-08-07 17:33:24,400 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:33:25,218 - INFO - 👍 extraseonghwa liked (15)
+2025-08-07 17:33:25,223 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:33:27,717 - INFO - 🔢 [DEBUG] Viewer update: 74 viewers
+2025-08-07 17:33:28,425 - INFO - 👍 extraseonghwa liked (15)
+2025-08-07 17:33:30,051 - INFO - 🔢 [DEBUG] Viewer update: 75 viewers
+2025-08-07 17:33:30,052 - INFO - 👍 extraseonghwa liked (6)
+2025-08-07 17:33:31,688 - INFO - 🔢 [DEBUG] Viewer update: 75 viewers
+2025-08-07 17:33:33,238 - INFO - 🎁 extraseonghwa → Rose x1 (1💎 = $0.005)
+2025-08-07 17:33:33,241 - INFO - 🔢 [DEBUG] Viewer update: 74 viewers
+2025-08-07 17:33:35,687 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:33:38,002 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:33:39,674 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:33:41,323 - INFO - 💬 extraseonghwa: enemies to lovers
+2025-08-07 17:33:46,012 - INFO - 🔢 [DEBUG] Viewer update: 75 viewers
+2025-08-07 17:33:47,615 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:33:50,816 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:33:51,632 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:33:53,239 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:33:54,805 - INFO - 👍 lj04505 liked (15)
+2025-08-07 17:33:56,435 - INFO - 👍 lj04505 liked (15)
+2025-08-07 17:33:56,440 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:33:57,234 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:33:58,008 - INFO - 👍 lj04505 liked (15)
+2025-08-07 17:33:58,806 - INFO - 👍 lj04505 liked (15)
+2025-08-07 17:33:59,617 - INFO - 🔢 [DEBUG] Viewer update: 75 viewers
+2025-08-07 17:34:01,313 - INFO - 👍 lj04505 liked (15)
+2025-08-07 17:34:02,009 - INFO - 👍 lj04505 liked (15)
+2025-08-07 17:34:02,843 - INFO - 🔢 [DEBUG] Viewer update: 75 viewers
+2025-08-07 17:34:02,843 - INFO - 👍 extraseonghwa liked (15)
+2025-08-07 17:34:03,630 - INFO - 👍 lj04505 liked (15)
+2025-08-07 17:34:03,634 - INFO - 🔢 [DEBUG] Viewer update: 74 viewers
+2025-08-07 17:34:05,238 - INFO - 👍 lj04505 liked (15)
+2025-08-07 17:34:06,043 - INFO - 🔢 [DEBUG] Viewer update: 75 viewers
+2025-08-07 17:34:06,044 - INFO - 👍 extraseonghwa liked (15)
+2025-08-07 17:34:06,860 - INFO - 👍 lj04505 liked (15)
+2025-08-07 17:34:08,464 - INFO - 👍 lj04505 liked (15)
+2025-08-07 17:34:09,286 - INFO - 👍 extraseonghwa liked (15)
+2025-08-07 17:34:09,289 - INFO - 👍 lj04505 liked (15)
+2025-08-07 17:34:10,864 - INFO - 👍 lj04505 liked (15)
+2025-08-07 17:34:11,676 - INFO - 🔢 [DEBUG] Viewer update: 75 viewers
+2025-08-07 17:34:12,479 - INFO - 👍 extraseonghwa liked (15)
+2025-08-07 17:34:12,484 - INFO - 👍 lj04505 liked (15)
+2025-08-07 17:34:13,283 - INFO - 🔢 [DEBUG] Viewer update: 75 viewers
+2025-08-07 17:34:14,067 - INFO - 👍 lj04505 liked (15)
+2025-08-07 17:34:14,882 - INFO - 👍 extraseonghwa liked (15)
+2025-08-07 17:34:15,684 - INFO - 🔢 [DEBUG] Viewer update: 75 viewers
+2025-08-07 17:34:15,684 - INFO - 👍 lj04505 liked (15)
+2025-08-07 17:34:17,287 - INFO - 👍 lj04505 liked (15)
+2025-08-07 17:34:18,077 - INFO - 👍 extraseonghwa liked (15)
+2025-08-07 17:34:18,884 - INFO - 👍 lj04505 liked (15)
+2025-08-07 17:34:19,674 - INFO - 👍 lj04505 liked (15)
+2025-08-07 17:34:21,283 - INFO - 👍 extraseonghwa liked (15)
+2025-08-07 17:34:22,083 - INFO - 🔢 [DEBUG] Viewer update: 74 viewers
+2025-08-07 17:34:22,869 - INFO - 👍 lj04505 liked (7)
+2025-08-07 17:34:23,706 - INFO - 👍 extraseonghwa liked (12)
+2025-08-07 17:34:24,483 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:34:25,295 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:34:26,094 - INFO - 👍 extraseonghwa liked (6)
+2025-08-07 17:34:27,691 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:34:29,294 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:34:31,697 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:34:31,698 - INFO - 👍 lj04505 liked (15)
+2025-08-07 17:34:33,295 - INFO - 👍 lj04505 liked (15)
+2025-08-07 17:34:35,679 - INFO - 👍 lj04505 liked (15)
+2025-08-07 17:34:36,521 - INFO - 🎁 extraseonghwa → Blow a kiss x1 (1💎 = $0.005)
+2025-08-07 17:34:36,525 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:34:37,290 - INFO - 👍 lj04505 liked (15)
+2025-08-07 17:34:38,144 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:34:38,956 - INFO - 👍 lj04505 liked (15)
+2025-08-07 17:34:39,695 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:34:40,497 - INFO - 👍 lj04505 liked (15)
+2025-08-07 17:34:42,132 - INFO - 👍 lj04505 liked (15)
+2025-08-07 17:34:42,957 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:34:43,775 - INFO - 👍 lj04505 liked (15)
+2025-08-07 17:34:44,599 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:34:46,966 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:34:47,921 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:34:47,922 - INFO - 👍 lj04505 liked (15)
+2025-08-07 17:34:49,431 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:34:49,432 - INFO - 👍 lj04505 liked (15)
+2025-08-07 17:34:50,972 - INFO - 👍 lj04505 liked (15)
+2025-08-07 17:34:51,783 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:34:53,375 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:34:53,375 - INFO - 👍 lj04505 liked (13)
+2025-08-07 17:34:55,766 - INFO - 🔢 [DEBUG] Viewer update: 80 viewers
+2025-08-07 17:34:56,572 - INFO - 👍 lj04505 liked (15)
+2025-08-07 17:34:57,397 - INFO - 🔢 [DEBUG] Viewer update: 81 viewers
+2025-08-07 17:34:58,235 - INFO - 👍 lj04505 liked (15)
+2025-08-07 17:34:58,238 - INFO - 🎁 extraseonghwa → Blow a kiss x50 (50💎 = $0.250)
+2025-08-07 17:34:58,243 - INFO - 👍 beekeeper091 liked (15)
+2025-08-07 17:34:59,743 - INFO - 👍 lj04505 liked (15)
+2025-08-07 17:35:01,383 - INFO - 👍 lj04505 liked (15)
+2025-08-07 17:35:02,109 - INFO - 🔢 [DEBUG] Viewer update: 82 viewers
+2025-08-07 17:35:02,932 - INFO - 👍 lj04505 liked (15)
+2025-08-07 17:35:03,750 - INFO - 🔢 [DEBUG] Viewer update: 84 viewers
+2025-08-07 17:35:03,751 - INFO - 👍 lj04505 liked (6)
+2025-08-07 17:35:05,377 - INFO - 👍 beekeeper091 liked (14)
+2025-08-07 17:35:07,737 - INFO - 🎁 ranzz1_z → Rose x1 (1💎 = $0.005)
+2025-08-07 17:35:09,328 - INFO - 🔢 [DEBUG] Viewer update: 85 viewers
+2025-08-07 17:35:11,724 - INFO - 🔢 [DEBUG] Viewer update: 86 viewers
+2025-08-07 17:35:15,726 - INFO - 🔢 [DEBUG] Viewer update: 87 viewers
+2025-08-07 17:35:19,826 - INFO - 🔢 [DEBUG] Viewer update: 88 viewers
+2025-08-07 17:35:21,366 - INFO - 🔢 [DEBUG] Viewer update: 89 viewers
+2025-08-07 17:35:22,116 - INFO - 👍 beekeeper091 liked (15)
+2025-08-07 17:35:22,965 - INFO - 💬 ranzz1_z: Like car
+2025-08-07 17:35:22,972 - INFO - 🔢 [DEBUG] Viewer update: 89 viewers
+2025-08-07 17:35:23,808 - INFO - 👍 beekeeper091 liked (15)
+2025-08-07 17:35:25,345 - INFO - 👍 beekeeper091 liked (15)
+2025-08-07 17:35:26,916 - INFO - 👍 beekeeper091 liked (15)
+2025-08-07 17:35:28,622 - INFO - 👍 beekeeper091 liked (15)
+2025-08-07 17:35:29,342 - INFO - 👍 beekeeper091 liked (15)
+2025-08-07 17:35:30,945 - INFO - 🔢 [DEBUG] Viewer update: 89 viewers
+2025-08-07 17:35:30,946 - INFO - 👍 beekeeper091 liked (15)
+2025-08-07 17:35:32,619 - INFO - 👍 beekeeper091 liked (15)
+2025-08-07 17:35:34,175 - INFO - 👍 beekeeper091 liked (15)
+2025-08-07 17:35:34,179 - INFO - 🔢 [DEBUG] Viewer update: 90 viewers
+2025-08-07 17:35:35,793 - INFO - 👍 beekeeper091 liked (15)
+2025-08-07 17:35:35,796 - INFO - 🔢 [DEBUG] Viewer update: 90 viewers
+2025-08-07 17:35:37,429 - INFO - 👍 beekeeper091 liked (15)
+2025-08-07 17:35:39,111 - INFO - 🎁 ranzz1_z → Rose x1 (1💎 = $0.005)
+2025-08-07 17:35:39,119 - INFO - 👍 beekeeper091 liked (15)
+2025-08-07 17:35:39,738 - INFO - 👍 beekeeper091 liked (3)
+2025-08-07 17:35:41,410 - INFO - 🔢 [DEBUG] Viewer update: 90 viewers
+2025-08-07 17:35:41,411 - INFO - 🔢 [DEBUG] Viewer update: 91 viewers
+2025-08-07 17:35:43,799 - INFO - 🔢 [DEBUG] Viewer update: 92 viewers
+2025-08-07 17:35:46,345 - INFO - 🔢 [DEBUG] Viewer update: 93 viewers
+2025-08-07 17:35:50,268 - INFO - 🔢 [DEBUG] Viewer update: 94 viewers
+2025-08-07 17:35:55,052 - INFO - 🔢 [DEBUG] Viewer update: 93 viewers
+2025-08-07 17:35:57,374 - INFO - 🔢 [DEBUG] Viewer update: 94 viewers
+2025-08-07 17:35:57,375 - INFO - 🔢 [DEBUG] Viewer update: 93 viewers
+2025-08-07 17:35:59,043 - INFO - 🔢 [DEBUG] Viewer update: 92 viewers
+2025-08-07 17:36:02,221 - INFO - 🔢 [DEBUG] Viewer update: 92 viewers
+2025-08-07 17:36:05,394 - INFO - 🔢 [DEBUG] Viewer update: 91 viewers
+2025-08-07 17:36:12,663 - INFO - 🔢 [DEBUG] Viewer update: 90 viewers
+2025-08-07 17:36:14,202 - INFO - 🔢 [DEBUG] Viewer update: 89 viewers
+2025-08-07 17:36:17,401 - INFO - 🔢 [DEBUG] Viewer update: 87 viewers
+2025-08-07 17:36:20,574 - INFO - 🔢 [DEBUG] Viewer update: 89 viewers
+2025-08-07 17:36:21,373 - INFO - 🔢 [DEBUG] Viewer update: 89 viewers
+2025-08-07 17:36:23,823 - INFO - 🔢 [DEBUG] Viewer update: 86 viewers
+2025-08-07 17:36:25,473 - INFO - 💬 extraseonghwa: dude is just yapping
+2025-08-07 17:36:26,281 - INFO - 🔢 [DEBUG] Viewer update: 86 viewers
+2025-08-07 17:36:29,465 - INFO - 🔢 [DEBUG] Viewer update: 85 viewers
+2025-08-07 17:36:34,983 - INFO - 🔢 [DEBUG] Viewer update: 85 viewers
+2025-08-07 17:36:35,789 - INFO - 🔢 [DEBUG] Viewer update: 85 viewers
+2025-08-07 17:36:37,392 - INFO - 🔢 [DEBUG] Viewer update: 85 viewers
+2025-08-07 17:36:39,800 - INFO - 🔢 [DEBUG] Viewer update: 85 viewers
+2025-08-07 17:36:41,449 - INFO - 🔢 [DEBUG] Viewer update: 87 viewers
+2025-08-07 17:36:43,805 - INFO - 🔢 [DEBUG] Viewer update: 88 viewers
+2025-08-07 17:36:46,269 - INFO - 🔢 [DEBUG] Viewer update: 87 viewers
+2025-08-07 17:36:46,985 - INFO - 🔢 [DEBUG] Viewer update: 86 viewers
+2025-08-07 17:36:50,192 - INFO - 🔢 [DEBUG] Viewer update: 84 viewers
+2025-08-07 17:36:50,996 - INFO - 🔢 [DEBUG] Viewer update: 84 viewers
+2025-08-07 17:36:54,193 - INFO - 🔢 [DEBUG] Viewer update: 85 viewers
+2025-08-07 17:36:57,456 - INFO - 🔢 [DEBUG] Viewer update: 84 viewers
+2025-08-07 17:36:59,869 - INFO - 🔢 [DEBUG] Viewer update: 84 viewers
+2025-08-07 17:37:03,150 - INFO - 🔢 [DEBUG] Viewer update: 84 viewers
+2025-08-07 17:37:03,869 - INFO - 🔢 [DEBUG] Viewer update: 85 viewers
+2025-08-07 17:37:07,819 - INFO - 🔢 [DEBUG] Viewer update: 84 viewers
+2025-08-07 17:37:08,659 - INFO - ❤️ noli.di1 followed
+2025-08-07 17:37:10,332 - INFO - 🎁 b538890 → Rose x1 (1💎 = $0.005)
+2025-08-07 17:37:13,488 - INFO - 🔢 [DEBUG] Viewer update: 84 viewers
+2025-08-07 17:37:15,845 - INFO - 🔢 [DEBUG] Viewer update: 86 viewers
+2025-08-07 17:37:18,316 - INFO - 🔢 [DEBUG] Viewer update: 84 viewers
+2025-08-07 17:37:19,041 - INFO - 🔢 [DEBUG] Viewer update: 84 viewers
+2025-08-07 17:37:25,482 - INFO - 🔢 [DEBUG] Viewer update: 84 viewers
+2025-08-07 17:37:27,829 - INFO - 🔢 [DEBUG] Viewer update: 84 viewers
+2025-08-07 17:37:27,830 - INFO - 👍 noli.di1 liked (15)
+2025-08-07 17:37:28,747 - INFO - 🎁 b538890 → Rose x1 (1💎 = $0.005)
+2025-08-07 17:37:29,463 - INFO - 👍 extraseonghwa liked (5)
+2025-08-07 17:37:30,285 - INFO - 💬 extraseonghwa: @Tashiimm meow
+2025-08-07 17:37:31,060 - INFO - 👍 noli.di1 liked (15)
+2025-08-07 17:37:33,553 - INFO - 👍 noli.di1 liked (9)
+2025-08-07 17:37:34,268 - INFO - 🔢 [DEBUG] Viewer update: 83 viewers
+2025-08-07 17:37:35,906 - INFO - 👍 noli.di1 liked (15)
+2025-08-07 17:37:37,473 - INFO - 🔢 [DEBUG] Viewer update: 82 viewers
+2025-08-07 17:37:39,083 - INFO - 👍 noli.di1 liked (15)
+2025-08-07 17:37:39,920 - INFO - 🔢 [DEBUG] Viewer update: 83 viewers
+2025-08-07 17:37:41,551 - INFO - 🔢 [DEBUG] Viewer update: 84 viewers
+2025-08-07 17:37:42,291 - INFO - 👍 noli.di1 liked (15)
+2025-08-07 17:37:42,295 - INFO - 🎁 b538890 → Rose x1 (1💎 = $0.005)
+2025-08-07 17:37:44,738 - INFO - 👍 noli.di1 liked (15)
+2025-08-07 17:37:44,742 - INFO - 🔢 [DEBUG] Viewer update: 84 viewers
+2025-08-07 17:37:45,545 - INFO - 🔢 [DEBUG] Viewer update: 84 viewers
+2025-08-07 17:37:45,546 - INFO - 👍 noli.di1 liked (3)
+2025-08-07 17:37:47,161 - INFO - 🎁 b538890 → Rose x1 (1💎 = $0.005)
+2025-08-07 17:37:47,895 - INFO - 🔢 [DEBUG] Viewer update: 83 viewers
+2025-08-07 17:37:48,710 - INFO - 👍 harveydh2 liked (15)
+2025-08-07 17:37:49,739 - INFO - 🔢 [DEBUG] Viewer update: 83 viewers
+2025-08-07 17:37:50,347 - INFO - 👍 harveydh2 liked (4)
+2025-08-07 17:37:51,117 - INFO - 🔢 [DEBUG] Viewer update: 82 viewers
+2025-08-07 17:37:54,276 - INFO - 👍 harveydh2 liked (15)
+2025-08-07 17:37:55,080 - INFO - 🎁 b538890 → Rose x1 (1💎 = $0.005)
+2025-08-07 17:37:55,895 - INFO - 🔢 [DEBUG] Viewer update: 81 viewers
+2025-08-07 17:37:59,172 - INFO - 🔢 [DEBUG] Viewer update: 82 viewers
+2025-08-07 17:37:59,173 - INFO - 🔢 [DEBUG] Viewer update: 82 viewers
+2025-08-07 17:38:00,694 - INFO - 👍 harveydh2 liked (15)
+2025-08-07 17:38:01,511 - INFO - ❤️ yasmincaroline306 followed
+2025-08-07 17:38:02,322 - INFO - 🔢 [DEBUG] Viewer update: 84 viewers
+2025-08-07 17:38:03,990 - INFO - 🔢 [DEBUG] Viewer update: 85 viewers
+2025-08-07 17:38:03,996 - INFO - 💬 extraseonghwa: 87
+2025-08-07 17:38:04,001 - INFO - 👍 harveydh2 liked (15)
+2025-08-07 17:38:05,646 - INFO - 🎁 b538890 → Rose x1 (1💎 = $0.005)
+2025-08-07 17:38:05,654 - INFO - 🔢 [DEBUG] Viewer update: 86 viewers
+2025-08-07 17:38:07,092 - INFO - 👍 harveydh2 liked (11)
+2025-08-07 17:38:10,290 - INFO - 🔢 [DEBUG] Viewer update: 86 viewers
+2025-08-07 17:38:12,741 - INFO - 🔢 [DEBUG] Viewer update: 87 viewers
+2025-08-07 17:38:12,741 - INFO - 🎁 extraseonghwa → Rose x1 (1💎 = $0.005)
+2025-08-07 17:38:13,479 - INFO - 👍 harveydh2 liked (15)
+2025-08-07 17:38:15,105 - INFO - 🔢 [DEBUG] Viewer update: 87 viewers
+2025-08-07 17:38:15,105 - INFO - 👍 harveydh2 liked (5)
+2025-08-07 17:38:16,700 - INFO - 🔢 [DEBUG] Viewer update: 88 viewers
+2025-08-07 17:38:18,338 - INFO - 🔢 [DEBUG] Viewer update: 88 viewers
+2025-08-07 17:38:19,946 - INFO - 🔢 [DEBUG] Viewer update: 88 viewers
+2025-08-07 17:38:20,696 - INFO - 🎁 extraseonghwa → Rose x1 (1💎 = $0.005)
+2025-08-07 17:38:22,310 - INFO - 🎁 b538890 → Rose x1 (1💎 = $0.005)
+2025-08-07 17:38:22,314 - INFO - 👍 harveydh2 liked (15)
+2025-08-07 17:38:23,116 - INFO - 👍 harveydh2 liked (2)
+2025-08-07 17:38:25,584 - INFO - 👍 harveydh2 liked (3)
+2025-08-07 17:38:25,588 - INFO - 🔢 [DEBUG] Viewer update: 88 viewers
+2025-08-07 17:38:27,119 - INFO - 🔢 [DEBUG] Viewer update: 88 viewers
+2025-08-07 17:38:29,542 - INFO - 🔢 [DEBUG] Viewer update: 88 viewers
+2025-08-07 17:38:29,542 - INFO - 🎁 b538890 → Rose x1 (1💎 = $0.005)
+2025-08-07 17:38:31,909 - INFO - 🔢 [DEBUG] Viewer update: 89 viewers
+2025-08-07 17:38:35,141 - INFO - 🔢 [DEBUG] Viewer update: 90 viewers
+2025-08-07 17:38:38,307 - INFO - 🎁 b538890 → Rose x1 (1💎 = $0.005)
+2025-08-07 17:38:39,119 - INFO - 🔢 [DEBUG] Viewer update: 90 viewers
+2025-08-07 17:38:39,119 - INFO - 🔢 [DEBUG] Viewer update: 90 viewers
+2025-08-07 17:38:39,901 - INFO - 👍 harveydh2 liked (13)
+2025-08-07 17:38:41,504 - INFO - 🔢 [DEBUG] Viewer update: 91 viewers
+2025-08-07 17:38:42,333 - INFO - 👍 harveydh2 liked (5)
+2025-08-07 17:38:43,908 - INFO - 🔢 [DEBUG] Viewer update: 91 viewers
+2025-08-07 17:38:45,556 - INFO - 👍 harveydh2 liked (15)
+2025-08-07 17:38:45,559 - INFO - 🎁 b538890 → Rose x1 (1💎 = $0.005)
+2025-08-07 17:38:46,367 - INFO - 🔢 [DEBUG] Viewer update: 92 viewers
+2025-08-07 17:38:48,729 - INFO - 👍 harveydh2 liked (15)
+2025-08-07 17:38:48,733 - INFO - 🔢 [DEBUG] Viewer update: 90 viewers
+2025-08-07 17:38:49,539 - INFO - 🔢 [DEBUG] Viewer update: 90 viewers
+2025-08-07 17:38:51,181 - INFO - 👍 harveydh2 liked (12)
+2025-08-07 17:38:51,962 - INFO - 💬 extraseonghwa: yes
+2025-08-07 17:38:52,841 - INFO - 🎁 b538890 → Rose x1 (1💎 = $0.005)
+2025-08-07 17:38:52,845 - INFO - 🔢 [DEBUG] Viewer update: 87 viewers
+2025-08-07 17:38:55,988 - INFO - 👍 harveydh2 liked (12)
+2025-08-07 17:38:56,791 - INFO - 🔢 [DEBUG] Viewer update: 88 viewers
+2025-08-07 17:38:57,632 - INFO - 👍 harveydh2 liked (6)
+2025-08-07 17:38:58,553 - INFO - 🔢 [DEBUG] Viewer update: 88 viewers
+2025-08-07 17:38:59,988 - INFO - 🔢 [DEBUG] Viewer update: 87 viewers
+2025-08-07 17:39:00,752 - INFO - 👍 harveydh2 liked (9)
+2025-08-07 17:39:06,543 - INFO - 🔢 [DEBUG] Viewer update: 86 viewers
+2025-08-07 17:39:07,973 - INFO - 🔢 [DEBUG] Viewer update: 84 viewers
+2025-08-07 17:39:08,795 - INFO - 🎁 b538890 → Rose x1 (1💎 = $0.005)
+2025-08-07 17:39:13,607 - INFO - 🔢 [DEBUG] Viewer update: 83 viewers
+2025-08-07 17:39:15,123 - INFO - 🔢 [DEBUG] Viewer update: 84 viewers
+2025-08-07 17:39:16,773 - INFO - 👍 clementaandradedi liked (1)
+2025-08-07 17:39:17,631 - INFO - 🔢 [DEBUG] Viewer update: 81 viewers
+2025-08-07 17:39:20,744 - INFO - 🎁 b538890 → TikTok x1 (1💎 = $0.005)
+2025-08-07 17:39:27,159 - INFO - 🔢 [DEBUG] Viewer update: 81 viewers
+2025-08-07 17:39:27,946 - INFO - 🔢 [DEBUG] Viewer update: 82 viewers
+2025-08-07 17:39:29,601 - INFO - 🔢 [DEBUG] Viewer update: 83 viewers
+2025-08-07 17:39:31,942 - INFO - 🔢 [DEBUG] Viewer update: 81 viewers
+2025-08-07 17:39:32,758 - INFO - 🎁 b538890 → Rose x1 (1💎 = $0.005)
+2025-08-07 17:39:34,395 - INFO - 🔢 [DEBUG] Viewer update: 80 viewers
+2025-08-07 17:39:36,749 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:39:37,579 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:39:40,029 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:39:40,743 - INFO - 🎁 b538890 → Rose x1 (1💎 = $0.005)
+2025-08-07 17:39:42,353 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:39:44,019 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:39:45,588 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:39:48,029 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:39:49,557 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:39:51,344 - INFO - 🎁 b538890 → TikTok x1 (1💎 = $0.005)
+2025-08-07 17:39:51,349 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:39:53,646 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:39:56,739 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:39:58,356 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:39:59,178 - INFO - 🎁 b538890 → Rose x1 (1💎 = $0.005)
+2025-08-07 17:40:00,007 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:40:01,634 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:40:04,824 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:40:05,557 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:40:07,984 - INFO - 🎁 b538890 → TikTok x1 (1💎 = $0.005)
+2025-08-07 17:40:08,822 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:40:13,553 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:40:15,978 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:40:15,979 - INFO - 🎁 b538890 → Rose x1 (1💎 = $0.005)
+2025-08-07 17:40:17,590 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:40:19,187 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:40:21,556 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:40:23,186 - INFO - 🎁 b538890 → Rose x1 (1💎 = $0.005)
+2025-08-07 17:40:23,962 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:40:25,699 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:40:31,237 - INFO - 🔢 [DEBUG] Viewer update: 81 viewers
+2025-08-07 17:40:32,045 - INFO - 🔢 [DEBUG] Viewer update: 81 viewers
+2025-08-07 17:40:33,628 - INFO - 🔢 [DEBUG] Viewer update: 80 viewers
+2025-08-07 17:40:35,964 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:40:37,575 - INFO - 🎁 b538890 → Rose x1 (1💎 = $0.005)
+2025-08-07 17:40:38,405 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:40:40,024 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:40:42,388 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:40:45,589 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:40:48,036 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:40:50,490 - INFO - 🎁 b538890 → TikTok x1 (1💎 = $0.005)
+2025-08-07 17:40:50,495 - INFO - 🔢 [DEBUG] Viewer update: 80 viewers
+2025-08-07 17:40:51,191 - INFO - 🎁 cristiano_ebe → Rose x1 (1💎 = $0.005)
+2025-08-07 17:40:52,019 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:40:53,661 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:40:55,974 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:40:58,412 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:41:00,832 - INFO - 🎁 b538890 → Rose x1 (1💎 = $0.005)
+2025-08-07 17:41:00,837 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:41:01,644 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:41:03,291 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:41:05,645 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:41:07,275 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:41:08,101 - INFO - 🎁 b538890 → Rose x1 (1💎 = $0.005)
+2025-08-07 17:41:10,444 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:41:12,084 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:41:14,414 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:41:17,668 - INFO - 🎁 b538890 → TikTok x1 (1💎 = $0.005)
+2025-08-07 17:41:17,676 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:41:23,307 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:41:23,308 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:41:27,308 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:41:27,309 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:41:29,648 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:41:32,065 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:41:34,410 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:41:36,017 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:41:38,503 - INFO - 💬 extraseonghwa: nah he started threathening me with a lollipop
+2025-08-07 17:41:40,028 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:41:41,678 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:41:42,513 - INFO - 💬 extraseonghwa: never going back
+2025-08-07 17:41:43,231 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:41:45,621 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:41:48,949 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:41:50,484 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:41:52,844 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:41:54,479 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:41:55,299 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:41:58,471 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:41:59,218 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:42:02,427 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:42:03,237 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:42:07,288 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:42:07,289 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:42:09,745 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:42:11,281 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:42:13,731 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:42:15,382 - INFO - 💬 extraseonghwa: no he was talking about jelly😔
+2025-08-07 17:42:15,399 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:42:17,730 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:42:20,986 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:42:22,502 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:42:23,366 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:42:25,710 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:42:27,351 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:42:29,003 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:42:32,112 - INFO - 💬 extraseonghwa: i don’t want his jelly
+2025-08-07 17:42:34,516 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:42:39,398 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:42:40,913 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:42:43,318 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:42:44,107 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:42:45,791 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:42:47,329 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:42:49,691 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:42:51,297 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:42:53,699 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:42:56,996 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:42:57,786 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:42:59,401 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:43:00,895 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:43:04,930 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:43:07,318 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:43:15,375 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:43:17,734 - INFO - 💬 extraseonghwa: its an amazing number
+2025-08-07 17:43:23,313 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:43:27,357 - INFO - 🎁 deathmaster8890 → Rose x1 (1💎 = $0.005)
+2025-08-07 17:43:29,004 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:43:29,816 - INFO - 🔢 [DEBUG] Viewer update: 80 viewers
+2025-08-07 17:43:31,358 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:43:35,321 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:43:37,760 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:43:38,546 - INFO - 💬 extraseonghwa: i’ll take an another one
+2025-08-07 17:43:39,367 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:43:41,796 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:43:42,852 - INFO - 💬 extraseonghwa: stop complaining
+2025-08-07 17:43:43,435 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:43:45,008 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:43:49,783 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:43:51,324 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:43:53,789 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:43:55,318 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:43:56,135 - INFO - 🎁 deathmaster8890 → Rose x1 (1💎 = $0.005)
+2025-08-07 17:43:56,953 - INFO - 👍 extraseonghwa liked (4)
+2025-08-07 17:43:57,773 - INFO - 🔢 [DEBUG] Viewer update: 81 viewers
+2025-08-07 17:43:59,407 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:44:03,409 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:44:05,039 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:44:08,136 - INFO - 🔢 [DEBUG] Viewer update: 80 viewers
+2025-08-07 17:44:09,778 - INFO - 🔢 [DEBUG] Viewer update: 80 viewers
+2025-08-07 17:44:13,029 - INFO - 🔢 [DEBUG] Viewer update: 80 viewers
+2025-08-07 17:44:13,753 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:44:17,019 - INFO - 🔢 [DEBUG] Viewer update: 81 viewers
+2025-08-07 17:44:17,975 - INFO - 🔢 [DEBUG] Viewer update: 80 viewers
+2025-08-07 17:44:20,299 - INFO - 🔢 [DEBUG] Viewer update: 81 viewers
+2025-08-07 17:44:20,984 - INFO - 🎁 deathmaster8890 → Perfume x1 (20💎 = $0.100)
+2025-08-07 17:44:21,788 - INFO - 🔢 [DEBUG] Viewer update: 81 viewers
+2025-08-07 17:44:23,399 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:44:26,646 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:44:27,573 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:44:29,834 - INFO - 💬 extraseonghwa: i don’t think abil liked my surprise
+2025-08-07 17:44:29,840 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:44:32,189 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:44:33,065 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:44:36,274 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:44:36,994 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:44:39,396 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:44:48,253 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:44:50,712 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:44:51,448 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:44:58,924 - INFO - 💬 extraseonghwa: nuh uh
+2025-08-07 17:44:59,540 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:45:02,695 - INFO - 🎁 extraseonghwa → I love you x1 (10💎 = $0.050)
+2025-08-07 17:45:03,510 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:45:05,063 - INFO - 🔢 [DEBUG] Viewer update: 80 viewers
+2025-08-07 17:45:07,509 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:45:09,057 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:45:12,259 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:45:13,956 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:45:17,136 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:45:17,972 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:45:19,491 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:45:21,927 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:45:23,480 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:45:25,880 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:45:27,475 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:45:29,112 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:45:32,285 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:45:34,743 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:45:38,673 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:45:39,479 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:45:43,551 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:45:45,136 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:45:47,544 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:45:49,899 - INFO - 🔢 [DEBUG] Viewer update: 75 viewers
+2025-08-07 17:45:51,482 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:45:53,896 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:45:55,481 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:45:57,147 - INFO - 💬 extraseonghwa: NOO
+2025-08-07 17:45:57,988 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:45:59,487 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:46:03,622 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:46:03,623 - INFO - ❤️ oscarlo.larioza5 followed
+2025-08-07 17:46:03,626 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:46:05,978 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:46:09,253 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:46:09,977 - INFO - 🔢 [DEBUG] Viewer update: 76 viewers
+2025-08-07 17:46:11,560 - INFO - 💬 extraseonghwa: you’re going to leave me again
+2025-08-07 17:46:12,345 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:46:13,963 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:46:15,502 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:46:19,599 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:46:21,144 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:46:23,512 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:46:25,132 - INFO - 🔢 [DEBUG] Viewer update: 81 viewers
+2025-08-07 17:46:27,530 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:46:29,120 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:46:29,953 - INFO - 💬 extraseonghwa: 😔😔
+2025-08-07 17:46:31,576 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:46:33,897 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:46:35,569 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:46:37,113 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:46:39,564 - INFO - 🔢 [DEBUG] Viewer update: 77 viewers
+2025-08-07 17:46:41,908 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:46:43,506 - INFO - 🔢 [DEBUG] Viewer update: 80 viewers
+2025-08-07 17:46:45,913 - INFO - 🔢 [DEBUG] Viewer update: 80 viewers
+2025-08-07 17:46:46,734 - INFO - 💬 extraseonghwa: nuh uh
+2025-08-07 17:46:48,339 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:46:49,115 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:46:51,545 - INFO - 🔢 [DEBUG] Viewer update: 82 viewers
+2025-08-07 17:46:53,494 - INFO - 🚀 Application initialization completed
+2025-08-07 17:46:53,579 - INFO - ✅ Core database components loaded
+2025-08-07 17:46:53,581 - ERROR - ❌ Failed to load core components: No module named 'src.tracker.tiktok_tracker_optimized_backup'
+2025-08-07 17:46:54,713 - INFO - 🔢 [DEBUG] Viewer update: 80 viewers
+2025-08-07 17:46:55,364 - INFO - ✅ Manager components loaded
+2025-08-07 17:46:55,459 - INFO - ✅ Arduino Phase 4 components loaded
+2025-08-07 17:46:55,459 - ERROR - ❌ Some critical components failed to load
+2025-08-07 17:46:57,143 - INFO - 🔢 [DEBUG] Viewer update: 80 viewers
+2025-08-07 17:46:57,972 - INFO - 🔢 [DEBUG] Viewer update: 80 viewers
+2025-08-07 17:46:59,540 - INFO - 🔢 [DEBUG] Viewer update: 80 viewers
+2025-08-07 17:47:01,185 - INFO - 💬 extraseonghwa: tomorrow is too long
+2025-08-07 17:47:01,193 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:47:03,530 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:47:05,164 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:47:07,622 - INFO - 🔢 [DEBUG] Viewer update: 81 viewers
+2025-08-07 17:47:10,095 - INFO - 🔢 [DEBUG] Viewer update: 80 viewers
+2025-08-07 17:47:11,617 - INFO - 🔢 [DEBUG] Viewer update: 81 viewers
+2025-08-07 17:47:15,649 - INFO - 🔢 [DEBUG] Viewer update: 78 viewers
+2025-08-07 17:47:17,313 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:47:20,423 - INFO - 🔢 [DEBUG] Viewer update: 81 viewers
+2025-08-07 17:47:21,314 - INFO - 🔢 [DEBUG] Viewer update: 80 viewers
+2025-08-07 17:47:23,874 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:47:25,350 - INFO - 🔢 [DEBUG] Viewer update: 80 viewers
+2025-08-07 17:47:28,527 - INFO - 💬 extraseonghwa: 😭😭😭😭
+2025-08-07 17:47:28,555 - INFO - 🔢 [DEBUG] Viewer update: 79 viewers
+2025-08-07 17:47:30,048 - INFO - 🔢 [DEBUG] Viewer update: 80 viewers
+2025-08-07 17:47:31,692 - INFO - 🔢 [DEBUG] Viewer update: 80 viewers
+2025-08-07 17:47:34,043 - INFO - 🔢 [DEBUG] Viewer update: 81 viewers
+2025-08-07 17:47:35,643 - INFO - 🔢 [DEBUG] Viewer update: 80 viewers
+2025-08-07 17:47:36,463 - INFO - 💬 extraseonghwa: okay drama king
+2025-08-07 17:47:38,053 - INFO - 🔢 [DEBUG] Viewer update: 81 viewers
+2025-08-07 17:47:42,132 - INFO - 🔢 [DEBUG] Viewer update: 81 viewers
+2025-08-07 17:47:43,689 - INFO - 💬 extraseonghwa: noo don’t leave me😭😭😭
+2025-08-07 17:47:43,695 - INFO - 🔢 [DEBUG] Viewer update: 83 viewers
+2025-08-07 17:47:45,278 - INFO - 🔢 [DEBUG] Viewer update: 83 viewers
+2025-08-07 17:47:47,776 - INFO - 🔢 [DEBUG] Viewer update: 83 viewers
+2025-08-07 17:47:50,069 - INFO - 🔢 [DEBUG] Viewer update: 86 viewers
+2025-08-07 17:47:51,642 - INFO - 🔢 [DEBUG] Viewer update: 86 viewers
+2025-08-07 17:47:53,296 - INFO - 🔢 [DEBUG] Viewer update: 88 viewers
+2025-08-07 17:47:57,248 - INFO - 🔢 [DEBUG] Viewer update: 89 viewers
+2025-08-07 17:47:58,926 - INFO - 🔢 [DEBUG] Viewer update: 90 viewers
+2025-08-07 17:47:59,746 - INFO - 🔢 [DEBUG] Viewer update: 90 viewers
+2025-08-07 17:48:05,273 - INFO - 🔢 [DEBUG] Viewer update: 91 viewers
+2025-08-07 17:48:08,554 - INFO - 🔢 [DEBUG] Viewer update: 91 viewers
+2025-08-07 17:48:09,304 - INFO - 🔢 [DEBUG] Viewer update: 91 viewers
+2025-08-07 17:48:12,548 - INFO - 🔢 [DEBUG] Viewer update: 92 viewers
+2025-08-07 17:48:14,196 - INFO - 💬 extraseonghwa: the rain adds to the drama
+2025-08-07 17:48:14,202 - INFO - 🔢 [DEBUG] Viewer update: 93 viewers
+2025-08-07 17:48:14,863 - INFO - 🔢 [DEBUG] Viewer update: 93 viewers
+2025-08-07 17:48:17,356 - INFO - 🔢 [DEBUG] Viewer update: 95 viewers
+2025-08-07 17:48:21,362 - INFO - 🔢 [DEBUG] Viewer update: 96 viewers
+2025-08-07 17:48:21,363 - INFO - 🔢 [DEBUG] Viewer update: 96 viewers
+2025-08-07 17:48:23,705 - INFO - 🔢 [DEBUG] Viewer update: 98 viewers
+2025-08-07 17:48:24,531 - INFO - 👍 manjot.mm liked (1)
+2025-08-07 17:48:26,882 - INFO - 🔢 [DEBUG] Viewer update: 98 viewers
+2025-08-07 17:48:27,672 - INFO - 🔢 [DEBUG] Viewer update: 98 viewers
+2025-08-07 17:48:29,266 - INFO - 🔢 [DEBUG] Viewer update: 70 viewers
+2025-08-07 17:48:31,796 - INFO - 🔢 [DEBUG] Viewer update: 70 viewers
+2025-08-07 17:48:34,154 - INFO - 🔢 [DEBUG] Viewer update: 70 viewers
+2025-08-07 17:48:34,978 - INFO - 💬 extraseonghwa: you’re going to leave me forever😔
+2025-08-07 17:48:35,795 - INFO - 🔢 [DEBUG] Viewer update: 71 viewers
+2025-08-07 17:48:37,331 - INFO - 🔢 [DEBUG] Viewer update: 71 viewers
+2025-08-07 17:48:41,448 - INFO - 🔢 [DEBUG] Viewer update: 71 viewers
+2025-08-07 17:48:42,138 - INFO - 🔢 [DEBUG] Viewer update: 71 viewers
+2025-08-07 17:48:43,793 - INFO - 🔢 [DEBUG] Viewer update: 71 viewers
+2025-08-07 17:48:45,422 - INFO - 🔢 [DEBUG] Viewer update: 72 viewers
+2025-08-07 17:48:48,069 - INFO - 🔢 [DEBUG] Viewer update: 72 viewers
+2025-08-07 17:48:49,348 - INFO - 🔢 [DEBUG] Viewer update: 72 viewers
+2025-08-07 17:48:51,728 - INFO - 🔢 [DEBUG] Viewer update: 72 viewers
+2025-08-07 17:48:53,403 - INFO - 🔢 [DEBUG] Viewer update: 71 viewers
+2025-08-07 17:48:54,941 - INFO - 🔢 [DEBUG] Viewer update: 70 viewers
+2025-08-07 17:48:55,727 - INFO - 👍 user1678618313908 liked (1)
+2025-08-07 17:48:56,588 - INFO - 🚀 Application initialization completed
+2025-08-07 17:48:56,649 - INFO - ✅ Core database components loaded
+2025-08-07 17:48:56,671 - INFO - ✅ Core TikTok components loaded
+2025-08-07 17:48:56,671 - INFO - ✅ Manager components loaded
+2025-08-07 17:48:56,685 - INFO - ✅ Arduino Phase 4 components loaded
+2025-08-07 17:48:56,685 - INFO - 🎯 All components loaded successfully
+2025-08-07 17:48:56,685 - INFO - ✅ Main window configured
+2025-08-07 17:48:56,693 - INFO - ✅ Menu bar created
+2025-08-07 17:48:57,330 - INFO - ✅ Toolbar created
+2025-08-07 17:48:57,331 - INFO - ✅ Notebook created
+2025-08-07 17:48:57,384 - INFO - ✅ Arduino status bar created
+2025-08-07 17:48:57,384 - INFO - 🎨 Complete UI structure built successfully
+2025-08-07 17:48:57,385 - INFO - Initializing database...
+2025-08-07 17:48:57,386 - INFO - Database tables created successfully
+2025-08-07 17:48:57,386 - INFO - ✅ Unified database initialized
+2025-08-07 17:48:57,387 - INFO - TabManagerLite initialized
+2025-08-07 17:48:57,523 - INFO - [OK] Live Feed tab created
+2025-08-07 17:48:57,523 - INFO - [OK] Live Feed tab initialized
+2025-08-07 17:48:57,523 - INFO - ✅ Live Feed tab created successfully
+2025-08-07 17:48:57,796 - INFO - ✅ Arduino Control tab added with unified database
+2025-08-07 17:48:57,820 - INFO - ✅ Arduino tab updated for account: @brockym_
+2025-08-07 17:48:57,821 - INFO - ✅ Arduino-tracker connection setup complete
+2025-08-07 17:48:57,821 - INFO - Account selected: @brockym_
+2025-08-07 17:48:57,822 - INFO - ✅ Loaded 3 accounts from unified database
+2025-08-07 17:48:57,822 - INFO - 🎯 Application initialization completed successfully
+2025-08-07 17:48:57,822 - INFO - 🚀 [START] TikTok Live Lite Application
+2025-08-07 17:48:58,217 - INFO - 🔢 [DEBUG] Viewer update: 70 viewers
+2025-08-07 17:49:00,538 - INFO - 🔢 [DEBUG] Viewer update: 70 viewers
+2025-08-07 17:49:01,334 - INFO - 🔢 [DEBUG] Viewer update: 70 viewers
+2025-08-07 17:49:07,842 - INFO - 🔢 [DEBUG] Viewer update: 69 viewers
+2025-08-07 17:49:10,139 - INFO - 🔢 [DEBUG] Viewer update: 69 viewers
+2025-08-07 17:49:11,755 - INFO - 🔢 [DEBUG] Viewer update: 98 viewers
+2025-08-07 17:49:12,514 - ERROR - Client setup failed: 'TikTokTrackerOptimized' object has no attribute 'event_processor'
+2025-08-07 17:49:12,514 - ERROR - Error starting tracking: 'TikTokTrackerOptimized' object has no attribute 'event_processor'
+2025-08-07 17:49:13,376 - INFO - 🔢 [DEBUG] Viewer update: 96 viewers
+2025-08-07 17:49:14,946 - INFO - 🔢 [DEBUG] Viewer update: 95 viewers
+2025-08-07 17:49:17,341 - INFO - 🔢 [DEBUG] Viewer update: 95 viewers
+2025-08-07 17:49:19,020 - INFO - Application closed
+2025-08-07 17:49:19,787 - INFO - 🔢 [DEBUG] Viewer update: 95 viewers
+2025-08-07 17:49:22,145 - INFO - 🔢 [DEBUG] Viewer update: 97 viewers
+2025-08-07 17:49:23,815 - INFO - 💬 extraseonghwa: 😠
+2025-08-07 17:49:26,964 - INFO - 🔢 [DEBUG] Viewer update: 94 viewers
+2025-08-07 17:49:26,965 - INFO - 🔢 [DEBUG] Viewer update: 94 viewers
+2025-08-07 17:49:30,470 - INFO - 🔢 [DEBUG] Viewer update: 92 viewers
+2025-08-07 17:49:31,813 - INFO - 🔢 [DEBUG] Viewer update: 91 viewers
+2025-08-07 17:49:33,350 - INFO - 🔢 [DEBUG] Viewer update: 90 viewers
+2025-08-07 17:49:36,624 - INFO - 🔢 [DEBUG] Viewer update: 88 viewers
+2025-08-07 17:49:37,346 - INFO - 🔢 [DEBUG] Viewer update: 88 viewers
+2025-08-07 18:19:45,928 - ERROR - Connection failed: no close frame received or sent
+2025-08-07 18:19:45,932 - ERROR - Client error: no close frame received or sent

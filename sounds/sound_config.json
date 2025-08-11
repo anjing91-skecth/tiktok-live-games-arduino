@@ -1,0 +1,16 @@
+{
+  "sound_mapping": {
+    "like": "like_sound.wav",
+    "follow": "follow_celebration.wav",
+    "gift": "gift_received.wav",
+    "gift_large": "big_gift_spectacular.wav",
+    "share": "share_notification.wav",
+    "comment": "comment_ping.wav",
+    "viewer_join": "viewer_join.wav",
+    "connection_success": "connected.wav",
+    "error": "error_sound.wav"
+  },
+  "volume": 0.7,
+  "enabled": true,
+  "last_updated": "2025-08-06 12:44:25"
+}
