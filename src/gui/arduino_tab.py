@@ -13,6 +13,14 @@ import os
 import threading
 import time
 import json
+
+# Import component modules
+from .arduino_components.arduino_ui_manager import ArduinoUIManager
+from .arduino_components.arduino_hardware import ArduinoHardware
+from .arduino_components.arduino_database_manager import ArduinoDatabaseManager
+from .arduino_components.arduino_testing import ArduinoTesting
+from .arduino_components.arduino_stage_manager import ArduinoStageManager
+from .arduino_components.arduino_rule_dialog import StageRuleDialog
 from datetime import datetime
 
 # Add paths for imports  
@@ -307,16 +315,93 @@ class ArduinoControlTab:
     
     # UI callback methods (placeholder untuk UI manager)
     def add_new_rule(self):
-        """Add new Arduino rule"""
-        self.log_message("➕ Add new rule feature coming soon")
+        """Add new Arduino rule using proper dialog"""
+        try:
+            dialog = StageRuleDialog(self.parent)
+            self.parent.wait_window(dialog.dialog)
+            
+            if dialog.result:
+                # Add to memory
+                self.rules_data.append(dialog.result)
+                self.refresh_rules_display()
+                
+                # SAVE TO DATABASE using modular manager
+                success = self.arduino_db_manager.save_rule_to_db(dialog.result, self.log_message)
+                if success:
+                    self.log_message(f"✅ Rule '{dialog.result['name']}' created and saved")
+                else:
+                    self.log_message(f"⚠️ Rule '{dialog.result['name']}' created but not saved to database")
+        except Exception as e:
+            self.log_message(f"❌ Error creating rule: {e}")
     
     def edit_selected_rule(self):
-        """Edit selected rule"""
-        self.log_message("✏️ Edit rule feature coming soon")
+        """Edit selected rule using proper dialog"""
+        try:
+            selection = self.rules_tree.selection()
+            if not selection:
+                messagebox.showwarning("Warning", "Please select a rule to edit")
+                return
+                
+            item = selection[0]
+            rule_name = self.rules_tree.item(item, 'text')
+            
+            # Find rule data by name
+            rule_data = None
+            rule_index = None
+            for i, rule in enumerate(self.rules_data):
+                if rule['name'] == rule_name:
+                    rule_data = rule
+                    rule_index = i
+                    break
+                    
+            if rule_data is None:
+                messagebox.showerror("Error", "Could not find rule data")
+                return
+                
+            dialog = StageRuleDialog(self.parent, rule_data)
+            self.parent.wait_window(dialog.dialog)
+            
+            if dialog.result and rule_index is not None:
+                self.rules_data[rule_index] = dialog.result
+                self.refresh_rules_display()
+                
+                # UPDATE IN DATABASE using modular manager
+                success = self.arduino_db_manager.save_rule_to_db(dialog.result, self.log_message)
+                if success:
+                    self.log_message(f"✅ Rule '{dialog.result['name']}' updated and saved")
+                else:
+                    self.log_message(f"⚠️ Rule '{dialog.result['name']}' updated but not saved to database")
+        except Exception as e:
+            self.log_message(f"❌ Error editing rule: {e}")
     
     def delete_selected_rule(self):
-        """Delete selected rule"""
-        self.log_message("🗑️ Delete rule feature coming soon")
+        """Delete selected rule with confirmation"""
+        try:
+            selection = self.rules_tree.selection()
+            if not selection:
+                messagebox.showwarning("Warning", "Please select a rule to delete")
+                return
+                
+            item = selection[0]
+            rule_name = self.rules_tree.item(item, 'text')
+            
+            if messagebox.askyesno("Confirm Delete", f"Delete rule '{rule_name}'?"):
+                # Remove from memory
+                for i, rule in enumerate(self.rules_data):
+                    if rule['name'] == rule_name:
+                        del self.rules_data[i]
+                        break
+                
+                self.refresh_rules_display()
+                
+                # DELETE FROM DATABASE using modular manager
+                success = self.arduino_db_manager.delete_rule_from_db(rule_name, self.log_message)
+                if success:
+                    self.log_message(f"✅ Rule '{rule_name}' deleted successfully")
+                else:
+                    self.log_message(f"⚠️ Rule '{rule_name}' deleted from memory but not from database")
+        except Exception as e:
+            self.log_message(f"❌ Error deleting rule: {e}")
 
     def check_arduino_ports(self):
         """Check dan scan port Arduino yang tersedia menggunakan hardware component"""
@@ -935,83 +1020,6 @@ class ArduinoControlTab:
                 self.stage_mode_indicator.config(text="[AUTO]", foreground='#4CAF50')
             else:
                 self.stage_mode_indicator.config(text="[MANUAL]", foreground='#FF9800')
-    
-    def create_rule(self):
-        """Create new trigger rule dan simpan ke database"""
-        dialog = StageRuleDialog(self.parent)
-        self.parent.wait_window(dialog.dialog)
-        
-        if dialog.result:
-            # Add to memory
-            self.rules_data.append(dialog.result)
-            self.refresh_rules_display()
-            
-            # SAVE TO DATABASE using modular manager
-            success = self.arduino_db_manager.save_rule_to_db(dialog.result, self.log_message)
-    
-    def edit_rule(self):
-        """Edit selected rule"""
-        selection = self.rules_tree.selection()
-        if not selection:
-            messagebox.showwarning("Warning", "Please select a rule to edit")
-            return
-            
-        item = selection[0]
-        values = self.rules_tree.item(item, 'values')
-        rule_name = values[0]
-        
-        # Find rule data by name
-        rule_data = None
-        rule_index = None
-        for i, rule in enumerate(self.rules_data):
-            if rule['name'] == rule_name:
-                rule_data = rule
-                rule_index = i
-                break
-                
-        if rule_data is None:
-            messagebox.showerror("Error", "Could not find rule data")
-            return
-            
-        dialog = StageRuleDialog(self.parent, rule_data)
-        self.parent.wait_window(dialog.dialog)
-        
-        if dialog.result and rule_index is not None:
-            self.rules_data[rule_index] = dialog.result
-            self.refresh_rules_display()
-            
-            # UPDATE IN DATABASE using modular manager
-            success = self.arduino_db_manager.save_rule_to_db(dialog.result, self.log_message)
-    
-    def delete_rule(self):
-        """Delete selected rule"""
-        selection = self.rules_tree.selection()
-        if not selection:
-            messagebox.showwarning("Warning", "Please select a rule to delete")
-            return
-            
-        item = selection[0]
-        values = self.rules_tree.item(item, 'values')
-        rule_name = values[0]
-        
-        if messagebox.askyesno("Confirm Delete", f"Delete rule '{rule_name}'?"):
-            # Remove from memory
-            for i, rule in enumerate(self.rules_data):
-                if rule['name'] == rule_name:
-                    del self.rules_data[i]
-                    break
-            
-            self.refresh_rules_display()
-            
-            # DELETE FROM DATABASE (NEW INTEGRATION)
-            if self.current_account_id and self.db_manager:
-                try:
-                    self.db_manager.delete_arduino_rule(self.current_account_id, rule_name)
-                    self.log_message(f"✅ Rule '{rule_name}' deleted from database")
-                except Exception as e:
-                    self.log_message(f"⚠️ Could not delete rule from database: {e}")
-            else:
-                self.log_message(f"✅ Rule '{rule_name}' deleted (memory only)")
     
     def refresh_rules_display(self):
         """Refresh the rules display"""
